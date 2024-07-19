@@ -1,0 +1,2022 @@
+//tp2 Instructions
+BACKUP ~Bonehillv275/backup~ 
+AUTHOR ~SirBillyBob@gmail.com and erebusant@verizon.net~
+
+VERSION ~v2.75c~
+
+// Isaya: readme at the beginning of installation, if missing in a language, use English
+README ~bonehillv275/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~bonehillv275/language/english/ReadMe-Bonehill.html~
+
+AUTO_TRA ~bonehillv275/Language/%s/D~
+
+LANGUAGE 
+         ~English~
+         ~english~
+         ~bonehillv275/Language/english/setup.tra~
+         
+LANGUAGE 
+         ~German - Translated by Leonardo~
+         ~deutsch~
+         ~bonehillv275/Language/deutsch/setup.tra~
+         
+LANGUAGE 
+         ~Italian - Translated by Ilot~
+         ~italian~
+         ~bonehillv275/Language/italian/setup.tra~
+         
+LANGUAGE 
+         ~Russian - Translated by Badgert, Aldark, Prowler, Orlangur~
+         ~russian~
+         ~bonehillv275/Language/russian/setup.tra~
+
+LANGUAGE 
+         ~Spanish - Translated by Ancalagon el Negro~
+         ~spanish~
+         ~bonehillv275/Language/spanish/setup.tra~
+
+LANGUAGE 
+         ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
+         ~french~
+         ~bonehillv275/Language/french/setup.tra~
+
+BEGIN @0
+
+MKDIR ~bonehillv275/over.bak~
+COPY_LARGE + ~override~      ~bonehillv275/over.bak~
+
+COPY + ~Setup-BoneHillv275.exe~  ~WeiDU.exe~
+COPY + ~chitin.key~        ~bonehillv275/chitin.bh~
+COPY_LARGE + ~dialog.tlk~  ~bonehillv275/dialog.bh~
+
+MKDIR ~BH-TIS1~
+MKDIR ~BH-TIS2~
+MKDIR ~BH-REST~
+
+APPEND ~GTIMES.IDS~ ~600 TWO_HOURS~ UNLESS ~600 TWO_HOURS~
+APPEND ~GTIMES.IDS~ ~600 TEN_TURNS~ UNLESS ~600 TEN_TURNS~
+APPEND ~GTIMES.IDS~ ~2400 EIGHT_HOURS~ UNLESS ~2400 EIGHT_HOURS~
+
+//////////////////////
+//  Copy the bams   //
+//////////////////////
+
+PRINT @1
+COPY ~bonehillv275/bams~ ~override~
+
+/////////////////////
+//  Install Items  //
+/////////////////////
+
+PRINT @3
+
+ACTION_IF FILE_EXISTS ~override/BOULDER.pro~
+ THEN BEGIN
+  PRINT @4
+ END
+ELSE
+ BEGIN
+  PRINT @5
+   ADD_PROJECTILE  ~bonehillv275/ITEMS/BOULDER.PRO~
+   COPY ~bonehillv275/ITEMS/BOULDER.ITM~  ~override~
+    SAY NAME1 @6 
+    SAY NAME2 @6 
+    SAY UNIDENTIFIED_DESC @7 
+    SAY DESC @7
+     WRITE_SHORT  0x09c ~%BOULDER%~
+END
+
+COPY ~bonehillv275/items/BERSERKR.ITM~ ~override~
+
+COPY ~bonehillv275/items/BHAMUL01.itm~ ~override~       
+  SAY NAME2 @8 
+  SAY DESC @9 
+
+COPY ~bonehillv275/items/bhbardr.itm~ ~override~        
+  SAY NAME2 @10 
+  SAY DESC @11 
+
+COPY ~bonehillv275/items/bhbhorn.itm~ ~override~        
+  SAY NAME1 @12 
+  SAY NAME2 @13 
+  SAY UNIDENTIFIED_DESC @14 
+  SAY DESC @15
+
+COPY ~bonehillv275/items/BHBPEARL.ITM~ ~override~ 
+  SAY NAME1 @16 
+  SAY NAME2 @16 
+  SAY UNIDENTIFIED_DESC @17
+  SAY DESC @17
+
+COPY ~bonehillv275/items/BHBUDSTF.itm~ ~override~       
+  SAY NAME1 @18 
+  SAY NAME2 @19 
+  SAY UNIDENTIFIED_DESC @20 
+  SAY DESC @21 
+
+COPY ~bonehillv275/items/BHCLCK01.itm~ ~override~       
+  SAY NAME2 @22 
+  SAY DESC @23 
+
+COPY ~bonehillv275/items/bhclub01.itm~ ~override~       
+  SAY NAME1 @24
+  SAY NAME2 @25
+  SAY DESC @26 
+
+COPY ~bonehillv275/items/bhfablut.itm~ ~override~
+  SAY NAME1 @27 
+  SAY NAME2 @28 
+  SAY UNIDENTIFIED_DESC @29 
+  SAY DESC @30 
+
+COPY ~bonehillv275/items/BHFSW1.ITM~ ~override~         
+  SAY NAME1 @31 
+  SAY NAME2 @32 
+  SAY UNIDENTIFIED_DESC @33 
+  SAY DESC @34 
+
+COPY ~bonehillv275/items/bhghand.itm~ ~override~        
+  SAY NAME2 @35 
+  SAY UNIDENTIFIED_DESC @36 
+  SAY DESC @37 
+
+COPY ~bonehillv275/items/bhghandn.itm~ ~override~       
+  SAY NAME1 @38 
+  SAY NAME2 @38 
+  SAY UNIDENTIFIED_DESC @39 
+  SAY DESC @39 
+
+COPY ~bonehillv275/items/BHGHNOTE.ITM~ ~override~       
+  SAY NAME1 @40 
+  SAY NAME2 @40 
+  SAY UNIDENTIFIED_DESC @41 
+
+COPY ~bonehillv275/items/BHGSKELJ.ITM~ ~override~       
+  SAY NAME1 @42 
+  SAY NAME2 @42 
+  SAY UNIDENTIFIED_DESC @43 
+  SAY DESC @43 
+
+COPY ~bonehillv275/items/bhkey01.itm~ ~override~        
+  SAY NAME1 @44 
+  SAY NAME2 @44 
+  SAY UNIDENTIFIED_DESC @45 
+
+COPY ~bonehillv275/items/BHMESSG.ITM~ ~override~        
+  SAY NAME1 @46 
+  SAY NAME2 @46
+  SAY UNIDENTIFIED_DESC @47 
+
+COPY ~bonehillv275/items/BHMHELM.ITM~ ~override~       
+  SAY NAME1 @48 
+  SAY NAME2 @49 
+  SAY UNIDENTIFIED_DESC @50 
+  SAY DESC @51 
+
+COPY ~bonehillv275/items/BHMISC01.itm~ ~override~ 
+  SAY NAME1 @52 
+  SAY NAME2 @52 
+  SAY UNIDENTIFIED_DESC @53 
+  SAY DESC @53 
+
+COPY ~bonehillv275/items/bhmisc4f.itm~ ~override~       
+  SAY UNIDENTIFIED_DESC @54 
+
+COPY ~bonehillv275/items/bhnote1.itm~ ~override~        
+  SAY NAME1 @55 
+  SAY NAME2 @55 
+  SAY UNIDENTIFIED_DESC @56 
+  SAY DESC @56
+
+COPY ~bonehillv275/items/BHOSPREM.itm~ ~override~       
+  SAY NAME1 @57 
+  SAY NAME2 @57 
+  SAY UNIDENTIFIED_DESC @58 
+  SAY DESC @58 
+
+COPY ~bonehillv275/items/bhpelltr.itm~ ~override~       
+  SAY NAME1 @59 
+  SAY NAME2 @59 
+  SAY UNIDENTIFIED_DESC @60 
+
+COPY ~bonehillv275/items/bhplot01.itm~ ~override~        
+  SAY NAME1 @61 
+  SAY NAME2 @61 
+  SAY UNIDENTIFIED_DESC @62 
+  SAY DESC @62
+
+COPY ~bonehillv275/items/bhplot02.itm~ ~override~
+  SAY NAME1 @63 
+  SAY NAME2 @63 
+  SAY UNIDENTIFIED_DESC @64 
+  SAY DESC @64
+
+COPY ~bonehillv275/items/bhplot03.itm~ ~override~        
+  SAY NAME1 @65 
+  SAY NAME2 @65 
+  SAY UNIDENTIFIED_DESC @66 
+  SAY DESC @66
+
+COPY ~bonehillv275/items/BHPLOT04.itm~ ~override~       
+  SAY NAME1 @67 
+  SAY NAME2 @67 
+  SAY UNIDENTIFIED_DESC @68 
+  SAY DESC @68 
+
+COPY ~bonehillv275/items/BHRATBIT.ITM~ ~override~       
+
+COPY ~bonehillv275/items/bhsirius.itm~ ~override~       
+  SAY NAME1 @69 
+  SAY NAME2 @69 
+  SAY UNIDENTIFIED_DESC @70 
+
+COPY ~bonehillv275/items/BHSW1H01.itm~ ~override~       
+  SAY NAME2 @71 
+  SAY DESC @72 
+
+COPY ~bonehillv275/items/bhtelvbk.itm~ ~override~       
+  SAY NAME1 @73 
+  SAY NAME2 @73 
+  SAY UNIDENTIFIED_DESC @74 
+  SAY DESC @74 
+
+COPY ~bonehillv275/items/bhtelvsb.itm~ ~override~       
+  SAY NAME1 @75 
+  SAY NAME2 @75 
+  SAY UNIDENTIFIED_DESC @76 
+
+COPY ~bonehillv275/items/bhwand1.itm~ ~override~        
+  SAY NAME2 @77
+  SAY DESC @78 
+
+COPY ~bonehillv275/items/BHWATCHR.ITM~ ~override~       
+
+COPY ~bonehillv275/items/bhxspell.itm~ ~override~       
+  SAY NAME1 @79 
+  SAY NAME2 @79 
+  SAY UNIDENTIFIED_DESC @80 
+
+COPY ~bonehillv275/items/bhzahr.itm~ ~override~         
+  SAY NAME1 @81 
+  SAY NAME2 @81 
+  SAY UNIDENTIFIED_DESC @82 
+
+COPY ~bonehillv275/items/bhzahrj.itm~ ~override~        
+  SAY NAME1 @83 
+  SAY NAME2 @83 
+  SAY UNIDENTIFIED_DESC @84 
+
+
+//////////////////////
+//  Install Stores  //
+//////////////////////
+
+PRINT @85
+
+COPY ~bonehillv275/items/BH2010.STO~ ~override~
+
+COPY ~bonehillv275/items/bhalmax.sto~ ~override~        
+  SAY NAME2 @86 
+
+COPY ~bonehillv275/items/bhalton.sto~ ~override~        
+  SAY NAME2 @87 
+
+COPY ~bonehillv275/items/BHCLERI1.sto~ ~override~       
+  SAY NAME2 @88 
+
+COPY ~bonehillv275/items/bhcleric.sto~ ~override~       
+  SAY NAME2 @89 
+
+COPY ~bonehillv275/items/bhfalco.sto~ ~override~
+  SAY NAME2 @90 
+
+COPY ~bonehillv275/items/BHGILMI.sto~ ~override~ 
+  SAY NAME2 @91 
+
+COPY ~bonehillv275/items/BHGLAMI.sto~ ~override~        
+  SAY NAME2 @92 
+
+COPY ~bonehillv275/items/BHABRAHA.sto~ ~override~        
+  SAY NAME2 @92 
+
+COPY ~bonehillv275/items/bhhestal.sto~ ~override~       
+  SAY NAME2 @93 
+
+COPY ~bonehillv275/items/BHKRAK.sto~ ~override~         
+  SAY NAME2 @94 
+
+COPY ~bonehillv275/items/bhohlatt.sto~ ~override~       
+  SAY NAME2 @95 
+
+COPY ~bonehillv275/items/bhpellt.sto~ ~override~        
+  SAY NAME2 @96 
+
+COPY ~bonehillv275/items/bhpelltr.sto~ ~override~       
+  SAY NAME2 @97 
+
+COPY ~bonehillv275/items/bhperk.sto~ ~override~         
+  SAY NAME2 @98 
+
+COPY ~bonehillv275/items/bhst0102.sto~ ~override~       
+  SAY NAME2 @99 
+
+COPY ~bonehillv275/items/bhst0103.sto~ ~override~       
+  SAY NAME2 @100 
+
+COPY ~bonehillv275/items/bhst0108.sto~ ~override~       
+  SAY NAME2 @101 
+
+COPY ~bonehillv275/items/bhtelvsb.sto~ ~override~       
+  SAY NAME2 @75 
+
+COPY ~bonehillv275/items/bhxspell.sto~ ~override~       
+  SAY NAME2 @102 
+
+COPY ~bonehillv275/items/bhzahr.sto~ ~override~
+  SAY NAME2 @81
+
+COPY ~bonehillv275/items/bhzelmar.sto~ ~override~
+  SAY NAME2 @103
+
+
+/////////////////////////
+// Install Creatures   //
+/////////////////////////
+
+PRINT @104
+
+COPY ~bonehillv275/creatures/HOBGO2.CRE~ ~override~
+COPY ~bonehillv275/creatures/JELLYCO.CRE~ ~override~
+
+COPY ~bonehillv275/creatures/GNOLL02.CRE~  ~override~
+COPY ~bonehillv275/creatures/GNOLL03.CRE~  ~override~
+COPY ~bonehillv275/creatures/GNOLL3.CRE~   ~override~
+COPY ~bonehillv275/creatures/SKELET02.CRE~ ~override~
+
+
+COPY ~bonehillv275/creatures/BHABRAC.cre~ ~override~        
+  SAY NAME1 @105 
+  SAY NAME2 @105
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/BHABRAHA.cre~ ~override~       
+  SAY NAME1 @109 
+  SAY NAME2 @109 
+
+COPY ~bonehillv275/creatures/BHALMAX.cre~ ~override~        
+  SAY NAME1 @110 
+  SAY NAME2 @110 
+
+COPY ~bonehillv275/creatures/bhalmon.cre~ ~override~        
+  SAY NAME1 @111 
+  SAY NAME2 @111 
+  SAY 0xa4 @112  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @113  
+
+COPY ~bonehillv275/creatures/bhalton.cre~ ~override~        
+  SAY NAME1 @114 
+  SAY NAME2 @114 
+  SAY 0xa4 @115
+  SAY 0xb8 @116 
+  SAY 0xc8 @117 
+  SAY 0xec ~ ~ [EPRIM06] 
+  SAY 0xf0 ~ ~ [EPRIM07] 
+  SAY 0x10c @118 
+  SAY 0x110 @119 
+  SAY 0x114 @120 
+
+COPY ~bonehillv275/creatures/BHAMOS.cre~ ~override~         
+  SAY NAME1 @121 
+  SAY NAME2 @121 
+
+COPY ~bonehillv275/creatures/BHANDRE.cre~ ~override~        
+  SAY NAME1 @122 
+  SAY NAME2 @122 
+
+COPY ~bonehillv275/creatures/bharmax.cre~ ~override~        
+  SAY NAME1 @123 
+  SAY NAME2 @123 
+
+COPY ~bonehillv275/creatures/BHARRNES.cre~ ~override~       
+  SAY NAME1 @124 
+  SAY NAME2 @124 
+
+COPY ~bonehillv275/creatures/BHARTHUR.cre~ ~override~       
+  SAY NAME1 @125
+  SAY NAME2 @125
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/BHASCUE.cre~ ~override~        
+  SAY NAME1 @126 
+  SAY NAME2 @126 
+  SAY 0xa4 @127  
+  SAY 0xd4 @128  
+  SAY 0xd8 @129  
+  SAY 0xec @130  
+  SAY 0xf0 @131  
+  SAY 0x10c @128
+
+COPY ~bonehillv275/creatures/bhbalmar.cre~ ~override~       
+  SAY NAME1 @132 
+  SAY NAME2 @132 
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/bhbalmor.cre~ ~override~        
+  SAY NAME1 @133 
+  SAY NAME2 @133 
+
+COPY ~bonehillv275/creatures/bhbandt1.cre~ ~override~       
+  SAY 0xa4 @134  
+  SAY 0xc8 @134  
+  SAY 0x124 @135  
+  SAY 0x128 @136  
+
+COPY ~bonehillv275/creatures/bhbandt2.cre~ ~override~       
+
+COPY ~bonehillv275/creatures/bhbandt3.cre~ ~override~
+  SAY NAME1	@750
+  SAY NAME2 @750
+  SAY 0xa4 @135  
+  SAY 0x10c @136  
+  SAY 0x110 @134  
+
+COPY ~bonehillv275/creatures/bhbasil.cre~ ~override~        
+  SAY NAME1 @137 
+  SAY NAME2 @137 
+  SAY 0xa4 @115 
+  SAY 0xb8 @116 
+  SAY 0xc8 @117 
+  SAY 0xec ~ ~ [EPRIM06] 
+  SAY 0xf0 ~ ~ [EPRIM07] 
+  SAY 0x10c @118 
+  SAY 0x110 @119 
+  SAY 0x114 @120 
+
+COPY ~bonehillv275/creatures/bhbasmar.cre~ ~override~       
+  SAY NAME1 @138 
+  SAY NAME2 @138
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/BHBBOB.cre~ ~override~         
+  SAY NAME1 @139 
+  SAY NAME2 @139 
+  SAY 0x110 @140
+
+COPY ~bonehillv275/creatures/bhberser.cre~ ~override~       
+
+COPY ~bonehillv275/creatures/BHBESHKA.cre~ ~override~       
+  SAY NAME1 @141 
+  SAY NAME2 @141 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHBESS.cre~ ~override~         
+  SAY NAME1 @146 
+  SAY NAME2 @146 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/bhblacki.cre~ ~override~       
+
+COPY ~bonehillv275/creatures/bhbomarc.cre~ ~override~       
+  SAY NAME1 @147 
+  SAY NAME2 @147 
+
+COPY ~bonehillv275/creatures/bhcleri1.cre~ ~override~       
+  SAY NAME1 @148 
+  SAY NAME2 @148 
+
+COPY ~bonehillv275/creatures/BHCLERI2.cre~ ~override~
+  SAY NAME1 @149 
+  SAY NAME2 @149 
+  SAY 0xa4 @115 
+  SAY 0xb8 @116 
+  SAY 0xc8 @117 
+  SAY 0xec ~ ~ [EPRIM06] 
+  SAY 0xf0 ~ ~ [EPRIM07] 
+  SAY 0x10c @118 
+  SAY 0x110 @119 
+  SAY 0x114 @120 
+
+COPY ~bonehillv275/creatures/bhcleric.cre~ ~override~       
+  SAY NAME1 @150 
+  SAY NAME2 @150 
+
+COPY ~bonehillv275/creatures/BHCOMB01.CRE~ ~override~       
+  SAY NAME1 @151 
+  SAY NAME2 @151 
+  SAY 0xa4 @152  
+  SAY 0xec @153  
+  SAY 0xf0 @154  
+  SAY 0x10c @152  
+  SAY 0x198 @155 
+  SAY 0x1b8 @156  
+
+COPY ~bonehillv275/creatures/BHCOMB02.CRE~ ~override~       
+  SAY NAME1 @151 
+  SAY NAME2 @151 
+  SAY 0xa4 @152  
+  SAY 0xec @153  
+  SAY 0xf0 @154  
+  SAY 0x10c @152  
+  SAY 0x198 @155 
+  SAY 0x1b8 @156  
+
+COPY ~bonehillv275/creatures/BHCOMF01.CRE~ ~override~       
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142
+
+COPY ~bonehillv275/creatures/BHCOMF02.CRE~ ~override~       
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHCOMG01.CRE~ ~override~       
+
+COPY ~bonehillv275/creatures/BHCOMG02.CRE~ ~override~       
+
+COPY ~bonehillv275/creatures/BHCOMM01.CRE~ ~override~       
+  SAY NAME1 @157 
+  SAY NAME2 @157 
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/BHCOMM02.CRE~ ~override~       
+  SAY NAME1 @157 
+  SAY NAME2 @157 
+  SAY 0xa4 @158  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @158  
+  SAY 0x198 @159 
+  SAY 0x1b8 @160  
+  SAY 0x1bc @161  
+
+COPY ~bonehillv275/creatures/BHCOMM05.CRE~ ~override~       
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/BHCOMM06.cre~ ~override~       
+  SAY 0xa4 @162  
+  SAY 0xc8 @163 
+  SAY 0xec @164
+  SAY 0xf0 @165  
+  SAY 0x10c @162  
+  SAY 0x110 @162  
+  SAY 0x198 @162  
+
+COPY ~bonehillv275/creatures/BHCOMM07.cre~ ~override~       
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+
+COPY ~bonehillv275/creatures/BHCOMM08.cre~ ~override~       
+  SAY NAME1 @166 
+  SAY NAME2 @166 
+  SAY 0xa4 @162  
+  SAY 0xc8 @163 
+  SAY 0xec @164  
+  SAY 0xf0 @165  
+  SAY 0x10c @162  
+  SAY 0x110 @162  
+  SAY 0x198 @162  
+
+COPY ~bonehillv275/creatures/BHCOOK1.cre~ ~override~        
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHCOOK2.cre~ ~override~        
+  SAY NAME1 @167 
+  SAY NAME2 @167 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHELESS.cre~ ~override~        
+  SAY NAME1 @168 
+  SAY NAME2 @168 
+  SAY 0xa4 @115 
+  SAY 0xb8 @116 
+  SAY 0xc8 @117 
+  SAY 0xec ~ ~ [EPRIM06] 
+  SAY 0xf0 ~ ~ [EPRIM07] 
+  SAY 0x10c @118 
+  SAY 0x110 @119 
+  SAY 0x114 @120 
+
+COPY ~bonehillv275/creatures/bhfabio.cre~ ~override~        
+  SAY NAME1 @169 
+  SAY NAME2 @169 
+  SAY 0xa4 @170  
+  SAY 0xa8 @171  
+  SAY 0xac @172  
+  SAY 0xb0 @173  
+  SAY 0xb4 @174  
+  SAY 0xb8 @175  
+  SAY 0xbc @176  
+  SAY 0xc0 @177  
+  SAY 0xc4 @178  
+  SAY 0xc8 @179  
+  SAY 0xcc @180  
+  SAY 0xd0 @181  
+  SAY 0xd4 @182  
+  SAY 0xd8 @183  
+  SAY 0xec @184  
+  SAY 0xf0 @185  
+  SAY 0xf4 @186  
+  SAY 0xf8 @187  
+  SAY 0xfc @188  
+  SAY 0x100 @189  
+  SAY 0x104 @190  
+  SAY 0x108 @191  
+  SAY 0x10c @192  
+  SAY 0x110 @193  
+  SAY 0x114 @194  
+  SAY 0x118 @195  
+  SAY 0x11c @196  
+  SAY 0x120 @197  
+  SAY 0x124 @198  
+  SAY 0x128 @199  
+  SAY 0x12c @200  
+  SAY 0x130 @201  
+  SAY 0x134 @202  
+  SAY 0x138 @203  
+  SAY 0x178 @204  
+  SAY 0x1a0 @205  
+  SAY 0x1a4 @202  
+  SAY 0x1a8 @206  
+  SAY 0x1ac @207  
+  SAY 0x1b0 @208  
+  SAY 0x1b4 @209  
+  SAY 0x1b8 @210  
+  SAY 0x1cc @211 
+
+COPY ~bonehillv275/creatures/BHFAIR.cre~ ~override~         
+  SAY NAME1 @212 
+  SAY NAME2 @212 
+
+COPY ~bonehillv275/creatures/bhfalco.cre~ ~override~        
+  SAY NAME1 @213 
+  SAY NAME2 @213 
+
+COPY ~bonehillv275/creatures/BHFALPIR.cre~ ~override~       
+  SAY NAME1 @214 
+  SAY NAME2 @214 
+  SAY 0xa4 @152  
+  SAY 0xec @153  
+  SAY 0xf0 @154  
+  SAY 0x10c @152  
+  SAY 0x198 @155 
+  SAY 0x1b8 @156  
+
+COPY ~bonehillv275/creatures/BHFARM.CRE~ ~override~         
+  SAY 0xa4 @162  
+  SAY 0xc8 @163 
+  SAY 0xec @164  
+  SAY 0xf0 @165  
+  SAY 0x10c @162  
+  SAY 0x110 @162  
+  SAY 0x198 @162  
+
+COPY ~bonehillv275/creatures/BHFELWIN.cre~ ~override~       
+  SAY NAME1 @215 
+  SAY NAME2 @215 
+  SAY 0xa4 @216  
+  SAY 0xec @217  
+  SAY 0xf0 @218  
+  SAY 0x10c @219  
+  SAY 0x110 @216  
+
+COPY ~bonehillv275/creatures/BHFGIANT.CRE~ ~override~       
+  SAY NAME1 @220 
+  SAY NAME2 @220
+
+COPY ~bonehillv275/creatures/BHFLIBAN.CRE~ ~override~       
+  SAY NAME1 @221 
+  SAY NAME2 @221
+
+COPY ~bonehillv275/creatures/bhgap.cre~ ~override~          
+  SAY NAME1 @222 
+  SAY NAME2 @222 
+
+COPY ~bonehillv275/creatures/bhgelliu.cre~ ~override~       
+  SAY NAME1 @223 
+  SAY NAME2 @223 
+
+COPY ~bonehillv275/creatures/BHGELMAR.cre~ ~override~       
+  SAY NAME1 @224 
+  SAY NAME2 @224 
+  SAY 0xa4 @225  
+  SAY 0xec @226  
+  SAY 0xf0 @227  
+  SAY 0x110 @228  
+
+COPY ~bonehillv275/creatures/BHGELPAS.cre~ ~override~       
+  SAY NAME1 @229 
+  SAY NAME2 @229 
+
+COPY ~bonehillv275/creatures/BHGILMI.cre~ ~override~        
+  SAY NAME1 @230 
+  SAY NAME2 @230 
+
+COPY ~bonehillv275/creatures/BHGLAMI.cre~ ~override~        
+  SAY NAME1 @231 
+  SAY NAME2 @231 
+  SAY 0xcc @232  
+  SAY 0x114 @233  
+
+COPY ~bonehillv275/creatures/BHGOLEM.CRE~ ~override~        
+  SAY NAME1 @234
+  SAY NAME2 @234
+
+COPY ~bonehillv275/creatures/BHGORHRG.CRE~ ~override~       
+  SAY NAME1 @235 
+  SAY NAME2 @235 
+
+COPY ~bonehillv275/creatures/BHGRECKO.cre~ ~override~       
+  SAY NAME1 @236 
+  SAY NAME2 @236 
+
+COPY ~bonehillv275/creatures/BHGRELU1.cre~ ~override~       
+  SAY NAME1 @237 
+  SAY NAME2 @237 
+
+COPY ~bonehillv275/creatures/BHGRELUS.cre~ ~override~       
+  SAY NAME1 @237 
+  SAY NAME2 @237 
+
+COPY ~bonehillv275/creatures/BHGRIST.cre~ ~override~        
+  SAY NAME1 @238 
+  SAY NAME2 @238 
+
+COPY ~bonehillv275/creatures/BHGSKEL.cre~ ~override~        
+  SAY NAME1 @239 
+  SAY NAME2 @239 
+
+COPY ~bonehillv275/creatures/bhguarde.cre~ ~override~       
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @242  
+  SAY 0x198 @243 
+  SAY 0x1b8 @244  
+
+COPY ~bonehillv275/creatures/BHGUARDG.cre~ ~override~       
+  SAY NAME1 @245 
+  SAY NAME2 @245 
+  SAY 0xa4 @242  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @242  
+  SAY 0x198 @243 
+  SAY 0x1b8 @244  
+
+COPY ~bonehillv275/creatures/BHGUILD1.cre~ ~override~       
+  SAY NAME1 @246 
+  SAY NAME2 @246 
+  SAY 0xa4 @134  
+  SAY 0xc8 @134  
+  SAY 0x124 @135  
+  SAY 0x128 @136  
+
+COPY ~bonehillv275/creatures/BHHAKI.cre~ ~override~         
+  SAY NAME1 @247 
+  SAY NAME2 @247 
+
+COPY ~bonehillv275/creatures/BHHARMIN.cre~ ~override~       
+  SAY NAME1 @248 
+  SAY NAME2 @248 
+
+COPY ~bonehillv275/creatures/bhharper.cre~ ~override~       
+  SAY NAME1 @249
+  SAY NAME2 @249
+  SAY 0xa4 @115 
+  SAY 0xb8 @116 
+  SAY 0xc8 @117 
+  SAY 0xec ~ ~ [EPRIM06] 
+  SAY 0xf0 ~ ~ [EPRIM07] 
+  SAY 0x10c @118 
+  SAY 0x110 @119 
+  SAY 0x114 @120 
+
+COPY ~bonehillv275/creatures/BHHESTAL.cre~ ~override~       
+  SAY NAME1 @250 
+  SAY NAME2 @250 
+  SAY 0xa4 @251  
+  SAY 0xec @252 
+  SAY 0xf0 @253 
+
+COPY ~bonehillv275/creatures/bhhoirag.cre~ ~override~       
+  SAY NAME1 @254 
+  SAY NAME2 @254 
+
+COPY ~bonehillv275/creatures/bhholga.cre~ ~override~        
+  SAY NAME1 @255 
+  SAY NAME2 @255 
+
+COPY ~bonehillv275/creatures/BHKRAK.CRE~ ~override~       
+  SAY NAME1 @256 
+  SAY NAME2 @256 
+  SAY 0xa4 @257 
+  SAY 0xc8 @258 
+  SAY 0xcc @259 
+  SAY 0xec @260 
+  SAY 0xf0 @261 
+  SAY 0x10c @257 
+  SAY 0x110 @262 
+
+COPY ~bonehillv275/creatures/BHKRELUS.CRE~ ~override~       
+  SAY NAME1 @263 
+  SAY NAME2 @263 
+  SAY 0xa4 @127  
+  SAY 0xd4 @128  
+  SAY 0xd8 @129  
+  SAY 0xec @130  
+  SAY 0xf0 @131  
+  SAY 0x10c @128  
+
+COPY ~bonehillv275/creatures/BHLIZGRD.cre~ ~override~ 
+  SAY NAME1 @264 
+  SAY NAME2 @264 
+
+COPY ~bonehillv275/creatures/BHLIZKNG.cre~ ~override~ 
+  SAY NAME1 @265 
+  SAY NAME2 @265 
+
+COPY ~bonehillv275/creatures/BHLIZSHA.cre~ ~override~ 
+  SAY NAME1 @266 
+  SAY NAME2 @266 
+
+COPY ~bonehillv275/creatures/BHLOCIDA.CRE~ ~override~       
+  SAY NAME1 @267 
+  SAY NAME2 @267 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHLOTHAR.cre~ ~override~       
+  SAY NAME1 @268 
+  SAY NAME2 @268 
+
+COPY ~bonehillv275/creatures/BHLYDIA.CRE~ ~override~       
+  SAY NAME1 @269 
+  SAY NAME2 @269 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHMARTI1.CRE~ ~override~       
+  SAY NAME1 @270 
+  SAY NAME2 @270 
+  SAY 0xa4 @271  
+  SAY 0xec @272  
+  SAY 0xf0 @273  
+  SAY 0x10c @271  
+  SAY 0x110 @274  
+  SAY 0x114 @275  
+
+COPY ~bonehillv275/creatures/BHMARTIN.CRE~ ~override~       
+  SAY NAME1 @270 
+  SAY NAME2 @270 
+  SAY 0xa4 @271  
+  SAY 0xec @272  
+  SAY 0xf0 @273  
+  SAY 0x10c @271  
+  SAY 0x110 @274  
+  SAY 0x114 @275  
+
+COPY ~bonehillv275/creatures/BHMARVIN.cre~ ~override~       
+  SAY NAME1 @276 
+  SAY NAME2 @276 
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~AR6526.ARE~ THEN BEGIN
+  COPY_EXISTING	~_OGREMA.CRE~	~override/BHOGREMA.CRE~
+    PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN	// protects against invalid files
+	SAY 0xc8 @278  
+	SAY 0xcc @279  
+	SAY 0xec @280  
+	SAY 0xf0 @281  
+	SAY 0x10c @282  
+	SAY 0x110 @283  
+	SAY 0x1b8 @284  
+      WRITE_ASCII	0x258		~_MAGE6~	#8	// Race 
+      WRITE_ASCII	0x280		~BHOGREMA~	#8	// Death Variable
+    END
+  BUT_ONLY_IF_IT_CHANGES
+END
+  ELSE BEGIN
+    COPY_EXISTING	~OGREMA.CRE~	~override/BHOGREMA.CRE~
+      PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN	// protects against invalid files
+	SAY 0xc8 @278  
+	SAY 0xcc @279  
+	SAY 0xec @280  
+	SAY 0xf0 @281  
+	SAY 0x10c @282  
+	SAY 0x110 @283  
+	SAY 0x1b8 @284  
+      WRITE_ASCII	0x258		~MAGE6~	#8	// Race 
+      WRITE_ASCII	0x280		~BHOGREMA~	#8	// Death Variable
+    END
+  BUT_ONLY_IF_IT_CHANGES
+END
+
+COPY ~bonehillv275/creatures/BHOGUARD.cre~ ~override~       
+  SAY NAME1 @285 
+  SAY NAME2 @285 
+  SAY 0xa4 @257 
+  SAY 0xc8 @258 
+  SAY 0xcc @259 
+  SAY 0xec @260 
+  SAY 0xf0 @261 
+  SAY 0x10c @257 
+  SAY 0x110 @262 
+
+COPY ~bonehillv275/creatures/BHOHLATT.cre~ ~override~       
+  SAY NAME1 @286 
+  SAY NAME2 @286 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/BHOLIEUT.CRE~ ~override~        
+  SAY NAME1 @287 
+  SAY NAME2 @287 
+  SAY 0xa4 @257 
+  SAY 0xc8 @258 
+  SAY 0xcc @259 
+  SAY 0xec @260 
+  SAY 0xf0 @261 
+  SAY 0x10c @257 
+  SAY 0x110 @262 
+
+COPY ~bonehillv275/creatures/BHORC01.CRE~ ~override~        
+  SAY NAME1 @288 
+  SAY NAME2 @288 
+  SAY 0xa4 @257 
+  SAY 0xc8 @258 
+  SAY 0xcc @259 
+  SAY 0xec @260 
+  SAY 0xf0 @261 
+  SAY 0x10c @257 
+  SAY 0x110 @262 
+
+COPY ~bonehillv275/creatures/BHORC01D.CRE~ ~override~       
+  SAY NAME1 @288 
+  SAY NAME2 @288 
+
+COPY ~bonehillv275/creatures/BHORC03.CRE~ ~override~        
+  SAY NAME1 @289 
+  SAY NAME2 @289 
+  SAY 0xa4 @257 
+  SAY 0xc8 @258 
+  SAY 0xcc @259 
+  SAY 0xec @260 
+  SAY 0xf0 @261 
+  SAY 0x10c @257 
+  SAY 0x110 @262 
+
+COPY ~bonehillv275/creatures/BHOSCAR.cre~ ~override~        
+  SAY NAME1 @290 
+  SAY NAME2 @290 
+
+COPY ~bonehillv275/creatures/bhpell.cre~ ~override~         
+  SAY NAME1 @96 
+  SAY NAME2 @96 
+
+COPY ~bonehillv275/creatures/BHPERK.cre~ ~override~         
+  SAY NAME1 @291 
+  SAY NAME2 @291 
+  SAY 0xa4 @292  
+  SAY 0x10c @292  
+
+COPY ~bonehillv275/creatures/BHPHILMA.cre~ ~override~       
+  SAY NAME1 @293 
+  SAY NAME2 @293 
+
+COPY ~bonehillv275/creatures/BHPHYLLI.cre~ ~override~       
+  SAY NAME1 @294 
+  SAY NAME2 @294 
+
+COPY ~bonehillv275/creatures/BHPRISKA.cre~ ~override~       
+  SAY NAME1 @295 
+  SAY NAME2 @295 
+
+COPY ~bonehillv275/creatures/bhqual.cre~ ~override~         
+  SAY NAME1 @296 
+  SAY NAME2 @296 
+  SAY 0xec @297  
+  SAY 0xf0 @298  
+  SAY 0x120 @299  
+
+COPY ~bonehillv275/creatures/BHQUENEX.cre~ ~override~       
+  SAY NAME1 @300 
+  SAY NAME2 @300 
+
+COPY ~bonehillv275/creatures/BHRAT.CRE~ ~override~          
+  SAY NAME1 @301 
+  SAY NAME2 @301 
+
+COPY ~bonehillv275/creatures/bhravela.cre~ ~override~       
+  SAY NAME1 @302 
+  SAY NAME2 @302 
+  SAY 0xa4 @142  
+  SAY 0xc8 @303 
+  SAY 0xec @304  
+  SAY 0xf0 @305  
+  SAY 0x10c @306  
+  SAY 0x198 @243 
+  SAY 0x1b8 @244  
+
+COPY ~bonehillv275/creatures/BHRELBA.cre~ ~override~        
+  SAY NAME1 @307 
+  SAY NAME2 @307 
+  SAY 0xa4 @142  
+  SAY 0xc8 @143  
+  SAY 0xec @144  
+  SAY 0xf0 @145  
+  SAY 0x10c @142  
+
+COPY ~bonehillv275/creatures/bhrgslep.cre~ ~override~       
+  SAY NAME1 @245 
+  SAY NAME2 @245 
+  SAY 0xa4 @242  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @242  
+  SAY 0x198 @243 
+  SAY 0x1b8 @244  
+
+COPY ~bonehillv275/creatures/bhrguard.cre~ ~override~       
+  SAY NAME1 @245 
+  SAY NAME2 @245 
+  SAY 0xa4 @242  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @242  
+  SAY 0x198 @243 
+  SAY 0x1b8 @244  
+
+COPY ~bonehillv275/creatures/BHROGAN.cre~ ~override~        
+  SAY NAME1 @308 
+  SAY NAME2 @308 
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309  
+
+COPY ~bonehillv275/creatures/BHSANGST.cre~ ~override~       
+  SAY NAME1 @310 
+  SAY NAME2 @310 
+  SAY 0xa4 @311  
+  SAY 0xc8 @312  
+  SAY 0xec @313  
+  SAY 0xf0 @313  
+  SAY 0x10c @315  
+
+COPY ~bonehillv275/creatures/bhselmo.cre~ ~override~        
+  SAY NAME1 @316 
+  SAY NAME2 @316 
+
+COPY ~bonehillv275/creatures/BHSHARG1.cre~ ~override~       
+  SAY NAME1 @317
+  SAY NAME2 @317
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309  
+
+COPY ~bonehillv275/creatures/BHSHARG2.cre~ ~override~       
+  SAY NAME1 @317
+  SAY NAME2 @317
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309  
+
+COPY ~bonehillv275/creatures/BHSHARG3.cre~ ~override~       
+  SAY NAME1 @317
+  SAY NAME2 @317
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309  
+
+COPY ~bonehillv275/creatures/BHSHARGR.cre~ ~override~       
+  SAY NAME1 @318 
+  SAY NAME2 @318
+  SAY 0xc8 @319  
+  SAY 0xcc @320  
+  SAY 0xd0 @321  
+  SAY 0x110 @322  
+
+COPY ~bonehillv275/creatures/bhsirius.cre~ ~override~       
+  SAY NAME1 @323 
+  SAY NAME2 @323 
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309
+  WRITE_ASCII 0x248 ~BHSHOUT2~ #8 // Override (was BHSHOUT)
+
+COPY ~bonehillv275/creatures/bhsmyth.cre~ ~override~        
+  SAY NAME1 @324 
+  SAY NAME2 @324 
+
+COPY ~bonehillv275/creatures/BHSOOT.cre~ ~override~         
+  SAY NAME1 @325 
+  SAY NAME2 @325 
+  SAY 0xec @326  
+  SAY 0xf0 @327  
+  SAY 0x10c @328  
+  SAY 0x110 @329  
+  SAY 0x1b8 @326  
+  SAY 0x1bc @327  
+  SAY 0x1c0 @326  
+  SAY 0x1c4 @326  
+  SAY 0x1c8 @327  
+
+COPY ~bonehillv275/creatures/bhst0102.cre~ ~override~       
+  SAY NAME1 @330 
+  SAY NAME2 @330 
+  SAY 0xa4 @225  
+  SAY 0xec @226  
+  SAY 0xf0 @227  
+  SAY 0x110 @228  
+
+COPY ~bonehillv275/creatures/BHTELLI1.cre~ ~override~       
+  SAY NAME1 @331 
+  SAY NAME2 @331 
+
+COPY ~bonehillv275/creatures/bhtellis.cre~ ~override~        
+  SAY NAME1 @332 
+  SAY NAME2 @332 
+
+COPY ~bonehillv275/creatures/bhtelv.cre~ ~override~         
+  SAY NAME1 @333 
+  SAY NAME2 @333 
+  SAY 0xa4 @334  
+  SAY 0xc8 @319  
+  SAY 0xcc @320  
+  SAY 0xd0 @321  
+  SAY 0xec @335  
+  SAY 0xf0 @336  
+  SAY 0xf4 @321  
+  SAY 0x10c @322  
+  SAY 0x110 @337  
+  SAY 0x114 @322  
+
+COPY ~bonehillv275/creatures/bhthief.cre~ ~override~        
+  SAY NAME1 @338 
+  SAY NAME2 @338 
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309  
+
+COPY ~bonehillv275/creatures/BHTHIEF1.CRE~ ~override~       
+  SAY NAME1 @338 
+  SAY NAME2 @338 
+  SAY 0xa4 @309  
+  SAY 0xc8 @232  
+  SAY 0xec @240  
+  SAY 0xf0 @241  
+  SAY 0x10c @309  
+
+COPY ~bonehillv275/creatures/BHTOLVAR.CRE~ ~override~       
+  SAY NAME1 @339 
+  SAY NAME2 @339 
+
+COPY ~bonehillv275/creatures/BHTWEN01.CRE~ ~override~       
+  SAY NAME1 @340
+  SAY NAME2 @340
+
+COPY ~bonehillv275/creatures/BHVOICE.cre~ ~override~ 
+  SAY NAME1 @341 
+  SAY NAME2 @341 
+
+COPY ~bonehillv275/creatures/BHVOLCFR.CRE~ ~override~       
+  SAY NAME1 @342 
+  SAY NAME2 @342 
+
+COPY ~bonehillv275/creatures/BHWARDOG.CRE~ ~override~       
+  SAY NAME1 @343
+  SAY NAME2 @343
+  SAY 0xc8 @344  
+  SAY 0xcc @345  
+  SAY 0xdc @346  
+  SAY 0xe0 @347  
+  SAY 0xec @348  
+  SAY 0xf0 @349  
+  SAY 0x10c @350  
+  SAY 0x110 @351  
+
+COPY ~bonehillv275/creatures/BHWATCHR.cre~ ~override~       
+  SAY NAME1 @352
+  SAY NAME2 @352
+
+COPY ~bonehillv275/creatures/BHWELCAR.cre~ ~override~       
+  SAY NAME1 @353 
+  SAY NAME2 @353 
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+  SAY 0x114 @233  
+
+COPY ~bonehillv275/creatures/bhwilbur.cre~ ~override~       
+  SAY NAME1 @354 
+  SAY NAME2 @354 
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+  SAY 0x114 @233  
+
+COPY ~bonehillv275/creatures/BHWILFON.cre~ ~override~       
+  SAY NAME1 @355 
+  SAY NAME2 @355 
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+  SAY 0x114 @233  
+
+COPY ~bonehillv275/creatures/BHWILLIS.cre~ ~override~       
+  SAY NAME1 @356 
+  SAY NAME2 @356 
+  SAY 0xa4 @106  
+  SAY 0xec @107  
+  SAY 0xf0 @108  
+  SAY 0x10c @106  
+  SAY 0x114 @233  
+
+COPY ~bonehillv275/creatures/BHWOLFD.CRE~ ~override~        
+
+COPY ~bonehillv275/creatures/BHWRAITH.cre~ ~override~       
+  SAY NAME1 @357 
+  SAY NAME2 @357 
+
+COPY ~bonehillv275/creatures/BHYALTA.cre~ ~override~        
+  SAY NAME1 @358 
+  SAY NAME2 @358 
+
+COPY ~bonehillv275/creatures/BHZAHR.cre~ ~override~         
+  SAY NAME1 @359 
+  SAY NAME2 @359 
+  SAY 0xcc @232  
+  SAY 0x114 @233  
+
+COPY ~bonehillv275/creatures/BHZELMAR.cre~ ~override~       
+  SAY NAME1 @360 
+  SAY NAME2 @360 
+
+
+///////////////////////////
+//  Install new scripts  //
+///////////////////////////
+
+PRINT @361
+
+//  This one builds the sword's comments.
+
+EXTEND_TOP ~BALDUR.BCS~ ~bonehillv275/scripts/BHBALDUR.BAF~
+  USING ~bonehillv275/Language/%s/bhfsw10.tra~
+
+COMPILE ~bonehillv275/bafs~
+USING   ~bonehillv275/Language/%s/baf.tra~
+
+
+/////////////////////////
+// Dialogs to compile  //
+/////////////////////////
+
+PRINT @362
+
+COMPILE ~bonehillv275/d~ 
+
+
+///////////////////////////
+//   Build new areas     //
+///////////////////////////
+
+PRINT @363
+
+COPY ~bonehillv275/areas~ ~override~ 
+
+// Check to see if Tutu or BGT
+
+ACTION_IF FILE_EXISTS ~data/BG1ARE.bif~
+ THEN BEGIN
+  PRINT @435
+  COPY ~bonehillv275/BGT/ARE~ ~override~ 
+  COMPILE ~bonehillv275/BGT/d~
+  COMPILE ~bonehillv275/BGT/BCS/BHFABIO.BAF~
+  COMPILE ~bonehillv275/BGT/BCS/BHCUTBA2.BAF~
+  COMPILE ~bonehillv275/BGT/BCS/BHPELL.BAF~
+   USING   ~bonehillv275/Language/%s/baf.tra~
+  EXTEND_BOTTOM ~AR9302.bcs~ ~bonehillv275/BGT/BCS/AR9302.baf~
+  COPY_EXISTING ~AR9300.are~ ~override/AR9300.are~
+    WRITE_ASCII 0x94 ~AR9300~
+  EXTEND_BOTTOM ~AR9300.bcs~ ~bonehillv275/BGT/BCS/AR9300.baf~
+  EXTEND_BOTTOM ~AR7223.bcs~ ~bonehillv275/BGT/BCS/AR7223.baf~
+  EXTEND_BOTTOM ~AR7800.bcs~ ~bonehillv275/BGT/BCS/AR7800.baf~
+  EXTEND_BOTTOM ~AR6526.BCS~ ~bonehillv275/BGT/BCS/AR6526.baf~
+   USING   ~bonehillv275/Language/%s/baf.tra~
+  APPEND ~PDIALOG.2DA~
+   ~FABIO        BHFABIOP           BHFABIOJ       ***      ***     ***      ***       ***~
+  UNLESS ~FABIO~
+  APPEND ~INTERDIA.2DA~
+   ~FABIO       BFABIO        NONE~
+  UNLESS ~FABIO~
+  COPY ~bonehillv275/BGT/BH0100.are~ ~override/BH0100.are~         
+    SAY 0x25e4 @365
+    SAY 0x26a8 @365 
+    SAY 0x276c @366 
+    SAY 0x2830 @366 
+    SAY 0x28f4 @367 
+    SAY 0x29b8 @99 
+    SAY 0x2a7c @368 
+    SAY 0x2b40 @103 
+    SAY 0x2c04 @90
+    SAY 0x5658 @369
+  COPY ~bonehillv275/BGT/BH0200.are~ ~override/BH0200.are~
+    SAY 0x1150 @370 
+    SAY 0x1ae8 @369
+    SAY 0x1bb0 @370
+    SAY 0x1be4 @371
+  COPY ~bonehillv275/BGT/BH0300.are~ ~override/BH0300.are~
+    SAY 0xb10 @372 
+    SAY 0xbd4 @89 
+    SAY 0xc98 @89 
+    SAY 0xd5c @89 
+    SAY 0xe20 @89 
+    SAY 0xfa8 @373 
+    SAY 0x106c @89 
+    SAY 0x1130 @89 
+    SAY 0x15c8 @374 
+    SAY 0x1814 @375 
+    SAY 0x199c @376 
+    SAY 0x273c @369
+    SAY 0x2804 @371
+    SAY 0x2838 @377
+  COPY ~bonehillv275/BGT/BH0308.are~ ~override/BH0308.are~         
+    SAY 0x244 @378 
+  COPY ~bonehillv275/BGT/BH0400.are~ ~override/BH0400.are~         
+    SAY 0x180 @379 
+    SAY 0x490 @380 
+    SAY 0x8f8 @371
+  COPY ~bonehillv275/BGT/BH0402.are~ ~override/BH0402.are~         
+    SAY 0x2004 @381 
+    SAY 0x20c8 @382 
+    SAY 0x218c @383 
+    SAY 0x2250 @384 
+  COPY ~bonehillv275/BGT/BH0500.are~ ~override/BH0500.are~         
+    SAY 0x994 @385 
+    SAY 0xa58 @385 
+    SAY 0x136c @369
+    SAY 0x1434 @386
+    SAY 0x1468 @387
+  COPY ~bonehillv275/BGT/BH0600.are~ ~override/BH0600.are~         
+    SAY 0x3cc @388 
+    SAY 0x490 @389 
+    SAY 0x6dc @390 
+  COPY ~bonehillv275/BGT/BH0700.are~ ~override/BH0700.are~         
+    SAY 0xb88 @391 
+    SAY 0x1d68 @387
+    SAY 0x1d9c @387
+  COPY ~bonehillv275/BGT/BH1000.are~ ~override/BH1000.are~         
+    SAY 0x1a48 @392 
+    SAY 0x1bd0 @392 
+    SAY 0x1c94 @392 
+    SAY 0x1d58 @392 
+    SAY 0x1e1c @393 
+    SAY 0x1ee0 @393 
+    SAY 0x1fa4 @394 
+    SAY 0x4490 @377
+    SAY 0x44c4 @395
+  COPY ~bonehillv275/BGT/bh1001.are~ ~override/BH1001.are~
+    SAY 0x2b68 @397
+  COPY ~bonehillv275/BGT/bh1100.are~ ~override/BH1100.are~         
+    SAY 0x1b04 @370 
+    SAY 0x1bcc @371
+    SAY 0x1c00 @398
+  COPY ~bonehillv275/BGT/BH1200.are~ ~override/BH1200.are~         
+    SAY 0x2ecc @370
+    SAY 0x2f00 @371
+    SAY 0x2f34 @377
+  COPY ~bonehillv275/BGT/BH1300.are~ ~override/BH1300.are~         
+    SAY 0x2004 @399 
+    SAY 0x3cb8 @395
+    SAY 0x3cec @398
+    SAY 0x3d20 @371
+    SAY 0x3d54 @400
+    SAY 0x3d88 @400
+  COPY ~bonehillv275/BGT/BH1400.are~ ~override/BH1400.are~         
+    SAY 0x1c10 @395 
+    SAY 0x3430 @400
+    SAY 0x3464 @377
+  COPY ~bonehillv275/BGT/BH2000.are~ ~override/BH2000.are~         
+    SAY 0x25f0 @401 
+    SAY 0x26b4 @402 
+    SAY 0x2778 @403 
+    SAY 0x283c @404 
+    SAY 0x2900 @405 
+    SAY 0x6164 @406
+    SAY 0x622c @407
+    SAY 0x6260 @408
+    SAY 0x6294 @409
+    SAY 0x62c8 @410
+  COPY ~bonehillv275/BGT/BH2001.are~ ~override/BH2001.are~         
+    SAY 0x574 @411 
+    SAY 0x638 @412 
+  COPY ~bonehillv275/BGT/BH2002.are~ ~override/BH2002.are~         
+    SAY 0x4b0 @413 
+    SAY 0x574 @413 
+    SAY 0x638 @414 
+  COPY ~bonehillv275/BGT/BH2010.are~ ~override/BH2010.are~         
+    SAY 0x528 @415 
+    SAY 0x5ec @416 
+    SAY 0x6b0 @417 
+    SAY 0x774 @418 
+    SAY 0x838 @419 
+    SAY 0x8fc @420 
+    SAY 0x9c0 @416 
+    SAY 0xa84 @416 
+    SAY 0xb48 @421 
+    SAY 0xc0c @421 
+    SAY 0xcd0 @421 
+    SAY 0xd94 @421 
+    SAY 0xe58 @421 
+    SAY 0xf1c @421 
+    SAY 0xfe0 @421 
+  COPY ~bonehillv275/BGT/BH2100.are~ ~override/BH2100.are~         
+    SAY 0x794 @422 
+    SAY 0x858 @423 
+    SAY 0x1420 @406
+  COPY ~bonehillv275/BGT/BH2101.are~ ~override/BH2101.are~         
+    SAY 0x1848 @424 
+    SAY 0x38dc @406
+  COPY ~bonehillv275/BGT/BH2102.are~ ~override/BH2102.are~         
+    SAY 0x1124 @425 
+    SAY 0x11e8 @426 
+    SAY 0x12ac @427 
+    SAY 0x1370 @428 
+    SAY 0x4054 @406
+  // Bug fix: Lollorian and Isaya : http://www.shsforums.net/topic/52076-resting-on-bh2103-crashes-game/
+//    READ_LONG 0xc0 "rest_off"
+//    WRITE_SHORT ("%rest_off%" + 0x98) 0
+  // Alternative: Restore guard to tell you not to sleep, as in Tutu
+  COPY ~bonehillv275/BGT/BH2103.are~ ~override/BH2103.are~
+    SAY 0x574 @429
+    READ_LONG 0xc0 "rest_off"
+    SAY ("%rest_off%" + 0x20) @406
+    WRITE_ASCII ("%rest_off%" + 0x48) ~BHRGSLEP~
+    WRITE_SHORT ("%rest_off%" + 0x98) 1
+    WRITE_SHORT ("%rest_off%" + 0xA4) 1
+    BUT_ONLY_IF_IT_CHANGES
+  COPY ~bonehillv275/BGT/BH2200.are~ ~override/BH2200.are~         
+    SAY 0x1344 @430 
+  COPY ~bonehillv275/BGT/BH2201.are~ ~override/BH2201.are~         
+    SAY 0x4064 @397
+    SAY 0x4098 @387
+  COPY ~bonehillv275/BGT/BH2202.are~ ~override/BH2202.are~         
+    SAY 0x3434 @432 
+    SAY 0x5644 @387
+  COPY ~bonehillv275/BGT/BH2300.are~ ~override/BH2300.are~         
+    SAY 0x1ef4 @433 
+    SAY 0x1fb8 @434 
+  COPY ~bonehillv275/BGT/BH2301.are~ ~override/BH2301.are~         
+    SAY 0x274c @387
+ END
+ELSE
+ BEGIN
+  PRINT @364
+  COPY ~bonehillv275/Tutu/ARE~ ~override~
+  COMPILE ~bonehillv275/Tutu/d~
+  COMPILE ~bonehillv275/Tutu/BCS/BHFABIO.BAF~
+  COMPILE ~bonehillv275/Tutu/BCS/BHCUTBA2.BAF~
+  COMPILE ~bonehillv275/Tutu/BCS/BHPELL.BAF~
+   USING   ~bonehillv275/Language/%s/baf.tra~
+  COPY_EXISTING ~FW3402.are~ ~override/FW3402.are~
+   WRITE_ASCII 0x94 ~_AR3402~
+  EXTEND_TOP ~_AR3402.bcs~ ~bonehillv275/Tutu/BCS/FW3402.baf~
+  COPY_EXISTING ~FW3400.are~ ~override/FW3400.are~
+   WRITE_ASCII 0x94 ~_AR3400~
+  EXTEND_BOTTOM ~_AR3400.bcs~ ~bonehillv275/Tutu/BCS/FW3400.baf~
+  EXTEND_BOTTOM ~_AR0123.bcs~ ~bonehillv275/Tutu/BCS/FW0123.baf~
+  EXTEND_BOTTOM ~_AR0800.bcs~ ~bonehillv275/Tutu/BCS/FW0800.baf~
+  EXTEND_BOTTOM ~_AR2626.bcs~ ~bonehillv275/Tutu/BCS/FW2626.baf~
+  APPEND ~PDIALOG.2DA~
+   ~FABIO                    BHFABIOP            BHFABIOJ~
+  UNLESS ~FABIO~
+  APPEND ~INTERDIA.2DA~
+   ~FABIO                    BFABIO~
+  UNLESS ~FABIO~
+  COPY ~bonehillv275/Tutu/BH0100.are~ ~override/BH0100.are~         
+    WRITE_ASCII 0x94 ~BH0100~
+    SAY 0x25e4 @365 
+    SAY 0x26a8 @365 
+    SAY 0x276c @366 
+    SAY 0x2830 @366 
+    SAY 0x28f4 @367 
+    SAY 0x29b8 @99 
+    SAY 0x2a7c @368 
+    SAY 0x2b40 @103 
+    SAY 0x2c04 @90 
+    SAY 0x5658 @369 // Was 0x5374
+  COPY ~bonehillv275/Tutu/BH0200.are~ ~override/BH0200.are~
+    WRITE_ASCII 0x94 ~BH0200~
+    SAY 0x1150 @370 
+    SAY 0x1ae8 @369
+    SAY 0x1bb0 @370
+    SAY 0x1be4 @371
+  COPY ~bonehillv275/Tutu/BH0300.are~ ~override/BH0300.are~ 
+    WRITE_ASCII 0x94 ~BH0300~
+    SAY 0xb10 @372 
+    SAY 0xbd4 @89 
+    SAY 0xc98 @89 
+    SAY 0xd5c @89 
+    SAY 0xe20 @89 
+    SAY 0xfa8 @373 
+    SAY 0x106c @89 
+    SAY 0x1130 @89 
+    SAY 0x15c8 @374 
+    SAY 0x1814 @375 
+    SAY 0x199c @376 
+    SAY 0x2668 @369
+    SAY 0x2730 @371
+    SAY 0x2764 @377
+  COPY ~bonehillv275/Tutu/BH0308.are~ ~override/BH0308.are~ 
+    SAY 0x244 @378 
+  COPY ~bonehillv275/Tutu/BH0400.are~ ~override/BH0400.are~ 
+    WRITE_ASCII 0x94 ~BH0400~
+    SAY 0x180 @379 
+    SAY 0x490 @380 
+    SAY 0x8f8 @371
+  COPY ~bonehillv275/Tutu/BH0402.are~ ~override/BH0402.are~         
+    SAY 0x2004 @381 
+    SAY 0x20c8 @382 
+    SAY 0x218c @383 
+    SAY 0x2250 @384 
+  COPY ~bonehillv275/Tutu/BH0500.are~ ~override/BH0500.are~         
+    WRITE_ASCII 0x94 ~BH0500~
+    SAY 0x994 @385 
+    SAY 0xa58 @385 
+    SAY 0x136c @369
+    SAY 0x1434 @386
+    SAY 0x1468 @387
+  COPY ~bonehillv275/Tutu/BH0600.are~ ~override/BH0600.are~         
+    WRITE_ASCII 0x94 ~BH0600~
+    SAY 0x3cc @388 
+    SAY 0x490 @389 
+    SAY 0x6dc @390 
+  COPY ~bonehillv275/Tutu/BH0700.are~ ~override/BH0700.are~         
+    WRITE_ASCII 0x94 ~BH0700~
+    SAY 0xb88 @391 
+    SAY 0x1d2c @387
+    SAY 0x1d60 @387
+  COPY ~bonehillv275/Tutu/BH1000.are~ ~override/BH1000.are~         
+    WRITE_ASCII 0x94 ~BH1000~
+    SAY 0x1a48 @392 
+    SAY 0x1bd0 @392 
+    SAY 0x1c94 @392 
+    SAY 0x1d58 @392 
+    SAY 0x1e1c @393 
+    SAY 0x1ee0 @393 
+    SAY 0x1fa4 @394 
+    SAY 0x4490 @377
+    SAY 0x44c4 @395
+  COPY ~bonehillv275/Tutu/BH1001.are~ ~override/BH1001.are~
+    SAY 0x2b34 @396
+    SAY 0x2b68 @397
+  COPY ~bonehillv275/Tutu/bh1100.are~ ~override/BH1100.are~         
+    WRITE_ASCII 0x94 ~BH1100~
+    SAY 0xb88 @370 
+    SAY 0xf60 @371
+    SAY 0xf94 @398
+  COPY ~bonehillv275/Tutu/BH1200.are~ ~override/BH1200.are~         
+    WRITE_ASCII 0x94 ~BH1200~
+    SAY 0x29d4 @370
+    SAY 0x2a08 @371
+    SAY 0x2a3c @377
+  COPY ~bonehillv275/Tutu/BH1300.are~ ~override/BH1300.are~         
+    WRITE_ASCII 0x94 ~BH1300~
+    SAY 0x2004 @399 
+    SAY 0x3618 @395
+    SAY 0x364c @398
+    SAY 0x3680 @371
+    SAY 0x36b4 @400
+    SAY 0x36e8 @400
+  COPY ~bonehillv275/Tutu/BH1400.are~ ~override/BH1400.are~         
+    WRITE_ASCII 0x94 ~BH1400~
+    SAY 0x1c10 @395 
+    SAY 0x2a40 @400
+    SAY 0x2a74 @377
+  COPY ~bonehillv275/Tutu/BH2000.are~ ~override/BH2000.are~         
+    WRITE_ASCII 0x94 ~BH2000~
+    SAY 0x25f0 @401 
+    SAY 0x26b4 @402 
+    SAY 0x2778 @403 
+    SAY 0x283c @404 
+    SAY 0x2900 @405 
+    SAY 0x6164 @406
+    SAY 0x622c @407
+    SAY 0x6260 @408
+    SAY 0x6294 @409
+    SAY 0x62c8 @410
+  COPY ~bonehillv275/Tutu/BH2001.are~ ~override/BH2001.are~         
+    SAY 0x574 @411 
+    SAY 0x638 @412 
+  COPY ~bonehillv275/Tutu/BH2002.are~ ~override/BH2002.are~         
+    SAY 0x4b0 @413 
+    SAY 0x574 @413 
+    SAY 0x638 @414 
+  COPY ~bonehillv275/Tutu/BH2010.are~ ~override/BH2010.are~         
+    SAY 0x528 @415 
+    SAY 0x5ec @416 
+    SAY 0x6b0 @417 
+    SAY 0x774 @418 
+    SAY 0x838 @419 
+    SAY 0x8fc @420 
+    SAY 0x9c0 @416 
+    SAY 0xa84 @416 
+    SAY 0xb48 @421 
+    SAY 0xc0c @421 
+    SAY 0xcd0 @421 
+    SAY 0xd94 @421 
+    SAY 0xe58 @421 
+    SAY 0xf1c @421 
+    SAY 0xfe0 @421 
+  COPY ~bonehillv275/Tutu/BH2100.are~ ~override/BH2100.are~         
+    WRITE_ASCII 0x94 ~BH2100~
+    SAY 0x794 @422 
+    SAY 0x858 @423 
+    SAY 0x1420 @406
+    SAY 0x14e8 @387
+  COPY ~bonehillv275/Tutu/BH2101.are~ ~override/BH2101.are~         
+    SAY 0x1848 @424 
+    SAY 0x38dc @406
+  COPY ~bonehillv275/Tutu/BH2102.are~ ~override/BH2102.are~         
+    SAY 0x1124 @425 
+    SAY 0x11e8 @426 
+    SAY 0x12ac @427 
+    SAY 0x1370 @428 
+    SAY 0x4054 @406
+  COPY ~bonehillv275/Tutu/BH2103.are~ ~override/BH2103.are~         
+    SAY 0x574 @429 
+    SAY 0x1c5c @406
+  COPY ~bonehillv275/Tutu/BH2200.are~ ~override/BH2200.are~         
+    WRITE_ASCII 0x94 ~BH2200~
+    SAY 0x1344 @430 
+    SAY 0x2424 @387
+    SAY 0x2458 @431
+  COPY ~bonehillv275/Tutu/BH2201.are~ ~override/BH2201.are~         
+    SAY 0x4064 @397
+    SAY 0x4098 @387
+  COPY ~bonehillv275/Tutu/BH2202.are~ ~override/BH2202.are~         
+    SAY 0x3434 @432 
+    SAY 0x5644 @387
+  COPY ~bonehillv275/Tutu/BH2300.are~ ~override/BH2300.are~         
+    WRITE_ASCII 0x94 ~BH2300~
+    SAY 0x1ef4 @433 
+    SAY 0x1fb8 @434 
+    SAY 0x3404 @387
+  COPY ~bonehillv275/Tutu/BH2301.are~ ~override/BH2301.are~         
+    SAY 0x274c @387
+END
+
+ACTION_IF FILE_EXISTS ~data/BG1ARE.bif~
+ THEN BEGIN
+  COPY	~Bonehillv275/creatures/spawns~	~BH-REST~
+  COMPILE	~Bonehillv275/BGT/spawns~
+ END ELSE BEGIN
+  COPY	~Bonehillv275/creatures/spawns~	~BH-REST~
+  COMPILE	~Bonehillv275/Tutu/spawns~
+END
+
+COPY_EXISTING	~BH1301.ARE~	~override~
+  READ_LONG  0x54 "actor_off"
+  READ_SHORT 0x58 "actor_num"
+  WHILE ("%actor_num%" > 0) BEGIN
+    SET "actor_num" = ("%actor_num%" - 1)
+    READ_ASCII ("%actor_off%" + 0x80 + ("%actor_num%" * 0x110)) "cre_file"
+    PATCH_IF ("%cre_file%" STRING_COMPARE_CASE "BHOGRE" = 0) BEGIN
+      WRITE_ASCII ("%actor_off%" +        ("%actor_num%" * 0x110)) ~Ogre Mage~ #32
+      WRITE_ASCII ("%actor_off%" + 0x80 + ("%actor_num%" * 0x110)) ~BHOGREMA~ #8
+    END
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING	~BH2000.BCS~	~override~
+  REPLACE_BCS_BLOCK	~bonehillv275/bcs/oBH2000.BCS~	~bonehillv275/bcs/nBH2000.BCS~
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING	~BH2018.BCS~	~override~
+  REPLACE_BCS_BLOCK	~bonehillv275/bcs/oBH2018.BCS~	~bonehillv275/bcs/nBH2018.BCS~
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING	~BH2100.BCS~	~override~
+  REPLACE_BCS_BLOCK	~bonehillv275/bcs/oBH2100.BCS~	~bonehillv275/bcs/nBH2100.BCS~
+BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING	~BH2101.BCS~	~override~
+  REPLACE_BCS_BLOCK	~bonehillv275/bcs/oBH2101.BCS~	~bonehillv275/bcs/nBH2101.BCS~
+BUT_ONLY_IF_IT_CHANGES
+
+COPY	~bonehillv275/bcs/BH0200.BCS~	~override~
+EXTEND_TOP	~BH0100.BCS~	~bonehillv275/bcs/BH0200.BCS~
+
+COPY_EXISTING	~BH2100.BCS~	~override~
+			~BH2101.BCS~	~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~OnCreation()~ ~~
+  COMPILE_BAF_TO_BCS
+BUT_ONLY
+
+COPY_EXISTING	~BHASCUE.BCS~	~override~
+  REPLACE_BCS_BLOCK	~bonehillv275/bcs/oBHASCUE.BCS~	~bonehillv275/bcs/nBHASCUE.BCS~
+BUT_ONLY
+
+COPY_EXISTING	~BHOGUARD.CRE~	~override~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_ASCII	0x248		~GCSHOUT~ #8		// Override 
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY	~bonehillv275/bcs/gcshout.bcs~	~override~
+
+EXTEND_TOP ~BH1300.BCS~	~bonehillv275/bcs/BH1300.baf~
+
+//INCLUDE ~bonehillv275/lib/Bonehill_Spawns.tph~
+
+PRINT @436
+
+/////////////////////////////////////////////
+//   Make the Sword of Flame +2 talk       //
+/////////////////////////////////////////////
+
+APPEND ~itemdial.2da~
+~BHFSW1        5689   BHFSW1~
+UNLESS ~BHFSW1~
+
+//////////////////////////////////////////////
+//  Add the main areas to the master list   //
+//////////////////////////////////////////////
+
+APPEND ~mastarea.2da~
+~BH0100  value
+BH0101  value
+BH0102  value
+BH0103  value
+BH0104  value
+BH0105  value
+BH0106  value
+BH0107  value
+BH0108  value
+BH0109  value
+BH0110  value
+BH0111  value
+BH0112  value
+BH0113  value
+BH0114  value
+BH0115  value
+BH0116  value
+BH0117  value
+BH0118  value
+BH0119  value
+BH0120  value
+BH0121  value
+BH0122  value
+BH0123  value
+BH0125  value
+BH0126  value
+BH0200  value
+BH0300  value
+BH0302  value
+BH0303  value
+BH0305  value
+BH0306  value
+BH0308  value
+BH0310  value
+BH0311  value
+BH0312  value
+BH0400  value
+BH0402  value
+BH0500  value
+BH0504  value
+BH0509  value
+BH0600  value
+BH0700  value
+BH1000  value
+BH1001  value
+BH1002  value
+BH1003  value
+BH1004  value
+BH1100  value
+BH1200  value
+BH1300  value
+BH1301  value
+BH1302  value
+BH1400  value
+BH2000  value
+BH2001  value
+BH2002  value
+BH2003  value
+BH2003  value
+BH2004  value
+BH2005  value
+BH2006  value
+BH2007  value
+BH2008  value
+BH2009  value
+BH2010  value
+BH2011  value
+BH2012  value
+BH2013  value
+BH2014  value
+BH2015  value
+BH2016  value
+BH2017  value
+BH2018  value
+BH2019  value
+BH2020  value
+BH2021  value
+BH2022  value
+BH2023  value
+BH2024  value
+BH2025  value
+BH2026  value
+BH2100  value
+BH2101  value
+BH2102  value
+BH2103  value
+BH2104  value
+BH2105  value
+BH2106  value
+BH2107  value
+BH2108  value
+BH2109  value
+BH2110  value
+Bh2111  value
+BH2200  value
+BH2201  value
+BH2202  value
+BH2300  value
+BH2301  value~
+UNLESS ~BH0100~
+
+//////////////////////////////////
+//   Other 2DA files to update  //
+//////////////////////////////////
+
+APPEND ~NPCLEVEL.2DA~
+~Fabio       BHFabio BHFabio BHFabio BHFabio BHFabi6 BHFabi6 BHFabi8 BHFabi8 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10 BHFabi10~
+UNLESS ~Fabio~
+
+APPEND ~TOOLTIP.2DA~
+~BHGHAND           12131        12049       -1
+BHFABLUT          12050        12051       -1~
+UNLESS ~BHGHAND~
+
+APPEND ~ANIMATE.IDS~
+~0xE520 IC_LIZARDCASTER3~
+UNLESS ~0xE520~
+
+ACTION_IF !(FILE_EXISTS_IN_GAME ~fw0100.are~) THEN BEGIN
+	COPY ~bonehillv275\misc\j#hp1.spl~ ~override~
+END
+
+COPY_EXISTING ~j#hp1.spl~ ~override/dw#hp.spl~ 
+COPY ~bonehillv275/misc/dw#rang.spl~ ~override~ //grants rangers' 2-weapon proficiencies
+
+COPY_EXISTING	~bhfabio.cre~	~override~
+	PATCH_IF (SOURCE_SIZE>0x1) THEN BEGIN 
+
+	WRITE_LONG 0x18 0 //current XP
+	WRITE_BYTE 0x24 20 //current hp
+	WRITE_BYTE 0x26 20 //max hp  // a somewhat notional guess so that potentially antagonistic NPCS
+						// (e.g. Minsc or Shar-Teel) aren't easy kills!	
+	WRITE_BYTE 0x234 0 //level (first class)
+	WRITE_BYTE 0x235 0 //level (second class)
+	WRITE_BYTE 0x236 0 //level (third class)
+	WRITE_BYTE 0x45 0 //hide in shadows
+	WRITE_BYTE 0x64 0 //detect illusions
+	WRITE_BYTE 0x65 0 //set traps
+	WRITE_BYTE 0x66 0 //lore
+	WRITE_BYTE 0x67 5 //open locks
+	WRITE_BYTE 0x68 0 //move silently
+	WRITE_BYTE 0x69 10 //find traps
+	WRITE_BYTE 0x6a 0 //pick pockets
+	READ_BYTE 0x33  "eff_version"
+	READ_LONG 0x2c4 ~aboffset~ //proficiencies
+	READ_SHORT 0x2c8 ~#ab~
+	SET ~loc~=~%aboffset%~
+	SET ~currentab~=0
+	WHILE (~%currentab%~<~%#ab%~ AND ~%eff_version%~=0) BEGIN
+		READ_BYTE ~%loc%~ ~%profcheck%~
+		PATCH_IF (~%profcheck%~=233) THEN BEGIN
+			WRITE_BYTE (~%loc%~+0x4) 0
+		END
+		SET ~loc~=~%loc%~+0x30
+		SET ~currentab~=~%currentab%~+1
+	END
+	WHILE (~%currentab%~<~%#ab%~ AND ~%eff_version%~=1) BEGIN
+		READ_BYTE (~%loc%~+0x8) ~%profcheck%~
+		PATCH_IF (~%profcheck%~=233) THEN BEGIN
+			WRITE_BYTE (~%loc%~+0x14) 0
+		END
+		SET ~loc~=~%loc%~+0x108
+		SET ~currentab~=~%currentab%~+1
+	END
+	END
+BUT_ONLY_IF_IT_CHANGES
+
+EXTEND_BOTTOM ~bhfabio.bcs~	~bonehillv275\misc\levelup.baf~
+	REPLACE ~444444~  @501
+
+
+//**************************************************
+//  WORLDMAP
+//**************************************************
+PRINT "Updating Worldmap...."
+
+ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN	// Tutu
+  ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
+    COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
+     APPEND_FILE ~bonehillv275/Worldmap/areas.tbl~
+    COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
+     APPEND_FILE ~bonehillv275/Worldmap/Tutu/links.tbl~
+  COPY - ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
+  COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
+   APPEND_FILE ~tmp_worldmap.tra~
+  END
+  ELSE BEGIN
+    MKDIR ~Worldmap~
+    COPY ~bonehillv275/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+    COPY ~bonehillv275/Worldmap/Tutu/links.tbl~ ~Worldmap/map_mods_links.tbl~
+    COPY ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+  END
+END
+ELSE BEGIN												// BGT
+  ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
+    COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
+     APPEND_FILE ~bonehillv275/Worldmap/areas.tbl~
+    COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
+     APPEND_FILE ~bonehillv275/Worldmap/BGT/links.tbl~
+  COPY - ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~  ~tmp_worldmap.tra~
+  COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
+   APPEND_FILE ~tmp_worldmap.tra~
+  END
+  ELSE BEGIN
+    MKDIR ~Worldmap~
+    COPY ~bonehillv275/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+    COPY ~bonehillv275/Worldmap/BGT/links.tbl~ ~Worldmap/map_mods_links.tbl~
+    COPY ~bonehillv275/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+  END
+END
+
+
+AT_INTERACTIVE_EXIT ~bonehillv275/BHAreas.bat~
+AT_INTERACTIVE_UNINSTALL ~bonehillv275/BHUninstaller.bat~

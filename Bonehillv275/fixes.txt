@@ -1,0 +1,123 @@
+1) AREAS (BGT side, could it be simply replicated for TuTu too?). (Almost, songlist is different, SBB).
+
+ Songlist updated for BGT v1.00 (only BGT part); (Note: Tutu songs reset to previous songlist, SBB)
+
+
+ BH0100.ARE, .WED, .TIS, SR.BMP -
+   door/travelling regions fixed. It was possible to enter some doors without actual opening them;
+   tileset updated once again (doors/shadows cleaned up);
+   search map updated (fixes for all doors - it was hard sometimes to reach travel regions), some solid
+   obstacles (code 0) replaced by soft obstacles (code 8);
+   TP2 patching changed (strrefs' offsets).
+
+ BH0200.ARE, .WED, .TIS, SR.BMP -
+   door/travelling regions fixed. It was possible to enter some doors without actual opening them;
+   tileset updated once again (shadows - there's an original tileset that I redrawn a year ago :P, so it's
+   included again);  (Should have been in here all this time, SBB)
+   search map updated (fixes for all doors - it was hard sometimes to reach travel regions), some solid
+   obstacles (code 0) replaced by soft obstacles (code 8);
+   TP2 patching changed (strrefs' offsets).
+
+(*** A TIP ***)
+(*** A travel region must lie inside boundaries of door's region to be hidden before a door becomes open ***)
+(*************)
+
+ BH0300.ARE, .WED, SR.BMP -
+   door/travelling regions fixed. It was possible to enter some doors without actual opening them;
+   search map updated (fixes for all doors - it was hard sometimes to reach travel regions), some solid
+   obstacles (code 0) replaced by soft obstacles (code 8);
+   wallgroups were completely rebuilt;
+   TP2 patching changed (strrefs' offsets).
+
+
+ BH0500.ARE, .WED, SR.BMP -
+   search map updated (fixes for all doors - it was hard sometimes to reach travel regions), buggy "holes" at the very eastern
+   part of walls (that made possible to walk outside) closed;
+   several wallgroups fixed.
+
+ BH0700.WED -
+   several wallgroups fixed.
+
+ BH1101.WED, SR.BMP -
+   search map updated (soft obstacles);
+   several wallgroups fixed.
+
+ BH1300.ARE, SR.BMP -
+   search map updated (there was a problem accessing 2nd cave);
+   travel region for 2nd cave moved a little bit.
+
+ BH2018.ARE, .WED, SR.BMP -
+   search map updated;
+   wallgroups created (WED was empty).
+
+
+
+ONCE AGAIN - Only BGT resources updated. I'm not very sure if they can be just replicated for TuTu resources.
+If so, SBB, plz do it... :D
+
+(Done, SBB)
+
+
+
+2) DIALOGUES.
+
+All nonpausing flags cleared.
+
+BH#25SPELL - it's not necessary to start it with BEGIN directive.
+BHARRNES - numeric value for Shout() changed to ID (ALERT = 125)
+BHASCUE  - numeric value for Shout() changed to ID (ALERT = 125)
+BHBASMAR - numeric value for Shout() changed to ID (ALERT = 125)
+BHBBOB   - EraseJournalEntry() added to the state 15.
+BHCLERI2 - numeric value for Shout() changed to ID (ALERT = 125)
+BHFABIOP - joining/leaving action sequence fixed.
+BHFALCO  - StartStore("",LastTalkedToBy(Myself(Myself))) -->> StartStore("",LastTalkedToBy(Myself))
+BHGLAMI  - StartStore("",LastTalkedToBy(Myself(Myself))) -->> StartStore("",LastTalkedToBy(Myself))
+BHGUARDE - numeric value for Shout() changed to ID (ALERT = 125);
+           Shout(99) in state 0 is useless (there's no CRE to respond to it), so it changed to ALERT.
+BHHESTAL - StartStore("",LastTalkedToBy(Myself(Myself))) -->> StartStore("",LastTalkedToBy(Myself))
+BHHOLGA  - numeric value for Shout() changed to ID (ALERT = 125).
+BHLIZKNG - numeric value for Shout() changed to ID (ALERT = 125).
+BHLOTHAR - numeric value for Shout() changed to ID (ALERT = 125);
+           complex ActionOverride("BHLOTHAR",RandomWalk()) ->> RandomWalk()
+BHOHLATT - StartStore("",LastTalkedToBy(Myself(Myself))) -->> StartStore("",LastTalkedToBy(Myself))
+BHOLIEUT - numeric value for Shout() changed to ID (ALERT = 125).
+BHPERK   - StartStore("",LastTalkedToBy(Myself(Myself))) -->> StartStore("",LastTalkedToBy(Myself))
+BHQUENEX - EraseJournalEntry() added to the state 21.
+BHSANGST - numeric value for Shout() changed to ID (ALERT = 125).
+BHWATCHR - complex ActionOverride(Myself(),ForceSpell([PC],CLERIC_FLAME_STRIKE)) replaced with
+           simple ForceSpell([PC],CLERIC_FLAME_STRIKE).
+BHWELCAR - state 6. There was wrong EraseJournalEntry(119108). Replaced with correct TRA reference.
+BHWRAITH - action for state 1 changed from ActionOverride("bhwraith",Enemy()) to simple Enemy();
+           numeric value for Shout() changed to ID (ALERT = 125).
+BHZAHR - 2 EraseJournalEntry() added to state 10;
+         trigger for state 9 changed to simple True();
+         action for state 23 changed from ActionOverride(Myself,Polymorph(MAGE_MALE_HUMAN)) to
+         simple Polymorph(MAGE_MALE_HUMAN).
+
+(Note: Reset all Shout(ALERT) commands back to Shout(125) because Tutu doesn't understand it and gives you error
+messages on install.  However, the scripts work fine.  Go figure. SBB
+
+
+------ BGT and TuTu sections --------------
+
+BHZELMAR - StartStore("",LastTalkedToBy(Myself(Myself))) -->> StartStore("",LastTalkedToBy(Myself))
+BHYALTA  - EraseJournalEntry() added to the state 0
+BHTELV   - numeric value for Shout() changed to ID (ALERT = 125)
+BHSHARGR - numeric value for Shout() changed to ID (ALERT = 125)
+BHABRAHA - numeric value for Shout() changed to ID (ALERT = 125)
+
+(Note: Reset all Shout(ALERT) commands back to Shout(125) because Tutu doesn't understand it and gives you error
+messages on install.  However, the scripts work find.  Go figure. SBB
+
+
+3) There were some missing creatures:
+    HOBG02.CRE - referenced from BH1000, BH1002.BCS
+    JELLYCO.CRE - referenced from BH2111.BCS
+    
+   They are restored from BP-BGT package.
+
+4) BHBERSER.BCS - there was a reference to BP's GB-SUMM script. Commented.
+
+5) Installer modified: autobiffer, OGGs instead of WAVs etc.
+
+6) Some WAVs re-mastered.
