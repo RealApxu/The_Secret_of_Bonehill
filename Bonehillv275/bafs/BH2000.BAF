@@ -31,7 +31,7 @@ THEN
     CreateCreature("BHOscar",[4280.2240],0)
     CreateCreature("BHPhilma",[4535.2531],5)
     CreateCreature("BHBasmar",[4210.2490],13)
-    ActionOverride("BHBasmar",StartDialogue("BHBasmar",[PC]))
+    ActionOverride("BHBasmar",StartDialog("BHBasmar",[PC]))
 END
 
 IF
@@ -53,7 +53,7 @@ THEN
   RESPONSE #100
     ActionOverride("BHASCUE",DestroySelf())
     ActionOverride("BHOGUARD",DestroySelf())
-    SetGlobal("BHEscortSpawn","GLOBAL",3)
+    SetGlobal("BHEscortedParty","GLOBAL",3)
 END
 
 IF

@@ -36,7 +36,7 @@ IF
   !Global("BHStupidTalk","GLOBAL",1)
 THEN
   RESPONSE #100
-    SetGlobalTimer("BHStupidTalkTime","GLOBAL",3600)
+    SetGlobalTimer("BHStupidTalkTime","GLOBAL",TWELVE_HOURS)
     SetGlobal("BHStupidTalk","GLOBAL",1)
 END
 
@@ -53,13 +53,13 @@ THEN
 END
 
 IF
-  Global("BHEscortedParty","GLOBAL",2)
+  GlobalGT("BHEscortedParty","GLOBAL",1)
   GlobalGT("BHEscortSpawn","GLOBAL",0)
 THEN
   RESPONSE #100
     ActionOverride("BHASCUE",DestroySelf())
     ActionOverride("BHOGUARD",DestroySelf())
-    SetGlobal("BHEscortSpawn","GLOBAL",3)
+    SetGlobal("BHEscortedParty","GLOBAL",3)
 END
 
 IF
@@ -76,7 +76,7 @@ IF
   Global("BHBardGone","BH2018",1)
 THEN
   RESPONSE #100
-    CreateCreature("BHBalmor",[560.940],4)
+    CreateCreature("BHBalmor",[903.651],4)
     SetGlobal("BHBardGone","BH2018",2)
 END
 

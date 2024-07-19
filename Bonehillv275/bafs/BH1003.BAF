@@ -1,5 +1,5 @@
 IF
-  OnCreation()
+//OnCreation()
   Global("BP_MoreStooges","BH1003",0)
   !Difficulty(EASIEST)
 THEN

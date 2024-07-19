@@ -2,7 +2,7 @@
 BACKUP ~Bonehillv275/backup~ 
 AUTHOR ~SirBillyBob@gmail.com and erebusant@verizon.net~
 
-VERSION ~v2.75c~
+VERSION ~v2.75c BWP Fix~
 
 // Isaya: readme at the beginning of installation, if missing in a language, use English
 README ~bonehillv275/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~bonehillv275/language/english/ReadMe-Bonehill.html~

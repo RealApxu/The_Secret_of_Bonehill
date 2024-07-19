@@ -17,9 +17,9 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @5
-  IF ~IfValidForPartyDialogue("BHFabio")
+  IF ~IfValidForPartyDialogue("Fabio")
 ~ THEN EXTERN ~BFABIO~ 16
-  IF ~!IfValidForPartyDialogue("BHFabio")
+  IF ~!IfValidForPartyDialogue("Fabio")
 ~ THEN REPLY @6 GOTO 4
 END
 

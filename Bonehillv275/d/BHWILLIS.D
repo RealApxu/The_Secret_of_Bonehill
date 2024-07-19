@@ -4,11 +4,14 @@ IF ~True()~ THEN BEGIN 0
   SAY @0
   IF ~AreaCheck("BH2017")~ THEN REPLY @1 GOTO 1
   IF ~AreaCheck("BH2018")
-!Global("BHMayorStopsParty","GLOBAL",1)~ THEN REPLY @1 GOTO 2
+OR(2)
+!Global("BHMayorStopsParty","GLOBAL",1)
+GlobalGT("BHBardFree","GLOBAL",0)~ THEN REPLY @1 GOTO 2
   IF ~!AreaCheck("BH2017")
 !AreaCheck("BH2018")~ THEN REPLY @1 GOTO 1
   IF ~AreaCheck("BH2018")
-Global("BHMayorStopsParty","GLOBAL",1)~ THEN REPLY @1 GOTO 3
+Global("BHMayorStopsParty","GLOBAL",1)
+Global("BHBardFree","GLOBAL",0)~ THEN REPLY @1 GOTO 3
 END
 
 IF ~~ THEN BEGIN 1

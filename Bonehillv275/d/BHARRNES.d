@@ -126,8 +126,8 @@ END
 
 IF ~~ THEN BEGIN 23
   SAY @48
-  IF ~!IfValidForPartyDialogue("BHFABIO")~ THEN DO ~SetGlobal("BHMayorGivesWaterQuest","GLOBAL",2) SetGlobal("BHToldMayorAboutWater","BH2101",1)~ EXIT
-  IF ~IfValidForPartyDialogue("BHFABIO")~ THEN EXTERN ~BFABIO~ 17
+  IF ~!IfValidForPartyDialogue("FABIO")~ THEN DO ~SetGlobal("BHMayorGivesWaterQuest","GLOBAL",2) SetGlobal("BHToldMayorAboutWater","BH2101",1)~ EXIT
+  IF ~IfValidForPartyDialogue("FABIO")~ THEN EXTERN ~BFABIO~ 17
 END
 
 IF ~~ THEN BEGIN 24

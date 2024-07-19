@@ -21,13 +21,13 @@ THEN
 END
 
 IF
-  Global("BHEscortedParty","GLOBAL",2)
+  Global("BHEscortedParty","GLOBAL",1)
   GlobalGT("BHEscortSpawn","GLOBAL",0)
 THEN
   RESPONSE #100
     ActionOverride("BHASCUE",DestroySelf())
     ActionOverride("BHOGUARD",DestroySelf())
-    SetGlobal("BHEscortSpawn","GLOBAL",3)
+    SetGlobal("BHEscortedParty","GLOBAL",3)
 END
 
 IF

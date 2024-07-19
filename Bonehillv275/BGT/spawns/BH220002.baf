@@ -791,7 +791,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -885,7 +885,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -982,7 +982,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1094,7 +1094,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1217,7 +1217,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1378,7 +1378,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1458,7 +1458,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1548,7 +1548,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1663,7 +1663,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1787,7 +1787,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -1929,7 +1929,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2082,7 +2082,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2184,7 +2184,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2320,7 +2320,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2423,7 +2423,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2568,7 +2568,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2721,7 +2721,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -2915,7 +2915,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -3012,7 +3012,7 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -3020,7 +3020,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -3142,7 +3142,7 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -3155,7 +3155,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -3248,7 +3248,7 @@ THEN
 	RESPONSE #8
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -3261,12 +3261,12 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -3377,13 +3377,13 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -3396,12 +3396,12 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -3558,15 +3558,15 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -3585,18 +3585,18 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -3767,22 +3767,22 @@ THEN
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -3797,14 +3797,14 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -4536,7 +4536,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -4625,7 +4625,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -4722,7 +4722,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -4834,7 +4834,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -4957,7 +4957,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5120,7 +5120,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5200,7 +5200,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5290,7 +5290,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5411,7 +5411,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5537,7 +5537,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5681,7 +5681,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5843,7 +5843,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -5945,7 +5945,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6081,7 +6081,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6186,7 +6186,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6333,7 +6333,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6490,7 +6490,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6688,7 +6688,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6776,7 +6776,7 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -6784,7 +6784,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6897,7 +6897,7 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -6910,7 +6910,7 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -6994,7 +6994,7 @@ THEN
 	RESPONSE #8
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -7007,12 +7007,12 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -7114,13 +7114,13 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -7133,12 +7133,12 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -7286,15 +7286,15 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -7313,18 +7313,18 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 
@@ -7486,22 +7486,22 @@ THEN
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset3958783","BH2200",1)
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
 		CreateCreature("SIRINE01",[3958.783],0) // Sirine
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset3958783","BH2200",1)
@@ -7516,14 +7516,14 @@ THEN
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset3958783","BH2200",1)
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
-		CreateCreature("ROGTRO01",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
+		CreateCreature("ROGTRO",[3958.783],0) // Sea Troll
 		SetGlobalTimer("22003958783","BH2200",EIGHT_HOURS)
 END
 

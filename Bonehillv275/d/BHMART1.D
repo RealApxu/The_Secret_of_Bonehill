@@ -58,7 +58,8 @@ IF ~~ THEN BEGIN 10
 EscapeArea()~ EXIT
 END
 
-IF ~AreaCheck("BH2015")~ THEN BEGIN 11
+IF ~AreaCheck("BH2015")
+!Dead("bharrnes")~ THEN BEGIN 11
   SAY @18
   IF ~~ THEN REPLY @19 EXIT
   IF ~OR(3)

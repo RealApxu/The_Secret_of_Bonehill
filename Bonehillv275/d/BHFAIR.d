@@ -43,7 +43,7 @@ IF ~~ THEN BEGIN 7
   SAY @13
   IF ~~ THEN REPLY @14 EXIT
   IF ~~ THEN REPLY @15 EXIT
-  IF ~IfValidForPartyDialogue("BHFABIO")
+  IF ~IfValidForPartyDialogue("FABIO")
 ~ THEN EXTERN ~BHFABIOJ~ 1
 END
 

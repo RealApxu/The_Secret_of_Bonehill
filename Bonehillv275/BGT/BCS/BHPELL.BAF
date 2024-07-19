@@ -192,3 +192,15 @@ THEN
      AddexperienceParty(15000)
      EndCutSceneMode()
 END  
+
+IF
+	Global("BH_wielblad","BH0500",0)
+	Global("BHToldOfDeath","GLOBAL",5)
+	Exists("fabio")
+	!See("fabio")
+	AreaCheck("BH0500")
+THEN
+	RESPONSE #100
+		CreateCreature("BHFABIO",[2550.1447],14)
+		SetGlobal("BH_wielblad","BH0500",1)
+END

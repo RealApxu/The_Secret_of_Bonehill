@@ -3,6 +3,7 @@ BEGIN ~BHBALMOR~
 IF ~IfValidForPartyDialogue("Fabio")
 NumberOfTimesTalkedTo(0)
 AreaCheck("BH2018")
+Global("BHBardFree","GLOBAL",0)
 ~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN EXTERN ~BFABIO~ 12
@@ -37,6 +38,7 @@ END
 IF ~!IfValidForPartyDialogue("Fabio")
 NumberOfTimesTalkedTo(0)
 AreaCheck("BH2018")
+Global("BHBardFree","GLOBAL",0)
 ~ THEN BEGIN 6
   SAY @7
   IF ~~ THEN REPLY @8 GOTO 7

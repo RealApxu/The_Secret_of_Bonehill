@@ -1,7 +1,6 @@
 IF
   Global("BHPrisonerSpawn","BH2103",0)
-  OR(4)
-    Global("BHEscortSpawn","GLOBAL",3)
+  OR(3)
     Global("BHAbrahamArrested","GLOBAL",1)
     Global("BHHarperArrested","GLOBAL",1)
     Global("BHBardArrested","GLOBAL",1)
