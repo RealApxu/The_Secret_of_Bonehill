@@ -1,5 +1,5 @@
 //tp2 Instructions
-BACKUP ~weidu_external/backup/bonehill~ 
+BACKUP ~weidu_external/backup/bonehill~
 
 AUTHOR ~SirBillyBob@gmail.com and erebusant@verizon.net~
 
@@ -12,33 +12,27 @@ README ~%MOD_FOLDER%/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~%MOD_FOLDER%/lan
 
 AUTO_TRA ~%MOD_FOLDER%/Language/%s/D~
 
-LANGUAGE 
-         ~English~
+LANGUAGE ~English~
          ~english~
          ~bonehill/Language/english/setup.tra~
          
-LANGUAGE 
-         ~German - Translated by Leonardo~
+LANGUAGE ~German - Translated by Leonardo~
          ~deutsch~
          ~bonehill/Language/deutsch/setup.tra~
          
-LANGUAGE 
-         ~Italian - Translated by Ilot~
+LANGUAGE ~Italian - Translated by Ilot~
          ~italian~
          ~bonehill/Language/italian/setup.tra~
          
-LANGUAGE 
-         ~Russian - Translated by Badgert, Aldark, Prowler, Orlangur~
+LANGUAGE ~Russian - Translated by Badgert, Aldark, Prowler, Orlangur~
          ~russian~
          ~bonehill/Language/russian/setup.tra~
 
-LANGUAGE 
-         ~Spanish - Translated by Ancalagon el Negro~
+LANGUAGE ~Spanish - Translated by Ancalagon el Negro~
          ~spanish~
          ~bonehill/Language/spanish/setup.tra~
 
-LANGUAGE 
-         ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
+LANGUAGE ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
          ~french~
          ~bonehill/Language/french/setup.tra~
 
