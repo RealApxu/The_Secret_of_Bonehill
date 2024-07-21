@@ -881,7 +881,7 @@ ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
       WRITE_ASCII 0x258 ~_MAGE6~ #8 // Race
       WRITE_ASCII 0x280 ~BHOGREMA~ #8 // Death Variable
     END
-  BUT_ONLY_IF_IT_CHANGES
+  BUT_ONLY
 END
 
 ACTION_IF GAME_IS ~bgt~ BEGIN
@@ -897,7 +897,7 @@ ACTION_IF GAME_IS ~bgt~ BEGIN
       WRITE_ASCII 0x258 ~MAGE6~ #8 // Race
       WRITE_ASCII 0x280 ~BHOGREMA~ #8 // Death Variable
     END
-  BUT_ONLY_IF_IT_CHANGES
+  BUT_ONLY
 END
 
 COPY ~%MOD_FOLDER%/creatures/BHOGUARD.cre~ ~override~
@@ -1478,7 +1478,7 @@ ACTION_IF GAME_IS ~bgt~ BEGIN
     WRITE_ASCII ("%rest_off%" + 0x48) ~BHRGSLEP~
     WRITE_SHORT ("%rest_off%" + 0x98) 1
     WRITE_SHORT ("%rest_off%" + 0xA4) 1
-  BUT_ONLY_IF_IT_CHANGES
+  BUT_ONLY
 
   COPY ~%MOD_FOLDER%/BGT/BH2200.are~ ~override/BH2200.are~
     SAY 0x1344 @430
@@ -1747,23 +1747,23 @@ COPY_EXISTING ~BH1301.ARE~ ~override~
       WRITE_ASCII ("%actor_off%" + 0x80 + ("%actor_num%" * 0x110)) ~BHOGREMA~ #8
     END
   END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY_EXISTING ~BH2000.BCS~ ~override~
   REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2000.BCS~ ~%MOD_FOLDER%/bcs/nBH2000.BCS~
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY_EXISTING ~BH2018.BCS~ ~override~
   REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2018.BCS~ ~%MOD_FOLDER%/bcs/nBH2018.BCS~
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY_EXISTING ~BH2100.BCS~ ~override~
   REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2100.BCS~ ~%MOD_FOLDER%/bcs/nBH2100.BCS~
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY_EXISTING ~BH2101.BCS~ ~override~
   REPLACE_BCS_BLOCK ~%MOD_FOLDER%/bcs/oBH2101.BCS~ ~%MOD_FOLDER%/bcs/nBH2101.BCS~
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY ~%MOD_FOLDER%/bcs/BH0200.BCS~ ~override~
 
@@ -1784,7 +1784,7 @@ COPY_EXISTING ~BHOGUARD.CRE~ ~override~
   PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
     WRITE_ASCII 0x248  ~GCSHOUT~ #8 // Override
   END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY ~%MOD_FOLDER%/bcs/gcshout.bcs~ ~override~
 
@@ -1972,7 +1972,7 @@ COPY_EXISTING ~bhfabio.cre~ ~override~
       SET ~currentab~=~%currentab%~+1
     END
   END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 EXTEND_BOTTOM ~bhfabio.bcs~ ~%MOD_FOLDER%\misc\levelup.baf~
   REPLACE ~444444~ @501
@@ -1996,46 +1996,26 @@ PRINT "Updating Worldmap...."
 
 ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN // Tutu
   ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
-
-    COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~
-      APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
-
-    COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~
-      APPEND_FILE ~%MOD_FOLDER%/Worldmap/Tutu/links.tbl~
-
-    COPY - ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
-
-    COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
-      APPEND_FILE ~tmp_worldmap.tra~
-
+    COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~ APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
+    COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~ APPEND_FILE ~%MOD_FOLDER%/Worldmap/Tutu/links.tbl~
+    COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~ APPEND_FILE ~%MOD_FOLDER%/%LANGUAGE%/worldmap.tra~
   END ELSE BEGIN
     MKDIR ~Worldmap~
-
     COPY ~%MOD_FOLDER%/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
     COPY ~%MOD_FOLDER%/Worldmap/Tutu/links.tbl~ ~Worldmap/map_mods_links.tbl~
-    COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+    COPY ~%MOD_FOLDER%/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
   END
 END
 
 ACTION_IF GAME_IS ~bgt~ BEGIN // BGT
   ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
-
-    COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~
-      APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
-
-    COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~
-      APPEND_FILE ~%MOD_FOLDER%/Worldmap/BGT/links.tbl~
-
-    COPY - ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~tmp_worldmap.tra~
-
-    COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~
-      APPEND_FILE ~tmp_worldmap.tra~
-
+    COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~ APPEND_FILE ~%MOD_FOLDER%/Worldmap/areas.tbl~
+    COPY ~Worldmap/map_mods_links.tbl~ ~Worldmap~ APPEND_FILE ~%MOD_FOLDER%/Worldmap/BGT/links.tbl~
+    COPY ~Worldmap/map_mods_trans.tra~ ~Worldmap~ APPEND_FILE ~%MOD_FOLDER%/%LANGUAGE%/worldmap.tra~
   END ELSE BEGIN
     MKDIR ~Worldmap~
-
     COPY ~%MOD_FOLDER%/Worldmap/areas.tbl~ ~Worldmap/map_mods_areas.tbl~
     COPY ~%MOD_FOLDER%/Worldmap/BGT/links.tbl~ ~Worldmap/map_mods_links.tbl~
-    COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
+    COPY ~%MOD_FOLDER%/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
   END
 END
