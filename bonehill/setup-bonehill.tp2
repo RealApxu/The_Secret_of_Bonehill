@@ -1,8 +1,11 @@
 //tp2 Instructions
-BACKUP ~bonehill/backup~ 
+BACKUP ~weidu_external/backup/bonehill~ 
+
 AUTHOR ~SirBillyBob@gmail.com and erebusant@verizon.net~
 
 VERSION ~v2.75c BWP Fix~
+
+NO_IF_EVAL_BUG
 
 // Isaya: readme at the beginning of installation, if missing in a language, use English
 README ~%MOD_FOLDER%/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~%MOD_FOLDER%/language/english/ReadMe-Bonehill.html~
