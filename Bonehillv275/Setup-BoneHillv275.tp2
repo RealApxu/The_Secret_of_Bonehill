@@ -41,17 +41,6 @@ LANGUAGE
 
 BEGIN @0
 
-MKDIR ~bonehillv275/over.bak~
-COPY_LARGE + ~override~      ~bonehillv275/over.bak~
-
-COPY + ~Setup-BoneHillv275.exe~  ~WeiDU.exe~
-COPY + ~chitin.key~        ~bonehillv275/chitin.bh~
-COPY_LARGE + ~dialog.tlk~  ~bonehillv275/dialog.bh~
-
-MKDIR ~BH-TIS1~
-MKDIR ~BH-TIS2~
-MKDIR ~BH-REST~
-
 APPEND ~GTIMES.IDS~ ~600 TWO_HOURS~ UNLESS ~600 TWO_HOURS~
 APPEND ~GTIMES.IDS~ ~600 TEN_TURNS~ UNLESS ~600 TEN_TURNS~
 APPEND ~GTIMES.IDS~ ~2400 EIGHT_HOURS~ UNLESS ~2400 EIGHT_HOURS~
@@ -2017,6 +2006,13 @@ ELSE BEGIN												// BGT
   END
 END
 
+//v3.0 Handle tis and audio
 
-AT_INTERACTIVE_EXIT ~bonehillv275/BHAreas.bat~
-AT_INTERACTIVE_UNINSTALL ~bonehillv275/BHUninstaller.bat~
+COPY ~%MOD_FOLDER%/tis~ override
+
+LAF HANDLE_AUDIO
+    STR_VAR
+        audio_path = EVAL "%MOD_FOLDER%/sounds"
+        oggdec_path = EVAL "%MOD_FOLDER%/tools/oggdec"
+        sox_path = EVAL "%MOD_FOLDER%/tools/sox"
+END
