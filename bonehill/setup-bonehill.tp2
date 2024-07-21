@@ -8,7 +8,7 @@ VERSION ~3.0 WIP~
 NO_IF_EVAL_BUG
 
 // Isaya: readme at the beginning of installation, if missing in a language, use English
-README ~%MOD_FOLDER%/language/%LANGUAGE%/ReadMe-Bonehill.html~ ~%MOD_FOLDER%/language/english/ReadMe-Bonehill.html~
+README ~%MOD_FOLDER%/readme/ReadMe-Bonehill-%LANGUAGE%.html~ ~%MOD_FOLDER%/readme/ReadMe-Bonehill-english.html~
 
 AUTO_TRA ~%MOD_FOLDER%/Language/%s/D~
 
