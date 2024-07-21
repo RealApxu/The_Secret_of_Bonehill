@@ -1982,10 +1982,10 @@ EXTEND_BOTTOM ~bhfabio.bcs~ ~%MOD_FOLDER%\misc\levelup.baf~
 COPY ~%MOD_FOLDER%/tis~ override
 
 LAF HANDLE_AUDIO
- STR_VAR
- audio_path = EVAL "%MOD_FOLDER%/sounds"
- oggdec_path = EVAL "%MOD_FOLDER%/tools/oggdec"
- sox_path = EVAL "%MOD_FOLDER%/tools/sox"
+  STR_VAR
+    audio_path = EVAL "%MOD_FOLDER%/sounds"
+    oggdec_path = EVAL "%MOD_FOLDER%/tools/oggdec"
+    sox_path = EVAL "%MOD_FOLDER%/tools/sox"
 END
 
 //**************************************************
