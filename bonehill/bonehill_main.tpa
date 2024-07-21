@@ -10,6 +10,15 @@ PRINT @1
 
 COPY ~%MOD_FOLDER%/bams~ ~override~
 
+//v3.0 split files in bams folder
+
+ACTION_IF !FILE_EXISTS ~MLI3A1.BAM~ BEGIN COPY ~%MOD_FOLDER%/anims/mli3~ override END
+ACTION_IF !FILE_EXISTS ~MLIZCA1.BAM~ BEGIN COPY ~%MOD_FOLDER%/anims/mliz~ override END
+
+COPY ~%MOD_FOLDER%/pics~ override
+
+COPY ~%MOD_FOLDER%/eff~ override
+
 /////////////////////
 //  Install Items  //
 /////////////////////
