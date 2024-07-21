@@ -7,6 +7,7 @@ APPEND ~GTIMES.IDS~ ~2400 EIGHT_HOURS~ UNLESS ~2400 EIGHT_HOURS~
 /////////////////////
 
 PRINT @1
+
 COPY ~%MOD_FOLDER%/bams~ ~override~
 
 /////////////////////
@@ -867,7 +868,7 @@ COPY ~%MOD_FOLDER%/creatures/BHMARVIN.cre~ ~override~
   SAY NAME1 @276
   SAY NAME2 @276
 
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~AR6526.ARE~ BEGIN
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
   COPY_EXISTING ~_OGREMA.CRE~ ~override/BHOGREMA.CRE~
     PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
       SAY 0xc8 @278
@@ -881,7 +882,9 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~AR6526.ARE~ BEGIN
       WRITE_ASCII 0x280 ~BHOGREMA~ #8 // Death Variable
     END
   BUT_ONLY_IF_IT_CHANGES
-END ELSE BEGIN
+END
+
+ACTION_IF GAME_IS ~bgt~ BEGIN
   COPY_EXISTING ~OGREMA.CRE~ ~override/BHOGREMA.CRE~
     PATCH_IF (SOURCE_SIZE > 0x2d3) BEGIN // protects against invalid files
       SAY 0xc8 @278
@@ -1283,7 +1286,7 @@ PRINT @363
 COPY ~%MOD_FOLDER%/areas~ ~override~
 
 // Check to see if Tutu or BGT
-ACTION_IF FILE_EXISTS ~data/BG1ARE.bif~ BEGIN
+ACTION_IF GAME_IS ~bgt~ BEGIN
 
   PRINT @435
 
@@ -1495,7 +1498,9 @@ ACTION_IF FILE_EXISTS ~data/BG1ARE.bif~ BEGIN
   COPY ~%MOD_FOLDER%/BGT/BH2301.are~ ~override/BH2301.are~
     SAY 0x274c @387
 
-END ELSE BEGIN
+END
+
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
 
   PRINT @364
 
@@ -1723,9 +1728,11 @@ END ELSE BEGIN
 
 END
 
-ACTION_IF FILE_EXISTS ~data/BG1ARE.bif~ BEGIN
+ACTION_IF GAME_IS ~bgt~ BEGIN
   COMPILE ~%MOD_FOLDER%/BGT/spawns~
-END ELSE BEGIN
+END
+
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN
   COMPILE ~%MOD_FOLDER%/Tutu/spawns~
 END
 
@@ -1918,8 +1925,8 @@ APPEND ~ANIMATE.IDS~
 ~0xE520 IC_LIZARDCASTER3~
 UNLESS ~0xE520~
 
-ACTION_IF !FILE_EXISTS_IN_GAME ~fw0100.are~ BEGIN
- COPY ~%MOD_FOLDER%\misc\j#hp1.spl~ ~override~
+ACTION_IF GAME_IS ~bgt~ BEGIN
+  COPY ~%MOD_FOLDER%\misc\j#hp1.spl~ ~override~
 END
 
 COPY_EXISTING ~j#hp1.spl~ ~override/dw#hp.spl~
@@ -1970,13 +1977,24 @@ BUT_ONLY_IF_IT_CHANGES
 EXTEND_BOTTOM ~bhfabio.bcs~ ~%MOD_FOLDER%\misc\levelup.baf~
   REPLACE ~444444~ @501
 
+//v3.0 Handle tis and audio
+
+COPY ~%MOD_FOLDER%/tis~ override
+
+LAF HANDLE_AUDIO
+ STR_VAR
+ audio_path = EVAL "%MOD_FOLDER%/sounds"
+ oggdec_path = EVAL "%MOD_FOLDER%/tools/oggdec"
+ sox_path = EVAL "%MOD_FOLDER%/tools/sox"
+END
+
 //**************************************************
 // WORLDMAP
 //**************************************************
 
 PRINT "Updating Worldmap...."
 
-ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ BEGIN // Tutu
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN // Tutu
   ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
 
     COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~
@@ -1997,7 +2015,9 @@ ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ BEGIN // Tutu
     COPY ~%MOD_FOLDER%/Worldmap/Tutu/links.tbl~ ~Worldmap/map_mods_links.tbl~
     COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
   END
-END ELSE BEGIN // BGT
+END
+
+ACTION_IF GAME_IS ~bgt~ BEGIN // BGT
   ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ BEGIN
 
     COPY ~Worldmap/map_mods_areas.tbl~ ~Worldmap~
@@ -2018,15 +2038,4 @@ END ELSE BEGIN // BGT
     COPY ~%MOD_FOLDER%/Worldmap/BGT/links.tbl~ ~Worldmap/map_mods_links.tbl~
     COPY ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
   END
-END
-
-//v3.0 Handle tis and audio
-
-COPY ~%MOD_FOLDER%/tis~ override
-
-LAF HANDLE_AUDIO
- STR_VAR
- audio_path = EVAL "%MOD_FOLDER%/sounds"
- oggdec_path = EVAL "%MOD_FOLDER%/tools/oggdec"
- sox_path = EVAL "%MOD_FOLDER%/tools/sox"
 END
