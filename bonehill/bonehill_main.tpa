@@ -25,12 +25,9 @@ COPY ~%MOD_FOLDER%/eff~ override
 
 PRINT @3
 
-ACTION_IF FILE_EXISTS ~override/BOULDER.pro~ BEGIN
-  PRINT @4
-END ELSE BEGIN
+ACTION_IF (!FILE_EXISTS ~override/BOULDER.pro~) BEGIN
   PRINT @5
-  ADD_PROJECTILE ~%MOD_FOLDER%/ITEMS/BOULDER.PRO~
-
+  ADD_PROJECTILE ~%MOD_FOLDER%/pro/BOULDER.PRO~
   COPY ~%MOD_FOLDER%/ITEMS/BOULDER.ITM~ ~override~
     SAY NAME1 @6
     SAY NAME2 @6
@@ -225,69 +222,69 @@ COPY ~%MOD_FOLDER%/items/bhzahrj.itm~ ~override~
 
 PRINT @85
 
-COPY ~%MOD_FOLDER%/items/BH2010.STO~ ~override~
+COPY ~%MOD_FOLDER%/sto/BH2010.STO~ ~override~
 
-COPY ~%MOD_FOLDER%/items/bhalmax.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhalmax.sto~ ~override~
   SAY NAME2 @86
 
-COPY ~%MOD_FOLDER%/items/bhalton.sto~ ~override~
-   SAY NAME2 @87
+COPY ~%MOD_FOLDER%/sto/bhalton.sto~ ~override~
+  SAY NAME2 @87
 
-COPY ~%MOD_FOLDER%/items/BHCLERI1.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHCLERI1.sto~ ~override~
   SAY NAME2 @88
 
-COPY ~%MOD_FOLDER%/items/bhcleric.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhcleric.sto~ ~override~
   SAY NAME2 @89
 
-COPY ~%MOD_FOLDER%/items/bhfalco.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhfalco.sto~ ~override~
   SAY NAME2 @90
 
-COPY ~%MOD_FOLDER%/items/BHGILMI.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHGILMI.sto~ ~override~
   SAY NAME2 @91
 
-COPY ~%MOD_FOLDER%/items/BHGLAMI.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHGLAMI.sto~ ~override~
   SAY NAME2 @92
 
-COPY ~%MOD_FOLDER%/items/BHABRAHA.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHABRAHA.sto~ ~override~
   SAY NAME2 @92
 
-COPY ~%MOD_FOLDER%/items/bhhestal.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhhestal.sto~ ~override~
   SAY NAME2 @93
 
-COPY ~%MOD_FOLDER%/items/BHKRAK.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/BHKRAK.sto~ ~override~
   SAY NAME2 @94
 
-COPY ~%MOD_FOLDER%/items/bhohlatt.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhohlatt.sto~ ~override~
   SAY NAME2 @95
 
-COPY ~%MOD_FOLDER%/items/bhpellt.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhpellt.sto~ ~override~
   SAY NAME2 @96
 
-COPY ~%MOD_FOLDER%/items/bhpelltr.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhpelltr.sto~ ~override~
   SAY NAME2 @97
 
-COPY ~%MOD_FOLDER%/items/bhperk.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhperk.sto~ ~override~
   SAY NAME2 @98
 
-COPY ~%MOD_FOLDER%/items/bhst0102.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhst0102.sto~ ~override~
   SAY NAME2 @99
 
-COPY ~%MOD_FOLDER%/items/bhst0103.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhst0103.sto~ ~override~
   SAY NAME2 @100
 
-COPY ~%MOD_FOLDER%/items/bhst0108.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhst0108.sto~ ~override~
   SAY NAME2 @101
 
-COPY ~%MOD_FOLDER%/items/bhtelvsb.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhtelvsb.sto~ ~override~
   SAY NAME2 @75
 
-COPY ~%MOD_FOLDER%/items/bhxspell.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhxspell.sto~ ~override~
   SAY NAME2 @102
 
-COPY ~%MOD_FOLDER%/items/bhzahr.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhzahr.sto~ ~override~
   SAY NAME2 @81
 
-COPY ~%MOD_FOLDER%/items/bhzelmar.sto~ ~override~
+COPY ~%MOD_FOLDER%/sto/bhzelmar.sto~ ~override~
   SAY NAME2 @103
 
 /////////////////////////
