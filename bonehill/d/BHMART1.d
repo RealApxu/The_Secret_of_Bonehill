@@ -54,18 +54,13 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @17
-  IF ~~ THEN DO ~SetGlobal("BHMartinScared","GLOBAL",1)
-EscapeArea()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHMartinScared","GLOBAL",1) EscapeArea()~ EXIT
 END
 
-IF ~AreaCheck("BH2015")
-!Dead("bharrnes")~ THEN BEGIN 11
+IF ~AreaCheck("BH2015") !Dead("bharrnes")~ THEN BEGIN 11
   SAY @18
   IF ~~ THEN REPLY @19 EXIT
-  IF ~OR(3)
-Global("BHHarperArrested","GLOBAL",1)
-Global("BHBardArrested","GLOBAL",1)
-Global("BHAbrahamArrested","GLOBAL",1)~ THEN REPLY @20 GOTO 12
+  IF ~OR(3) Global("BHHarperArrested","GLOBAL",1) Global("BHBardArrested","GLOBAL",1) Global("BHAbrahamArrested","GLOBAL",1)~ THEN REPLY @20 GOTO 12
 END
 
 IF ~~ THEN BEGIN 12

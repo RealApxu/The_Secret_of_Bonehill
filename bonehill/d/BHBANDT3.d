@@ -1,7 +1,6 @@
 BEGIN ~BHBANDT3~
 
-IF ~True()
-~ THEN BEGIN 0
+IF ~True()~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 2
   IF ~~ THEN REPLY @3 GOTO 1
@@ -14,10 +13,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~Global("BHOrcBanditsDone","GLOBAL",1)
-~ THEN REPLY @6 GOTO 3
-  IF ~GlobalLT("BHOrcBanditsDone","GLOBAL",1)
-~ THEN REPLY @7 GOTO 5
+  IF ~Global("BHOrcBanditsDone","GLOBAL",1)~ THEN REPLY @6 GOTO 3
+  IF ~GlobalLT("BHOrcBanditsDone","GLOBAL",1)~ THEN REPLY @7 GOTO 5
 END
 
 IF ~~ THEN BEGIN 3
@@ -28,12 +25,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @11
-  IF ~~ THEN DO ~CreateCreature("BHBANDT1",[3122.756],1)
-CreateCreature("BHBANDT2",[3244.853],2)
-CreateCreature("BHBANDT1",[2801.781],0)
-CreateCreature("BHBANDT2",[3065.1251],8)
-Enemy()
-~ EXIT
+  IF ~~ THEN DO ~CreateCreature("BHBANDT1",[3122.756],1) CreateCreature("BHBANDT2",[3244.853],2) CreateCreature("BHBANDT1",[2801.781],0) CreateCreature("BHBANDT2",[3065.1251],8) Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN 5

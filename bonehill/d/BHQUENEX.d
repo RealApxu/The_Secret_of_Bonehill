@@ -1,16 +1,10 @@
 BEGIN ~BHQUENEX~
 
-IF ~True()
-~ THEN BEGIN 0
+IF ~True()~ THEN BEGIN 0
   SAY @1
-  IF ~GlobalGT("BHTalkedToBess","GLOBAL",0)
-Global("BHQuenexGivesQuest","GLOBAL",0)
-~ THEN REPLY @2 GOTO 1
-  IF ~Global("BHTalkedToBess","GLOBAL",0)
-Global("BHQuenexGivesQuest","GLOBAL",0)
-~ THEN REPLY @3 GOTO 6
-  IF ~Global("BHQuenexGivesQuest","GLOBAL",1)
-~ THEN REPLY @4 GOTO 12
+  IF ~GlobalGT("BHTalkedToBess","GLOBAL",0) Global("BHQuenexGivesQuest","GLOBAL",0)~ THEN REPLY @2 GOTO 1
+  IF ~Global("BHTalkedToBess","GLOBAL",0) Global("BHQuenexGivesQuest","GLOBAL",0)~ THEN REPLY @3 GOTO 6
+  IF ~Global("BHQuenexGivesQuest","GLOBAL",1)~ THEN REPLY @4 GOTO 12
   // Isaya: add a reply before exit, may avoid a strange case reported here : http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__485429
   IF ~~ THEN REPLY @31 EXIT
 END
@@ -68,21 +62,14 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @25
-  IF ~~ THEN DO ~SetGlobal("BHWaterMonsters","GLOBAL",1)
-SetGlobal("BHQuenexGivesQuest","GLOBAL",1)
-~ UNSOLVED_JOURNAL @26 EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWaterMonsters","GLOBAL",1) SetGlobal("BHQuenexGivesQuest","GLOBAL",1)~ UNSOLVED_JOURNAL @26 EXIT
 END
 
 IF ~~ THEN BEGIN 12
   SAY @27
-  IF ~GlobalLT("BHQuenBasmarBoat","GLOBAL",1)
-~ THEN REPLY @28 GOTO 13
-  IF ~GlobalLT("BHQuenToldOfHarper","GLOBAL",1)
-~ THEN REPLY @29 GOTO 16
-  IF ~Global("BHWaterMonsters","GLOBAL",1)
-Global("BHQuenexGivesQuest","GLOBAL",1)
-Dead("BHLIZKNG")
-~ THEN REPLY @30 GOTO 19
+  IF ~GlobalLT("BHQuenBasmarBoat","GLOBAL",1)~ THEN REPLY @28 GOTO 13
+  IF ~GlobalLT("BHQuenToldOfHarper","GLOBAL",1)~ THEN REPLY @29 GOTO 16
+  IF ~Global("BHWaterMonsters","GLOBAL",1) Global("BHQuenexGivesQuest","GLOBAL",1) Dead("BHLIZKNG")~ THEN REPLY @30 GOTO 19
   IF ~~ THEN REPLY @31 EXIT
 END
 
@@ -98,8 +85,7 @@ END
 
 IF ~~ THEN BEGIN 15
   SAY @36
-  IF ~~ THEN REPLY @38 DO ~SetGlobal("BHQuenBasmarBoat","GLOBAL",1)
-~ JOURNAL @37 EXIT
+  IF ~~ THEN REPLY @38 DO ~SetGlobal("BHQuenBasmarBoat","GLOBAL",1)~ JOURNAL @37 EXIT
 END
 
 IF ~~ THEN BEGIN 16
@@ -114,8 +100,7 @@ END
 
 IF ~~ THEN BEGIN 18
   SAY @43
-  IF ~~ THEN DO ~SetGlobal("BHQuenToldOfHarper","GLOBAL",1)
-~ JOURNAL @44 EXIT
+  IF ~~ THEN DO ~SetGlobal("BHQuenToldOfHarper","GLOBAL",1)~ JOURNAL @44 EXIT
 END
 
 IF ~~ THEN BEGIN 19
@@ -130,9 +115,5 @@ END
 
 IF ~~ THEN BEGIN 21
   SAY @48
-  IF ~~ THEN DO ~SetGlobal("BHWaterMonsters","GLOBAL",1)
-SetGlobal("BHQuenexGivesQuest","GLOBAL",2)
-EraseJournalEntry(@26)
-AddexperienceParty(1000)
-~ SOLVED_JOURNAL @49 EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWaterMonsters","GLOBAL",1) SetGlobal("BHQuenexGivesQuest","GLOBAL",2) EraseJournalEntry(@26) AddExperienceParty(1000)~ SOLVED_JOURNAL @49 EXIT
 END

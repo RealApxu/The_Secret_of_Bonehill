@@ -1,4 +1,4 @@
-BEGIN ~BHCOOK1~ 2
+BEGIN ~BHCOOK1~
 
 IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0

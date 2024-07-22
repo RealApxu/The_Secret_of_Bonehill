@@ -17,10 +17,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @4
-  IF ~PartyHasItem("POTN08")~ THEN REPLY @5 DO ~TakePartyItemNum("POTN08",1)
-UseItem("POTN08",Myself)~ GOTO 5
-  IF ~PartyHasItem("POTN52")~ THEN REPLY @6 DO ~TakePartyItemNum("POTN52",1)
-UseItem("POTN52",Myself)~ GOTO 5
+  IF ~PartyHasItem("POTN08")~ THEN REPLY @5 DO ~TakePartyItemNum("POTN08",1) UseItem("POTN08",Myself)~ GOTO 5
+  IF ~PartyHasItem("POTN52")~ THEN REPLY @6 DO ~TakePartyItemNum("POTN52",1) UseItem("POTN52",Myself)~ GOTO 5
   IF ~~ THEN REPLY @7 GOTO 12
   IF ~~ THEN REPLY @8 GOTO 4
 END
@@ -28,10 +26,8 @@ END
 IF ~~ THEN BEGIN 4
   SAY @9
   IF ~~ THEN REPLY @10 DO ~ReputationInc(-1)~ GOTO 11
-  IF ~PartyHasItem("POTN08")~ THEN REPLY @11 DO ~TakePartyItemNum("POTN08",1)
-UseItem("POTN08",Myself)~ GOTO 5
-  IF ~PartyHasItem("POTN52")~ THEN REPLY @12 DO ~TakePartyItemNum("POTN52",1)
-UseItem("POTN52",Myself)~ GOTO 5
+  IF ~PartyHasItem("POTN08")~ THEN REPLY @11 DO ~TakePartyItemNum("POTN08",1) UseItem("POTN08",Myself)~ GOTO 5
+  IF ~PartyHasItem("POTN52")~ THEN REPLY @12 DO ~TakePartyItemNum("POTN52",1) UseItem("POTN52",Myself)~ GOTO 5
 END
 
 IF ~~ THEN BEGIN 5
@@ -41,7 +37,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN REPLY @15 DO ~AddexperienceParty(1000)~ GOTO 7
+  IF ~~ THEN REPLY @15 DO ~AddExperienceParty(1000)~ GOTO 7
 END
 
 IF ~~ THEN BEGIN 7
@@ -67,8 +63,7 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @24
-  IF ~~ THEN DO ~SetGlobal("BHMetLocinda","GLOBAL",1)
-EscapeArea()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHMetLocinda","GLOBAL",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 12
@@ -99,8 +94,7 @@ END
 
 IF ~~ THEN BEGIN 17
   SAY @35
-  IF ~~ THEN DO ~GiveItemCreate("BHMISC01",LastTalkedToBy,0,0,0)
-DestroySelf()~ EXIT
+  IF ~~ THEN DO ~GiveItemCreate("BHMISC01",LastTalkedToBy,0,0,0) DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 18
@@ -111,12 +105,10 @@ END
 
 IF ~~ THEN BEGIN 19
   SAY @39
-  IF ~~ THEN DO ~GiveItemCreate("BHMISC01",LastTalkedToBy,0,0,0)
-DestroySelf()~ EXIT
+  IF ~~ THEN DO ~GiveItemCreate("BHMISC01",LastTalkedToBy,0,0,0) DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 20
   SAY @40
-  IF ~~ THEN DO ~Polymorph(FIGHTER_FEMALE_HALFORC)
-EscapeArea()~ EXIT
+  IF ~~ THEN DO ~Polymorph(FIGHTER_FEMALE_HALFORC) EscapeArea()~ EXIT
 END

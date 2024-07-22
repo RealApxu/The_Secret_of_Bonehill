@@ -1,7 +1,6 @@
 BEGIN ~BHFALCO~
 
-IF ~NumberOfTimesTalkedTo(0)
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 4
   IF ~~ THEN REPLY @3 GOTO 3
@@ -16,8 +15,7 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @7
-  IF ~~ THEN DO ~StartStore("BHFalco",LastTalkedToBy(Myself))
-~ EXIT
+  IF ~~ THEN DO ~StartStore("BHFalco",LastTalkedToBy(Myself))~ EXIT
 END
 
 IF ~~ THEN BEGIN 3
@@ -37,8 +35,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @17
-  IF ~~ THEN DO ~StartStore("BHFalco",LastTalkedToBy(Myself))
-~ EXIT
+  IF ~~ THEN DO ~StartStore("BHFalco",LastTalkedToBy(Myself))~ EXIT
 END
 
 IF ~~ THEN BEGIN 6
@@ -65,8 +62,7 @@ IF ~~ THEN BEGIN 8
   IF ~~ THEN REPLY @24 GOTO 1
 END
 
-IF ~True()
-~ THEN BEGIN 9
+IF ~True()~ THEN BEGIN 9
   SAY @26
   IF ~~ THEN REPLY @27 GOTO 5
   IF ~~ THEN REPLY @28 GOTO 10
@@ -80,11 +76,8 @@ IF ~~ THEN BEGIN 10
   IF ~~ THEN REPLY @20 GOTO 7
   IF ~~ THEN REPLY @31 GOTO 5
   IF ~~ THEN REPLY @32 GOTO 1
-  IF ~Global("BHSpyQuest","GLOBAL",1)
-~ THEN REPLY @33 GOTO 11
-  IF ~GlobalGT("BHToldOfDeath","GLOBAL",1)
-GlobalLT("BHBardBadPerformance","GLOBAL",1)
-~ THEN REPLY @34 GOTO 13
+  IF ~Global("BHSpyQuest","GLOBAL",1)~ THEN REPLY @33 GOTO 11
+  IF ~GlobalGT("BHToldOfDeath","GLOBAL",1) GlobalLT("BHBardBadPerformance","GLOBAL",1)~ THEN REPLY @34 GOTO 13
 END
 
 IF ~~ THEN BEGIN 11
@@ -94,8 +87,7 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @37
-  IF ~~ THEN REPLY @39 DO ~SetGlobal("BHSpyQuest","GLOBAL",2)
-~ JOURNAL @38 EXIT
+  IF ~~ THEN REPLY @39 DO ~SetGlobal("BHSpyQuest","GLOBAL",2)~ JOURNAL @38 EXIT
 END
 
 IF ~~ THEN BEGIN 13
@@ -121,6 +113,5 @@ END
 
 IF ~~ THEN BEGIN 17
   SAY @49
-  IF ~~ THEN DO ~SetGlobal("BHBardBadPerformance","GLOBAL",1)
-~ JOURNAL @50 EXIT
+  IF ~~ THEN DO ~SetGlobal("BHBardBadPerformance","GLOBAL",1)~ JOURNAL @50 EXIT
 END

@@ -1,9 +1,9 @@
 REPLACE ~25SPELL~
 
 IF WEIGHT #4 ~AreaCheck("AR5011")~ THEN BEGIN 0
-  SAY @0 
+  SAY @0
   IF ~Global("lazarus","GLOBAL",3)~ THEN GOTO 1
-  IF ~Global("lazarus","GLOBAL",0)~ THEN REPLY @1  GOTO 8
+  IF ~Global("lazarus","GLOBAL",0)~ THEN REPLY @1 GOTO 8
 END
 
 IF ~~ THEN BEGIN 8

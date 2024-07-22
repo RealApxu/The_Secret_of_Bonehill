@@ -1,12 +1,9 @@
 BEGIN ~BHPRISKA~
 
-IF ~AreaCheck("BH2019")
-~ THEN BEGIN 0
+IF ~AreaCheck("BH2019")~ THEN BEGIN 0
   SAY @1
-  IF ~NumberOfTimesTalkedTo(0)
-~ THEN REPLY @2 GOTO 1
-  IF ~!NumberOfTimesTalkedTo(0)
-~ THEN REPLY @3 GOTO 3
+  IF ~NumberOfTimesTalkedTo(0)~ THEN REPLY @2 GOTO 1
+  IF ~!NumberOfTimesTalkedTo(0)~ THEN REPLY @3 GOTO 3
 END
 
 IF ~~ THEN BEGIN 1
@@ -16,23 +13,16 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @6
-  IF ~PartyGoldGT(4)
-~ THEN REPLY @7 DO ~TakePartyGold(5)
-SetGlobal("BHPartyNicetoPriska","GLOBAL",1)
-~ EXIT
+  IF ~PartyGoldGT(4)~ THEN REPLY @7 DO ~TakePartyGold(5) SetGlobal("BHPartyNicetoPriska","GLOBAL",1)~ EXIT
   IF ~~ THEN REPLY @8 EXIT
 END
 
 IF ~~ THEN BEGIN 3
   SAY @9
-  IF ~Global("BHPartyNicetoPriska","GLOBAL",1)
-~ THEN REPLY @10 GOTO 4
-  IF ~!Global("BHPartyNicetoPriska","GLOBAL",1)
-~ THEN REPLY @10 GOTO 5
-  IF ~Global("BHPartyNicetoPriska","GLOBAL",1)
-~ THEN REPLY @11 GOTO 6
-  IF ~!Global("BHPartyNicetoPriska","GLOBAL",1)
-~ THEN REPLY @11 GOTO 7
+  IF ~Global("BHPartyNicetoPriska","GLOBAL",1)~ THEN REPLY @10 GOTO 4
+  IF ~!Global("BHPartyNicetoPriska","GLOBAL",1)~ THEN REPLY @10 GOTO 5
+  IF ~Global("BHPartyNicetoPriska","GLOBAL",1)~ THEN REPLY @11 GOTO 6
+  IF ~!Global("BHPartyNicetoPriska","GLOBAL",1)~ THEN REPLY @11 GOTO 7
 END
 
 IF ~~ THEN BEGIN 4
@@ -47,11 +37,8 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~GlobalGT("BHHiredAssassin","GLOBAL",0)
-~ THEN REPLY @15 GOTO 8
-  IF ~Global("BHHiredAssassin","GLOBAL",0)
-~ THEN REPLY @15 DO ~SetGlobal("BHPriskaTellsOnGuild","GLOBAL",1)
-~ GOTO 10
+  IF ~GlobalGT("BHHiredAssassin","GLOBAL",0)~ THEN REPLY @15 GOTO 8
+  IF ~Global("BHHiredAssassin","GLOBAL",0)~ THEN REPLY @15 DO ~SetGlobal("BHPriskaTellsOnGuild","GLOBAL",1)~ GOTO 10
 END
 
 IF ~~ THEN BEGIN 7
@@ -84,11 +71,9 @@ IF ~~ THEN BEGIN 12
   IF ~~ THEN JOURNAL @25 EXIT
 END
 
-IF ~AreaCheck("BH2103")
-~ THEN BEGIN 13
+IF ~AreaCheck("BH2103")~ THEN BEGIN 13
   SAY @1
-  IF ~Global("BHPartyNicetoPriska","GLOBAL",1)
-~ THEN REPLY @26 GOTO 14
+  IF ~Global("BHPartyNicetoPriska","GLOBAL",1)~ THEN REPLY @26 GOTO 14
   IF ~~ THEN REPLY @27 GOTO 16
 END
 
@@ -111,9 +96,7 @@ END
 
 IF ~~ THEN BEGIN 17
   SAY @36
-  IF ~~ THEN DO ~SetGlobal("BHPriskaFree","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHPriskaFree","GLOBAL",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 18

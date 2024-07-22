@@ -1,7 +1,6 @@
 BEGIN ~BHWILBUR~
 
-IF ~Global("BHBardAsksWilbur","BH2018",2)
-~ THEN BEGIN 0
+IF ~Global("BHBardAsksWilbur","BH2018",2)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
@@ -13,10 +12,8 @@ END
 
 IF ~~ THEN BEGIN 2
   SAY @5
-  IF ~CheckStatGT(LastTalkedToBy,15,CHR)
-~ THEN REPLY @6 GOTO 3
-  IF ~CheckStatLT(LastTalkedToBy,16,CHR)
-~ THEN REPLY @6 GOTO 5
+  IF ~CheckStatGT(LastTalkedToBy,15,CHR)~ THEN REPLY @6 GOTO 3
+  IF ~CheckStatLT(LastTalkedToBy,16,CHR)~ THEN REPLY @6 GOTO 5
 END
 
 IF ~~ THEN BEGIN 3
@@ -41,10 +38,7 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @13
-  IF ~~ THEN REPLY @14 DO ~SetGlobal("BHBardAsksWilbur","BH2018",3)
-SetGlobal("BHWilburTells","GLOBAL",2)
-SetGlobal("BHWilburLied","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN REPLY @14 DO ~SetGlobal("BHBardAsksWilbur","BH2018",3) SetGlobal("BHWilburTells","GLOBAL",2) SetGlobal("BHWilburLied","GLOBAL",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 8
@@ -61,7 +55,5 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @21
-  IF ~~ THEN REPLY @22 DO ~SetGlobal("BHWilburTells","GLOBAL",1)
-SetGlobal("BHBardAsksWilbur","BH2018",3)
-~ EXIT
+  IF ~~ THEN REPLY @22 DO ~SetGlobal("BHWilburTells","GLOBAL",1) SetGlobal("BHBardAsksWilbur","BH2018",3)~ EXIT
 END

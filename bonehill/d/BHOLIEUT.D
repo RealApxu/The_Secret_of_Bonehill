@@ -1,36 +1,16 @@
 BEGIN ~BHOLIEUT~
 
-IF ~!Global("BHCellarOpen","GLOBAL",1)
-OR(4)
-AreaCheck("BH2104")
-AreaCheck("BH2106")
-AreaCheck("BH2108")
-AreaCheck("BH2110")
-OR(2)
-!Dead("BHTELLIS")
-!Dead("BHARRNES")~ THEN BEGIN 0
+IF ~!Global("BHCellarOpen","GLOBAL",1) OR(4) AreaCheck("BH2104") AreaCheck("BH2106") AreaCheck("BH2108") AreaCheck("BH2110") OR(2) !Dead("BHTELLIS") !Dead("BHARRNES")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN EXIT
 END
 
-IF ~OR(2)
-Dead("BHTELLIS")
-Dead("BHARRNES")~ THEN BEGIN 1
+IF ~OR(2) Dead("BHTELLIS") Dead("BHARRNES")~ THEN BEGIN 1
   SAY @1
-  IF ~~ THEN DO ~Enemy()
-Shout(125)~ EXIT
+  IF ~~ THEN DO ~Enemy() Shout(125)~ EXIT
 END
 
-IF ~Global("BHOrcToldOnce","GLOBAL",0)
-Global("BHCellarOpen","GLOBAL",1)
-OR(4)
-AreaCheck("BH2104")
-AreaCheck("BH2106")
-AreaCheck("BH2108")
-AreaCheck("BH2110")
-OR(2)
-!Dead("BHTELLIS")
-!Dead("BHARRNES")~ THEN BEGIN 2
+IF ~Global("BHOrcToldOnce","GLOBAL",0) Global("BHCellarOpen","GLOBAL",1) OR(4) AreaCheck("BH2104") AreaCheck("BH2106") AreaCheck("BH2108") AreaCheck("BH2110") OR(2) !Dead("BHTELLIS") !Dead("BHARRNES")~ THEN BEGIN 2
   SAY @2
   IF ~~ THEN REPLY @3 GOTO 4
 END
@@ -47,8 +27,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @8
-  IF ~~ THEN DO ~SetGlobal("BHOrcToldOnce","GLOBAL",1)
-SetGlobal("BHCellarOpen","GLOBAL",2)~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHOrcToldOnce","GLOBAL",1) SetGlobal("BHCellarOpen","GLOBAL",2)~ EXIT
 END
 
 IF ~~ THEN BEGIN 6

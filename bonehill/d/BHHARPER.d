@@ -1,4 +1,4 @@
-BEGIN ~BHHARPER~ 1
+BEGIN ~BHHARPER~
 
 IF ~~ THEN BEGIN 0
   SAY @1
@@ -17,10 +17,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @5
-  IF ~IfValidForPartyDialogue("Fabio")
-~ THEN EXTERN ~BFABIO~ 16
-  IF ~!IfValidForPartyDialogue("Fabio")
-~ THEN REPLY @6 GOTO 4
+  IF ~IfValidForPartyDialogue("Fabio")~ THEN EXTERN ~BFABIO~ 16
+  IF ~!IfValidForPartyDialogue("Fabio")~ THEN REPLY @6 GOTO 4
 END
 
 IF ~~ THEN BEGIN 4
@@ -50,12 +48,10 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @14
-  IF ~~ THEN DO ~SetGlobal("BHHarpCrazy","BH2002",1)
-~ EXTERN ~BHHARMIN~ 10
+  IF ~~ THEN DO ~SetGlobal("BHHarpCrazy","BH2002",1)~ EXTERN ~BHHARMIN~ 10
 END
 
-IF ~AreaCheck("BH2103")
-~ THEN BEGIN 10
+IF ~AreaCheck("BH2103")~ THEN BEGIN 10
   SAY @15
   IF ~~ THEN REPLY @16 GOTO 11
 END
@@ -67,14 +63,10 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @19
-  IF ~~ THEN DO ~SetGlobal("BHHarperFree","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHHarperFree","GLOBAL",1) EscapeArea()~ EXIT
 END
 
-IF ~Global("BHHarperGone","BH2002",2)
-Global("BHHarpCrazy","BH2002",2)
-~ THEN BEGIN 13
+IF ~Global("BHHarperGone","BH2002",2) Global("BHHarpCrazy","BH2002",2)~ THEN BEGIN 13
   SAY @20
   IF ~~ THEN REPLY @21 EXIT
 END

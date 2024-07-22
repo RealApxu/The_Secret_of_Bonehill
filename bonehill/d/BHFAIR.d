@@ -1,7 +1,6 @@
 BEGIN ~BHFAIR~
 
-IF ~AreaCheck("BH0506")
-~ THEN BEGIN 0
+IF ~AreaCheck("BH0506")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
   IF ~~ THEN REPLY @3 GOTO 8
@@ -20,8 +19,7 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @8
-  IF ~~ THEN DO ~SetGlobal("BHAdmitTheft","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHAdmitTheft","GLOBAL",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 4
@@ -43,8 +41,7 @@ IF ~~ THEN BEGIN 7
   SAY @13
   IF ~~ THEN REPLY @14 EXIT
   IF ~~ THEN REPLY @15 EXIT
-  IF ~IfValidForPartyDialogue("FABIO")
-~ THEN EXTERN ~BHFABIOJ~ 1
+  IF ~IfValidForPartyDialogue("FABIO")~ THEN EXTERN ~BHFABIOJ~ 1
 END
 
 IF ~~ THEN BEGIN 8
@@ -54,6 +51,5 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @17
-  IF ~~ THEN DO ~SetGlobal("BHFabioWarning","GLOBAL",1)
-~ EXTERN ~BHFABIOJ~ 8
+  IF ~~ THEN DO ~SetGlobal("BHFabioWarning","GLOBAL",1)~ EXTERN ~BHFABIOJ~ 8
 END

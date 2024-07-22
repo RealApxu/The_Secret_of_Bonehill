@@ -28,8 +28,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @7
-  IF ~~ THEN DO ~SetGlobal("BHKnowOrcRaids","GLOBAL",1)
-RandomWalk()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHKnowOrcRaids","GLOBAL",1) RandomWalk()~ EXIT
 END
 
 IF WEIGHT #3 ~RandomNum(9,3)~ THEN BEGIN 6

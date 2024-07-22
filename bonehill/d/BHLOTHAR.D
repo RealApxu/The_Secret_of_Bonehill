@@ -1,7 +1,6 @@
 BEGIN ~BHLOTHAR~
 
-IF ~NumberOfTimesTalkedTo(0)
-AreaCheck("BH2000")~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0) AreaCheck("BH2000")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -35,8 +34,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN DO ~SetGlobal("BHStupidTalk","GLOBAL",1)
-RandomWalk()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHStupidTalk","GLOBAL",1) RandomWalk()~ EXIT
 END
 
 IF ~~ THEN BEGIN 7
@@ -52,8 +50,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @20
-  IF ~~ THEN DO ~SetGlobal("BHLotharKnows","GLOBAL",1)
-RandomWalk()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHLotharKnows","GLOBAL",1) RandomWalk()~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -63,9 +60,5 @@ END
 
 IF ~AreaCheck("BH2102")~ THEN BEGIN 11
   SAY @23
-  IF ~~ THEN DO ~CreateCreature("BHTHIEF1",[-1.-1],2)
-CreateCreature("BHBandt1",[-1.-1],3)
-CreateCreature("BHBandt2",[-1.-1],4)
-Shout(125)
-Enemy()~ EXIT
+  IF ~~ THEN DO ~CreateCreature("BHTHIEF1",[-1.-1],2) CreateCreature("BHBandt1",[-1.-1],3) CreateCreature("BHBandt2",[-1.-1],4) Shout(125) Enemy()~ EXIT
 END

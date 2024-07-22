@@ -1,10 +1,6 @@
 BEGIN ~BHBALMOR~
 
-IF ~IfValidForPartyDialogue("Fabio")
-NumberOfTimesTalkedTo(0)
-AreaCheck("BH2018")
-Global("BHBardFree","GLOBAL",0)
-~ THEN BEGIN 0
+IF ~IfValidForPartyDialogue("Fabio") NumberOfTimesTalkedTo(0) AreaCheck("BH2018") Global("BHBardFree","GLOBAL",0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN EXTERN ~BFABIO~ 12
 END
@@ -31,15 +27,10 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @6
-  IF ~~ THEN DO ~SetGlobal("BHBardAskLeave","BH2018",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHBardAskLeave","BH2018",1)~ EXIT
 END
 
-IF ~!IfValidForPartyDialogue("Fabio")
-NumberOfTimesTalkedTo(0)
-AreaCheck("BH2018")
-Global("BHBardFree","GLOBAL",0)
-~ THEN BEGIN 6
+IF ~!IfValidForPartyDialogue("Fabio") NumberOfTimesTalkedTo(0) AreaCheck("BH2018") Global("BHBardFree","GLOBAL",0)~ THEN BEGIN 6
   SAY @7
   IF ~~ THEN REPLY @8 GOTO 7
 END
@@ -51,8 +42,7 @@ END
 
 IF ~~ THEN BEGIN 8
   SAY @11
-  IF ~~ THEN REPLY @12 DO ~SetGlobal("BHBardMakesWait","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN REPLY @12 DO ~SetGlobal("BHBardMakesWait","GLOBAL",1)~ EXIT
   IF ~~ THEN REPLY @13 GOTO 9
   IF ~~ THEN REPLY @14 GOTO 11
 END
@@ -77,15 +67,9 @@ IF ~~ THEN BEGIN 12
   IF ~~ THEN REPLY @20 GOTO 49
 END
 
-IF ~OR(3)
-Global("BHBardAskLeave","BH2018",1)
-Global("BHBardMakesWait","GLOBAL",1)
-Global("BHBardAsksWilbur","BH2018",0)
-AreaCheck("BH2018")
-~ THEN BEGIN 13
+IF ~OR(3) Global("BHBardAskLeave","BH2018",1) Global("BHBardMakesWait","GLOBAL",1) Global("BHBardAsksWilbur","BH2018",0) AreaCheck("BH2018")~ THEN BEGIN 13
   SAY @21
-  IF ~~ THEN REPLY @22 DO ~SetGlobal("BHBardMakesWait","GLOBAL",2)
-~ GOTO 14
+  IF ~~ THEN REPLY @22 DO ~SetGlobal("BHBardMakesWait","GLOBAL",2)~ GOTO 14
 END
 
 IF ~~ THEN BEGIN 14
@@ -120,8 +104,7 @@ END
 
 IF ~~ THEN BEGIN 20
   SAY @34
-  IF ~PartyHasItem("BHPLOT01")
-~ THEN REPLY @35 GOTO 21
+  IF ~PartyHasItem("BHPLOT01")~ THEN REPLY @35 GOTO 21
   IF ~~ THEN REPLY @36 GOTO 28
 END
 
@@ -143,8 +126,7 @@ END
 
 IF ~~ THEN BEGIN 24
   SAY @43
-  IF ~~ THEN REPLY @45 DO ~SetGlobal("BHBardTellsOfWho","GLOBAL",1)
-~ JOURNAL @44 GOTO 26
+  IF ~~ THEN REPLY @45 DO ~SetGlobal("BHBardTellsOfWho","GLOBAL",1)~ JOURNAL @44 GOTO 26
 END
 
 IF ~~ THEN BEGIN 25
@@ -159,8 +141,7 @@ END
 
 IF ~~ THEN BEGIN 27
   SAY @49
-  IF ~~ THEN DO ~SetGlobal("BHBardAsksWilbur","BH2018",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHBardAsksWilbur","BH2018",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 28
@@ -181,15 +162,10 @@ END
 
 IF ~~ THEN BEGIN 31
   SAY @53
-  IF ~~ THEN DO ~SetGlobal("BHWilburTells","GLOBAL",2)
-SetGlobal("BHBardAsksWilbur","BH2018",3)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWilburTells","GLOBAL",2) SetGlobal("BHBardAsksWilbur","BH2018",3)~ EXIT
 END
 
-IF ~Global("BHBardAsksWilbur","BH2018",4)
-!Global("BHWilburLied","GLOBAL",1)
-AreaCheck("BH2018")
-~ THEN BEGIN 32
+IF ~Global("BHBardAsksWilbur","BH2018",4) !Global("BHWilburLied","GLOBAL",1) AreaCheck("BH2018")~ THEN BEGIN 32
   SAY @54
   IF ~~ THEN REPLY @55 GOTO 33
 END
@@ -201,8 +177,7 @@ END
 
 IF ~~ THEN BEGIN 34
   SAY @57
-  IF ~IfValidForPartyDialogue("Fabio")
-~ THEN JOURNAL @58 EXTERN ~BFABIO~ 15
+  IF ~IfValidForPartyDialogue("Fabio")~ THEN JOURNAL @58 EXTERN ~BFABIO~ 15
   IF ~~ THEN REPLY @59 JOURNAL @58 GOTO 35
 END
 
@@ -218,8 +193,7 @@ END
 
 IF ~~ THEN BEGIN 37
   SAY @64
-  IF ~Global("BHClericWarnsOfLothar","GLOBAL",1)
-~ THEN REPLY @65 GOTO 38
+  IF ~Global("BHClericWarnsOfLothar","GLOBAL",1)~ THEN REPLY @65 GOTO 38
   IF ~~ THEN REPLY @66 GOTO 38
 END
 
@@ -240,10 +214,8 @@ END
 
 IF ~~ THEN BEGIN 41
   SAY @73
-  IF ~Global("BHAbrahamWarnsParty","GLOBAL",1)
-~ THEN REPLY @74 GOTO 43
-  IF ~!Global("BHAbrahamWarnsParty","GLOBAL",1)
-~ THEN REPLY @75 GOTO 42
+  IF ~Global("BHAbrahamWarnsParty","GLOBAL",1)~ THEN REPLY @74 GOTO 43
+  IF ~!Global("BHAbrahamWarnsParty","GLOBAL",1)~ THEN REPLY @75 GOTO 42
 END
 
 IF ~~ THEN BEGIN 42
@@ -279,8 +251,7 @@ END
 
 IF ~~ THEN BEGIN 48
   SAY @86
-  IF ~~ THEN DO ~SetGlobal("BHBardAsksWilbur","BH2018",5)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHBardAsksWilbur","BH2018",5)~ EXIT
 END
 
 IF ~~ THEN BEGIN 49
@@ -288,27 +259,18 @@ IF ~~ THEN BEGIN 49
   IF ~~ THEN REPLY @33 GOTO 20
 END
 
-IF ~Global("BHBardAsksWilbur","BH2018",4)
-Global("BHWilburLied","GLOBAL",1)
-AreaCheck("BH2018")
-~ THEN BEGIN 50
+IF ~Global("BHBardAsksWilbur","BH2018",4) Global("BHWilburLied","GLOBAL",1) AreaCheck("BH2018")~ THEN BEGIN 50
   SAY @88
   IF ~~ THEN REPLY @89 GOTO 35
 END
 
-IF ~AreaCheck("BH2103")
-~ THEN BEGIN 51
+IF ~AreaCheck("BH2103")~ THEN BEGIN 51
   SAY @90
   IF ~~ THEN REPLY @91 EXIT
-  IF ~~ THEN REPLY @92 DO ~SetGlobal("BHBardFree","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN REPLY @92 DO ~SetGlobal("BHBardFree","GLOBAL",1) EscapeArea()~ EXIT
 END
 
-IF ~Global("BHHolgaTalked","GLOBAL",1)
-GlobalLT("BHBardSeeksWilbur","GLOBAL",1)
-AreaCheck("BH2018")
-~ THEN BEGIN 52
+IF ~Global("BHHolgaTalked","GLOBAL",1) GlobalLT("BHBardSeeksWilbur","GLOBAL",1) AreaCheck("BH2018")~ THEN BEGIN 52
   SAY @93
   IF ~~ THEN REPLY @94 GOTO 53
 END
@@ -340,12 +302,9 @@ END
 
 IF ~~ THEN BEGIN 58
   SAY @101
-  IF ~~ THEN REPLY @102 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)
-~ GOTO 59
-  IF ~~ THEN REPLY @103 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)
-~ GOTO 60
-  IF ~~ THEN REPLY @104 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)
-~ GOTO 61
+  IF ~~ THEN REPLY @102 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)~ GOTO 59
+  IF ~~ THEN REPLY @103 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)~ GOTO 60
+  IF ~~ THEN REPLY @104 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)~ GOTO 61
 END
 
 IF ~~ THEN BEGIN 59
@@ -363,63 +322,42 @@ IF ~~ THEN BEGIN 61
   IF ~~ THEN GOTO 62
 END
 
-IF ~Global("BHBardFree","GLOBAL",1)
-AreaCheck("BH2018")
-~ THEN BEGIN 62
+IF ~Global("BHBardFree","GLOBAL",1) AreaCheck("BH2018")~ THEN BEGIN 62
   SAY @108
-  IF ~PartyHasItem("BHPLOT04")
-~ THEN REPLY @109 GOTO 64
-  IF ~!PartyHasItem("BHPLOT04")
-~ THEN REPLY @110 GOTO 63
+  IF ~PartyHasItem("BHPLOT04")~ THEN REPLY @109 GOTO 64
+  IF ~!PartyHasItem("BHPLOT04")~ THEN REPLY @110 GOTO 63
 END
 
 IF ~~ THEN BEGIN 63
   SAY @111
-  IF ~~ THEN DO ~SetGlobal("BHBardFree","GLOBAL",2)
-~ JOURNAL @112 EXIT
+  IF ~~ THEN DO ~SetGlobal("BHBardFree","GLOBAL",2)~ JOURNAL @112 EXIT
 END
 
 IF ~~ THEN BEGIN 64
   SAY @113
-  IF ~Dead("BHARRNES")
-Dead("BHTELLIS")
-~ THEN REPLY @114 GOTO 67
-  IF ~Dead("BHTellis")
-!Dead("BHArrnes")
-~ THEN REPLY @115 GOTO 67
-  IF ~!Dead("BHTellis")
-Dead("BHArrnes")
-~ THEN REPLY @116 GOTO 67
-  IF ~!Dead("BHTellis")
-!Dead("BHArrnes")
-~ THEN REPLY @117 GOTO 65
+  IF ~Dead("BHARRNES") Dead("BHTELLIS")~ THEN REPLY @114 GOTO 67
+  IF ~Dead("BHTellis") !Dead("BHArrnes")~ THEN REPLY @115 GOTO 67
+  IF ~!Dead("BHTellis") Dead("BHArrnes")~ THEN REPLY @116 GOTO 67
+  IF ~!Dead("BHTellis") !Dead("BHArrnes")~ THEN REPLY @117 GOTO 65
 END
 
 IF ~~ THEN BEGIN 65
   SAY @118
-  IF ~~ THEN DO ~SetGlobal("BHBardFree","GLOBAL",2)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHBardFree","GLOBAL",2)~ EXIT
 END
 
-IF ~GlobalLT("BHBardFree","GLOBAL",2)
-AreaCheck("BH2018")
-~ THEN BEGIN 66
+IF ~GlobalLT("BHBardFree","GLOBAL",2) AreaCheck("BH2018")~ THEN BEGIN 66
   SAY @119
-  IF ~PartyHasItem("BHPLOT04")
-~ THEN REPLY @109 GOTO 64
-  IF ~!PartyHasItem("BHPLOT04")
-~ THEN REPLY @110 GOTO 63
+  IF ~PartyHasItem("BHPLOT04")~ THEN REPLY @109 GOTO 64
+  IF ~!PartyHasItem("BHPLOT04")~ THEN REPLY @110 GOTO 63
 END
 
 IF ~~ THEN BEGIN 67
   SAY @120
-  IF ~~ THEN DO ~AddexperienceParty(7500)
-SetGlobal("BHBardFree","GLOBAL",2)
-~ EXIT
+  IF ~~ THEN DO ~AddExperienceParty(7500) SetGlobal("BHBardFree","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("BHBardFree","GLOBAL",2)
-~ THEN BEGIN 68
+IF ~Global("BHBardFree","GLOBAL",2)~ THEN BEGIN 68
   SAY @121
   IF ~~ THEN REPLY @122 EXIT
 END

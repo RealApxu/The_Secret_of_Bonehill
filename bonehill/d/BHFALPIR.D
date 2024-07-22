@@ -1,7 +1,6 @@
 BEGIN ~BHFALPIR~
 
-IF ~NumberOfTimesTalkedTo(0)
-AreaCheck("BH2021")~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0) AreaCheck("BH2021")~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 1
 END
@@ -50,9 +49,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @20
-  IF ~~ THEN DO ~ReputationInc(-2)
-SetGlobal("BHMetFalpir","GLOBAL",5)
-EscapeArea()~ JOURNAL @21 EXIT
+  IF ~~ THEN DO ~ReputationInc(-2) SetGlobal("BHMetFalpir","GLOBAL",5) EscapeArea()~ JOURNAL @21 EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -68,13 +65,10 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @27
-  IF ~~ THEN DO ~SetGlobal("BHMetFalpir","GLOBAL",4)
-ReputationInc(1)
-AddexperienceParty(2000)~ JOURNAL @28 EXIT
+  IF ~~ THEN DO ~SetGlobal("BHMetFalpir","GLOBAL",4) ReputationInc(1) AddExperienceParty(2000)~ JOURNAL @28 EXIT
 END
 
-IF ~!GlobalGT("BHMetFalpir","GLOBAL",2)
-AreaCheck("BH2020")~ THEN BEGIN 13
+IF ~!GlobalGT("BHMetFalpir","GLOBAL",2) AreaCheck("BH2020")~ THEN BEGIN 13
   SAY @29
   IF ~~ THEN REPLY @30 GOTO 14
 END

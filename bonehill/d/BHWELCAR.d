@@ -32,13 +32,13 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @16
-  IF ~PartyHasItem("BHBPEARL")~ THEN REPLY @17 DO ~AddexperienceParty(1000)~ GOTO 6
-  IF ~!PartyHasItem("BHBPEARL")~ THEN REPLY @18 DO ~AddexperienceParty(500)~ GOTO 7
+  IF ~PartyHasItem("BHBPEARL")~ THEN REPLY @17 DO ~AddExperienceParty(1000)~ GOTO 6
+  IF ~!PartyHasItem("BHBPEARL")~ THEN REPLY @18 DO ~AddExperienceParty(500)~ GOTO 7
 END
 
 IF ~~ THEN BEGIN 6
   SAY @19
-  IF ~~ THEN DO ~EraseJournalEntry(@14) SetGlobal("BHWelcarStuff","GLOBAL",2) TakePartyItem("BHBPEARL") AddexperienceParty(1500)~ SOLVED_JOURNAL @20 EXIT
+  IF ~~ THEN DO ~EraseJournalEntry(@14) SetGlobal("BHWelcarStuff","GLOBAL",2) TakePartyItem("BHBPEARL") AddExperienceParty(1500)~ SOLVED_JOURNAL @20 EXIT
 END
 
 IF ~~ THEN BEGIN 7

@@ -1,16 +1,10 @@
 BEGIN ~BHBESS~
 
-IF ~True()
-~ THEN BEGIN 0
+IF ~True()~ THEN BEGIN 0
   SAY @1
-  IF ~GlobalLT("BHTalkedToBess","Global",1)
-~ THEN REPLY @2 GOTO 1
-  IF ~Global("BHWaterMonsters","GLOBAL",1)
-Global("BHTalkedToBess","GLOBAL",1)
-Dead("BHLIZKNG")
-~ THEN REPLY @3 GOTO 7
-  IF ~!NumberOfTimesTalkedTo(0)
-~ THEN REPLY @4 EXIT
+  IF ~GlobalLT("BHTalkedToBess","Global",1)~ THEN REPLY @2 GOTO 1
+  IF ~Global("BHWaterMonsters","GLOBAL",1) Global("BHTalkedToBess","GLOBAL",1) Dead("BHLIZKNG")~ THEN REPLY @3 GOTO 7
+  IF ~!NumberOfTimesTalkedTo(0)~ THEN REPLY @4 EXIT
 END
 
 IF ~~ THEN BEGIN 1
@@ -40,9 +34,7 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @15
-  IF ~~ THEN REPLY @17 DO ~SetGlobal("BHTalkedToBess","GLOBAL",1)
-SetGlobal("BHWaterMonsters","GLOBAL",1)
-~ UNSOLVED_JOURNAL @16 EXIT
+  IF ~~ THEN REPLY @17 DO ~SetGlobal("BHTalkedToBess","GLOBAL",1) SetGlobal("BHWaterMonsters","GLOBAL",1)~ UNSOLVED_JOURNAL @16 EXIT
 END
 
 IF ~~ THEN BEGIN 7
@@ -57,7 +49,5 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @22
-  IF ~~ THEN DO ~SetGlobal("BHTalkedToBess","GLOBAL",2)
-AddexperienceParty(1000)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHTalkedToBess","GLOBAL",2) AddExperienceParty(1000)~ EXIT
 END

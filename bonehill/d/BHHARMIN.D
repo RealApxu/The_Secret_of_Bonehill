@@ -1,4 +1,4 @@
-BEGIN ~BHHARMIN~ 1
+BEGIN ~BHHARMIN~
 
 IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @0

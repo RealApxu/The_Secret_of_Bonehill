@@ -1,7 +1,6 @@
 BEGIN ~BHFABIOP~
 
-IF WEIGHT #2 ~Global("IWasKickedOut","LOCALS",0)
-!Global("BHToldOfDeath","GLOBAL",5)~ THEN BEGIN 0
+IF WEIGHT #2 ~Global("IWasKickedOut","LOCALS",0) !Global("BHToldOfDeath","GLOBAL",5)~ THEN BEGIN 0
   SAY @0
   IF ~~ THEN DO ~SetGlobal("IWasKickedOut","LOCALS",1)~ EXIT
 END
@@ -9,8 +8,7 @@ END
 IF WEIGHT #1 ~Global("IWasKickedOut","LOCALS",1)~ THEN BEGIN 1
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 2
-  IF ~~ THEN REPLY @3 DO ~SetGlobal("IWasKickedOut","LOCALS",0)
-JoinParty()~ EXIT
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("IWasKickedOut","LOCALS",0) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN 2

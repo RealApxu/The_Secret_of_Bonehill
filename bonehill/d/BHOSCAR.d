@@ -1,43 +1,21 @@
 BEGIN ~BHOSCAR~
 
-IF ~AreaCheck("BH2020")
-~ THEN BEGIN 0
+IF ~AreaCheck("BH2020")~ THEN BEGIN 0
   SAY @1
-  IF ~OR(3)
-Global("BHAbrahamTellsOfWho","GLOBAL",1)
-Global("BHAbrahamTellsOnGlami","GLOBAL",1)
-Global("BHPriskaTellsOnGuild","GLOBAL",1)
-~ THEN REPLY @2 GOTO 1
-  IF ~GlobalLT("BHAbrahamTellsOfWho","GLOBAL",1)
-GlobalLT("BHAbrahamTellsOnGlami","GLOBAL",1)
-GlobalLT("BHPriskaTellsOnGuild","GLOBAL",1)
-~ THEN REPLY @3 GOTO 2
+  IF ~OR(3) Global("BHAbrahamTellsOfWho","GLOBAL",1) Global("BHAbrahamTellsOnGlami","GLOBAL",1) Global("BHPriskaTellsOnGuild","GLOBAL",1)~ THEN REPLY @2 GOTO 1
+  IF ~GlobalLT("BHAbrahamTellsOfWho","GLOBAL",1) GlobalLT("BHAbrahamTellsOnGlami","GLOBAL",1) GlobalLT("BHPriskaTellsOnGuild","GLOBAL",1)~ THEN REPLY @3 GOTO 2
 END
 
 IF ~~ THEN BEGIN 1
   SAY @4
-  IF ~NumberOfTimesTalkedTo(0)
-OR(3)
-Global("BHAbrahamTellsOfWho","GLOBAL",1)
-Global("BHAbrahamTellsOnGlami","GLOBAL",1)
-Global("BHPriskaTellsOnGuild","GLOBAL",1)
-~ THEN REPLY @5 GOTO 2
-  IF ~OR(3)
-Global("BHAbrahamTellsOfWho","GLOBAL",1)
-Global("BHAbrahamTellsOnGlami","GLOBAL",1)
-Global("BHPriskaTellsOnGuild","GLOBAL",1)
-~ THEN REPLY @6 GOTO 2
+  IF ~NumberOfTimesTalkedTo(0) OR(3) Global("BHAbrahamTellsOfWho","GLOBAL",1) Global("BHAbrahamTellsOnGlami","GLOBAL",1) Global("BHPriskaTellsOnGuild","GLOBAL",1)~ THEN REPLY @5 GOTO 2
+  IF ~OR(3) Global("BHAbrahamTellsOfWho","GLOBAL",1) Global("BHAbrahamTellsOnGlami","GLOBAL",1) Global("BHPriskaTellsOnGuild","GLOBAL",1)~ THEN REPLY @6 GOTO 2
 END
 
 IF ~~ THEN BEGIN 2
   SAY @7
-  IF ~OR(3)
-Global("BHBardTellsofWho","GLOBAL",1)
-Global("BHAbrahamTellsOfWho","GLOBAL",1)
-Global("BHPriskaTellsOnGuild","GLOBAL",1)
-~ THEN REPLY @8 GOTO 3
-  IF ~GlobalGT("BHMetFalpir","GLOBAL",2)
-~ THEN REPLY @9 GOTO 7
+  IF ~OR(3) Global("BHBardTellsofWho","GLOBAL",1) Global("BHAbrahamTellsOfWho","GLOBAL",1) Global("BHPriskaTellsOnGuild","GLOBAL",1)~ THEN REPLY @8 GOTO 3
+  IF ~GlobalGT("BHMetFalpir","GLOBAL",2)~ THEN REPLY @9 GOTO 7
   IF ~~ THEN REPLY @10 EXIT
 END
 
@@ -58,20 +36,13 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @17
-  IF ~~ THEN REPLY @18 DO ~ActionOverride("BHPHILMA",EscapeArea())
-ActionOverride("BHBasmar",EscapeArea())
-SetGlobal("BHSetContact","GLOBAL",1)
-RevealAreaOnMap("BH2300")
-EscapeArea()
-~ EXIT
+  IF ~~ THEN REPLY @18 DO ~ActionOverride("BHPHILMA",EscapeArea()) ActionOverride("BHBasmar",EscapeArea()) SetGlobal("BHSetContact","GLOBAL",1) RevealAreaOnMap("BH2300") EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 7
   SAY @19
-  IF ~PartyHasItem("BHPLOT02")
-~ THEN REPLY @20 GOTO 8
-  IF ~!PartyHasItem("BHPLOT02")
-~ THEN REPLY @21 GOTO 9
+  IF ~PartyHasItem("BHPLOT02")~ THEN REPLY @20 GOTO 8
+  IF ~!PartyHasItem("BHPLOT02")~ THEN REPLY @21 GOTO 9
 END
 
 IF ~~ THEN BEGIN 8
@@ -108,14 +79,10 @@ END
 IF ~~ THEN BEGIN 14
   SAY @35
   IF ~~ THEN REPLY @34 GOTO 15
-  IF ~~ THEN REPLY @36 DO ~SetGlobal("BHOscarScared","GLOBAL",2)
-Enemy()
-~ EXIT
+  IF ~~ THEN REPLY @36 DO ~SetGlobal("BHOscarScared","GLOBAL",2) Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN 15
   SAY @37
-  IF ~~ THEN DO ~SetGlobal("BHOscarScared","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHOscarScared","GLOBAL",1) EscapeArea()~ EXIT
 END

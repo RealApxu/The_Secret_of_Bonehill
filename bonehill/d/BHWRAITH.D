@@ -7,6 +7,5 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN DO ~Shout(125)
-Enemy()~ EXIT
+  IF ~~ THEN DO ~Shout(125) Enemy()~ EXIT
 END
