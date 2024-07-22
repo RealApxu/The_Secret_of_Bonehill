@@ -24,7 +24,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -35,11 +35,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -59,7 +59,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -70,11 +70,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -94,7 +94,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -105,11 +105,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -129,7 +129,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -140,11 +140,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -164,12 +164,12 @@ IF
 THEN
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -180,11 +180,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -204,12 +204,12 @@ IF
 THEN
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -220,11 +220,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -244,7 +244,7 @@ IF
 THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -255,11 +255,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -279,7 +279,7 @@ IF
 THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -290,11 +290,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -314,12 +314,12 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -330,11 +330,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -354,12 +354,12 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -370,16 +370,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -399,18 +399,18 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -426,16 +426,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -455,14 +455,14 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -484,16 +484,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -528,11 +528,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -567,11 +567,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -606,11 +606,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -650,11 +650,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -694,11 +694,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -748,16 +748,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -804,11 +804,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -871,11 +871,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -938,11 +938,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1021,16 +1021,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1116,16 +1116,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1223,22 +1223,22 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1265,8 +1265,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1318,7 +1318,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1327,7 +1327,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1350,8 +1350,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1414,7 +1414,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1423,7 +1423,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1446,14 +1446,14 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1526,7 +1526,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1535,7 +1535,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1558,15 +1558,15 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1640,12 +1640,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1654,7 +1654,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1677,15 +1677,15 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1769,12 +1769,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1783,13 +1783,13 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1812,23 +1812,23 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1907,12 +1907,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1921,20 +1921,20 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1951,8 +1951,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1971,7 +1971,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -1980,7 +1980,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -1997,8 +1997,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2059,12 +2059,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2073,13 +2073,13 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2096,14 +2096,14 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2179,12 +2179,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #25
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2193,20 +2193,20 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2223,15 +2223,15 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2316,18 +2316,18 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2341,15 +2341,15 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2366,22 +2366,22 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2476,14 +2476,14 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2497,21 +2497,21 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2528,24 +2528,24 @@ IF
 THEN
 	RESPONSE #3
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2637,14 +2637,14 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2658,30 +2658,30 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
-	RESPONSE #5
-		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset4436343","BH1200",1)
+		CreateCreature("WYVERN",[4436.343],0) // Wyvern
+		CreateCreature("WYVERN",[4436.343],0) // Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2701,7 +2701,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2712,11 +2712,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2736,7 +2736,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2747,11 +2747,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2771,7 +2771,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2782,11 +2782,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2806,7 +2806,7 @@ IF
 THEN
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2817,11 +2817,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2841,12 +2841,12 @@ IF
 THEN
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2857,11 +2857,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2881,12 +2881,12 @@ IF
 THEN
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2897,11 +2897,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2921,7 +2921,7 @@ IF
 THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2932,11 +2932,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2956,7 +2956,7 @@ IF
 THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -2967,11 +2967,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -2991,12 +2991,12 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3007,11 +3007,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3031,12 +3031,12 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3047,16 +3047,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3076,18 +3076,18 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3103,16 +3103,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3132,14 +3132,14 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
-		CreateCreature("TASLOI",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
+		CreateCreature("%tutu_var%tasloi",[4436.343],0) // Tasloi
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3161,16 +3161,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3205,11 +3205,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3244,11 +3244,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3283,11 +3283,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3327,11 +3327,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3371,11 +3371,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3425,16 +3425,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -3481,11 +3481,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3548,11 +3548,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3615,11 +3615,11 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #30
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3698,16 +3698,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3793,16 +3793,16 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3900,22 +3900,22 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3942,8 +3942,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -3995,7 +3995,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4004,7 +4004,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4027,8 +4027,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4091,7 +4091,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4100,7 +4100,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4123,14 +4123,14 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4203,7 +4203,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4212,7 +4212,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4235,15 +4235,15 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4317,12 +4317,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4331,7 +4331,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4354,15 +4354,15 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4446,12 +4446,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4460,13 +4460,13 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4489,23 +4489,23 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
-		CreateCreature("SPIDHU",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
+		CreateCreature("%tutu_var%spidhu",[4436.343],0) // Huge Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4584,12 +4584,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4598,20 +4598,20 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4628,8 +4628,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4648,7 +4648,7 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4657,7 +4657,7 @@ THEN
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4674,8 +4674,8 @@ IF
 THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4736,12 +4736,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4750,13 +4750,13 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4773,14 +4773,14 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4856,12 +4856,12 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #25
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4870,20 +4870,20 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -4900,15 +4900,15 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -4993,18 +4993,18 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -5018,15 +5018,15 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -5043,22 +5043,22 @@ IF
 THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -5153,14 +5153,14 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -5174,21 +5174,21 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 
@@ -5205,24 +5205,24 @@ IF
 THEN
 	RESPONSE #3
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
-		CreateCreature("SPIDSW",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
+		CreateCreature("%tutu_var%spidsw",[4436.343],0) // Sword Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -5314,14 +5314,14 @@ THEN
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
-		CreateCreature("SPIDGI",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
+		CreateCreature("%tutu_var%spidgi",[4436.343],0) // Giant Spider
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset4436343","BH1200",1)
@@ -5335,30 +5335,30 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
-	RESPONSE #5
-		SetGlobal("SpawnReset4436343","BH1200",1)
-		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset4436343","BH1200",1)
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
 		CreateCreature("WYVERN",[4436.343],0) // Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
-		CreateCreature("WYVERBA",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset4436343","BH1200",1)
+		CreateCreature("WYVERN",[4436.343],0) // Wyvern
+		CreateCreature("WYVERN",[4436.343],0) // Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
+		CreateCreature("%tutu_var%wyverba",[4436.343],0) // Baby Wyvern
 		SetGlobalTimer("12004436343","BH1200",EIGHT_HOURS)
 END
 

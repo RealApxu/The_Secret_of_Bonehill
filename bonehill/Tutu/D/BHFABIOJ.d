@@ -83,9 +83,9 @@ END
 
 IF ~~ THEN BEGIN 15
   SAY @21
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN EXTERN ~_IMOEN2~ FABIMOEN
-  IF ~!IfValidForPartyDialogue("Imoen2")
+  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN REPLY @22 GOTO 16
 END
 

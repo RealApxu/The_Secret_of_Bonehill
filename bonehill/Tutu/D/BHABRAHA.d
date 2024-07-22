@@ -64,7 +64,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @22
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN EXTERN ~_IMOEN2~ ABEIMOEN
   IF ~IfValidForPartyDialogue("Jaheira")
 ~ THEN EXTERN ~_JAHEIJ~ ABEJAHE

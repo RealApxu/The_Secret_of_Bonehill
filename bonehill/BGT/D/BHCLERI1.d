@@ -1,23 +1,18 @@
 BEGIN ~BHCLERI1~
 
-IF ~True()
-~ THEN BEGIN 0
+IF ~True()~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
   IF ~~ THEN REPLY @3 GOTO 2
   IF ~~ THEN REPLY @4 GOTO 3
-  IF ~GlobalLT("BHAcolyteSpokeOfHarper","GLOBAL",1)
-~ THEN REPLY @5 GOTO 4
-  IF ~AreaCheck("BH2001")
-~ THEN REPLY @6 GOTO 9
-  IF ~AreaCheck("BH2001")
-~ THEN REPLY @7 GOTO 11
+  IF ~GlobalLT("BHAcolyteSpokeOfHarper","GLOBAL",1)~ THEN REPLY @5 GOTO 4
+  IF ~AreaCheck("BH2001")~ THEN REPLY @6 GOTO 9
+  IF ~AreaCheck("BH2001")~ THEN REPLY @7 GOTO 11
 END
 
 IF ~~ THEN BEGIN 1
   SAY @8
-  IF ~~ THEN DO ~StartStore("BHCleri1",LastTalkedToBy(Myself))
-~ EXIT
+  IF ~~ THEN DO ~StartStore("BHCleri1",LastTalkedToBy(Myself))~ EXIT
 END
 
 IF ~~ THEN BEGIN 2
@@ -53,9 +48,7 @@ END
 
 IF ~~ THEN BEGIN 8
   SAY @21
-  IF ~~ THEN DO ~SetGlobal("BHAcolyteSpokeOfHarper","GLOBAL",1)
-RandomWalk()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHAcolyteSpokeOfHarper","GLOBAL",1) RandomWalk()~ EXIT
 END
 
 IF ~~ THEN BEGIN 9
@@ -66,15 +59,13 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @25
-  IF ~IfValidForPartyDialogue("Jaheira")
-~ THEN EXTERN ~JAHEIRAJ~ CLERICJAHE
+  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~%JAHEIRA_JOINED%~ CLERICJAHE
   IF ~~ THEN REPLY @26 EXIT
 END
 
 IF ~~ THEN BEGIN 11
   SAY @27
-  IF ~PartyHasItem("BHOSPREM")
-~ THEN REPLY @28 GOTO 12
+  IF ~PartyHasItem("BHOSPREM")~ THEN REPLY @28 GOTO 12
   IF ~~ THEN REPLY @29 EXIT
 END
 
@@ -83,7 +74,7 @@ IF ~~ THEN BEGIN 12
   IF ~~ THEN REPLY @32 JOURNAL @31 EXIT
 END
 
-APPEND ~JAHEIRAJ~
+APPEND ~%JAHEIRA_JOINED%~
 
 IF ~~ THEN BEGIN CLERICJAHE
   SAY @33
@@ -91,4 +82,3 @@ IF ~~ THEN BEGIN CLERICJAHE
 END
 
 END
-

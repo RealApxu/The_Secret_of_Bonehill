@@ -1,15 +1,13 @@
 BEGIN ~BHVOLCFR~
 
-IF ~NumberOfTimesTalkedTo(0)
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
 
 IF ~~ THEN BEGIN 1
   SAY @3
-  IF ~IfValidForPartyDialogue("MINSC")
-~ THEN EXTERN ~MINSCJ~ MINVOL
+  IF ~IfValidForPartyDialogue("MINSC")~ THEN EXTERN ~%MINSC_JOINED%~ MINVOL
   IF ~~ THEN REPLY @4 GOTO 2
 END
 
@@ -21,10 +19,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @8
-  IF ~!Dead("BHTELVAR")
-~ THEN REPLY @9 GOTO 4
-  IF ~Dead("BHTELVAR")
-~ THEN REPLY @10 GOTO 6
+  IF ~!Dead("BHTELVAR")~ THEN REPLY @9 GOTO 4
+  IF ~Dead("BHTELVAR")~ THEN REPLY @10 GOTO 6
 END
 
 IF ~~ THEN BEGIN 4
@@ -39,21 +35,16 @@ END
 
 IF ~~ THEN BEGIN 6
   SAY @14
-  IF ~~ THEN DO ~SetGlobal("BHVolcWentExploring","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHVolcWentExploring","GLOBAL",1) EscapeArea()~ EXIT
 END
 
-IF ~True()
-~ THEN BEGIN 7
+IF ~True()~ THEN BEGIN 7
   SAY @15
-  IF ~Dead("BHTELV")
-~ THEN REPLY @16 GOTO 6
-  IF ~!Dead("BHTELV")
-~ THEN REPLY @17 EXIT
+  IF ~Dead("BHTELV")~ THEN REPLY @16 GOTO 6
+  IF ~!Dead("BHTELV")~ THEN REPLY @17 EXIT
 END
 
-APPEND ~MINSCJ~
+APPEND ~%MINSC_JOINED%~
 
 IF ~~ THEN BEGIN MINVOL 
   SAY @18 

@@ -1,11 +1,11 @@
 IF
-	Global("FW0800BHShargrailarSpawn","",0)
+	Global("BHShargrailarSpawn","MYAREA",0)
 	InMyArea(Player1)
 	GlobalGT("BHQuestAccept","GLOBAL",3)
 	Global("BHShaggySpawns","GLOBAL",1)
 THEN
 	RESPONSE #100
-		SetGlobal("FW0800BHShargrailarSpawn","",1)
+		SetGlobal("BHShargrailarSpawn","MYAREA",1)
 		CreateCreature("BHShargr",[801.2852],9)
 		CreateCreature("BHSHARG1",[784.2894],9)
 		CreateCreature("BHSHARG1",[784.2880],9)

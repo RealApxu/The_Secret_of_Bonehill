@@ -5,7 +5,7 @@ THEN
 		CutSceneId(Player1)
 		FadeToColor([30.0],0)
 		Wait(1)
-		LeaveAreaLUA("FW2626","",[4461.3080],14)
+		LeaveAreaLUA("%Candlekeep_Ch6%","",[4461.3080],14)
 		MultiPlayerSync()
 		FadeFromColor([30.0],0)
 		SetGlobal("BHToldOfDeath","GLOBAL",3)

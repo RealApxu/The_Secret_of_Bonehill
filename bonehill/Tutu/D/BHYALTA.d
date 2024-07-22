@@ -155,14 +155,14 @@ END
 
 IF ~~ THEN BEGIN 16
   SAY @42
-  IF ~~ THEN REPLY @43 DO ~AddexperienceParty(1000)
+  IF ~~ THEN REPLY @43 DO ~AddExperienceParty(1000)
 SetGlobal("BHToldYaltaGnoll","BH0306",1)
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN 17
   SAY @44
-  IF ~~ THEN REPLY @45 DO ~AddexperienceParty(1000)
+  IF ~~ THEN REPLY @45 DO ~AddExperienceParty(1000)
 SetGlobal("BHToldYaltaRat","BH0306",1)
 ~ EXIT
 END

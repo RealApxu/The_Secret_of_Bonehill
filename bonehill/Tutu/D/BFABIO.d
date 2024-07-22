@@ -61,7 +61,7 @@ IF ~~ THEN BEGIN 9
 ~ THEN EXTERN ~_SAFANJ~ FABHAND1
   IF ~IfValidForPartyDialogue("Montaron")
 ~ THEN EXTERN ~_MONTAJ~ FABHAND2
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN EXTERN ~_IMOEN2~ FABHAND3
   IF ~~ THEN REPLY @14 DO ~SetGlobal("BHFabioExplainedNote","GLOBAL",2)
 ~ EXIT
@@ -126,15 +126,15 @@ Global("BFabio1","LOCALS",0)~ THEN ~BFABIO~ FMBANT
 @25  
  DO ~SetGlobal("BFabio1","LOCALS",1)
      SetGlobal("BHGuardRatTrigger","GLOBAL",2)~ 
-== _BMINSC
+== _%MINSC_BANTER%
  @26
 == BFABIO
  @27
-== _BMINSC
+== _%MINSC_BANTER%
  @28
 == BFABIO
  @29
-== _BMINSC
+== _%MINSC_BANTER%
  @30
 == BFABIO
  @31

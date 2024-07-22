@@ -65,10 +65,10 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @17
-  IF ~!IfValidForPartyDialogue("Imoen2")
+  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN DO ~EscapeArea()
 ~ EXIT
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN DO ~EscapeArea()
 ~ EXTERN ~_IMOEN2~ PELLIMOEN
 END
@@ -196,7 +196,7 @@ END
 IF ~~ THEN BEGIN 25
   SAY @49
   IF ~Dead("BHZAHR")
-~ THEN REPLY @50 DO ~AddexperienceParty(4000)
+~ THEN REPLY @50 DO ~AddExperienceParty(4000)
 TakePartyItem("BHZAHRJ")
 ~ GOTO 27
   IF ~!Dead("BHZAHR")
@@ -236,7 +236,7 @@ END
 
 IF ~~ THEN BEGIN 29
   SAY @59
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~AddExperienceParty(1000)
 TakePartyItem("BHTELVBK")
 SetGlobal("BHToldPellBone","GLOBAL",1)
 ~ EXIT
@@ -244,14 +244,14 @@ END
 
 IF ~~ THEN BEGIN 30
   SAY @60
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~AddExperienceParty(1000)
 SetGlobal("BHToldPellBone","GLOBAL",1)
 ~ EXIT
 END
 
 IF ~~ THEN BEGIN 31
   SAY @61
-  IF ~~ THEN DO ~AddexperienceParty(1000)
+  IF ~~ THEN DO ~AddExperienceParty(1000)
 TakePartyItem("BHTELVBK")
 SetGlobal("BHToldPellBone","GLOBAL",1)
 ~ EXIT
@@ -299,7 +299,7 @@ GlobalGT("BHHandQuest","GLOBAL",2)
 Global("BHHandSearch","GLOBAL",0)
 Global("BHShowPellHandNote","GLOBAL",0)
 ~ THEN REPLY @70 DO ~SetGlobal("BHShowPellHandNote","GLOBAL",1)
-AddexperienceParty(2000)
+AddExperienceParty(2000)
 ~ GOTO 36
   IF ~GlobalLT("BHHandNoteDecipher","GLOBAL",4)
 PartyHasItem("BHGHNOTE")
@@ -777,7 +777,7 @@ Global("BHToldOfDeath","GLOBAL",0)
 PartyHasItem("BHZAHRJ")
 Global("BHKillZahrdahlQuest","GLOBAL",1)
 ~ THEN REPLY @21 DO ~TakePartyItem("BHZAHRJ")
-AddexperienceParty(4000)
+AddExperienceParty(4000)
 ~ GOTO 27
 END
 

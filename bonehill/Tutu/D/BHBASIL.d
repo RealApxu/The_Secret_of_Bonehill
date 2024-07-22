@@ -92,7 +92,7 @@ IF ~~ THEN BEGIN 12
   SAY @27
   IF ~~ THEN DO ~TakePartyItem("BHMisc01")
 DestroyItem("BHMisc01")
-AddexperienceParty(600)
+AddExperienceParty(600)
 ~ EXIT
 END
 

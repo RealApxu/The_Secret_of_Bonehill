@@ -35,7 +35,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -66,7 +66,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -102,7 +102,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -138,7 +138,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -174,7 +174,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -216,7 +216,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -247,11 +247,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -287,11 +287,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -327,11 +327,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -378,11 +378,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -425,11 +425,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -479,16 +479,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -524,11 +524,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -570,11 +570,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -617,11 +617,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -671,16 +671,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -744,16 +744,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -808,22 +808,22 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -869,11 +869,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -926,11 +926,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -992,16 +992,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1068,22 +1068,22 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1150,18 +1150,18 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1239,18 +1239,18 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1295,20 +1295,20 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1356,32 +1356,32 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1433,34 +1433,34 @@ THEN
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1516,47 +1516,47 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1614,51 +1614,51 @@ THEN
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1720,8 +1720,8 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -1729,43 +1729,43 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1810,15 +1810,15 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -1826,12 +1826,12 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1880,16 +1880,16 @@ THEN
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -1897,12 +1897,12 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -1955,8 +1955,8 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -1964,8 +1964,8 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -1973,18 +1973,18 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2041,26 +2041,26 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -2068,9 +2068,9 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -2083,14 +2083,14 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2150,19 +2150,19 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -2175,14 +2175,14 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2246,10 +2246,10 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -2257,11 +2257,11 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -2269,21 +2269,21 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -2296,21 +2296,21 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2341,7 +2341,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2372,7 +2372,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2408,7 +2408,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2444,7 +2444,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2480,7 +2480,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2522,7 +2522,7 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2553,11 +2553,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2593,11 +2593,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2633,11 +2633,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2684,11 +2684,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2731,11 +2731,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2785,16 +2785,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2830,11 +2830,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2876,11 +2876,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2923,11 +2923,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -2977,16 +2977,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3050,16 +3050,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3114,22 +3114,22 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3175,11 +3175,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3232,11 +3232,11 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3298,16 +3298,16 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #7
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3374,22 +3374,22 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3456,18 +3456,18 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3545,18 +3545,18 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3601,20 +3601,20 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3662,32 +3662,32 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3739,34 +3739,34 @@ THEN
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3822,47 +3822,47 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -3920,51 +3920,51 @@ THEN
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4026,8 +4026,8 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4035,43 +4035,43 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4116,15 +4116,15 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4132,12 +4132,12 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4186,16 +4186,16 @@ THEN
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4203,12 +4203,12 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4261,8 +4261,8 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4270,8 +4270,8 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4279,18 +4279,18 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4347,26 +4347,26 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4374,9 +4374,9 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4389,14 +4389,14 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4456,19 +4456,19 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4481,14 +4481,14 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 
@@ -4552,10 +4552,10 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4563,11 +4563,11 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4575,21 +4575,21 @@ THEN
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset23853268","BH1300",1)
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
 		CreateCreature("wolf01",[2385.3268],0) // Wolf
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
-		CreateCreature("_worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
+		CreateCreature("%tutu_var%worg",[2385.3268],0) // Worg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset23853268","BH1300",1)
@@ -4602,21 +4602,21 @@ THEN
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset23853268","BH1300",1)
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
-		CreateCreature("_ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
+		CreateCreature("%tutu_var%ankheg",[2385.3268],0) // Ankheg
 		SetGlobalTimer("130023853268","BH1300",EIGHT_HOURS)
 END
 

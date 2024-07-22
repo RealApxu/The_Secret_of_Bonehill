@@ -49,7 +49,7 @@ END
 IF
   Global("BHToldOfDeath","GLOBAL",1)
   See([PC])
-  AreaCheck("FW2626")
+  AreaCheck("%Candlekeep_Ch6%")
 THEN
   RESPONSE #100
     SmallWait(3)
@@ -101,4 +101,3 @@ THEN
   RESPONSE #100
     ActionOverride(Myself,StartDialogue("BFabio",[PC]))
 END
-

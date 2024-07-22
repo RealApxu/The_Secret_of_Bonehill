@@ -101,4 +101,3 @@ THEN
   RESPONSE #100
     ActionOverride(Myself,StartDialogue("BFabio",[PC]))
 END
-

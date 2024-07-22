@@ -95,12 +95,12 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @26
-  IF ~~ THEN REPLY @27 DO ~AddexperienceParty(6000)
+  IF ~~ THEN REPLY @27 DO ~AddExperienceParty(6000)
 CreateItem("clck23",0,0,0)
 GiveItem("clck23",Player1)
 SetGlobal("BHDruidQuest","GLOBAL",4)
 ~ EXIT
-  IF ~~ THEN REPLY @28 DO ~AddexperienceParty(2000)
+  IF ~~ THEN REPLY @28 DO ~AddExperienceParty(2000)
 CreateItem("clck23",0,0,0)
 GiveItem("clck23",Player1)
 SetGlobal("BHDruidQuest","GLOBAL",4)

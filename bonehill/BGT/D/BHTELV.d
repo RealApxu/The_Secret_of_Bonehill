@@ -1,7 +1,6 @@
 BEGIN ~BHTELV~
 
-IF ~NumberOfTimesTalkedTo(0)
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
   IF ~~ THEN REPLY @3 GOTO 2
@@ -24,8 +23,7 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @10
-  IF ~PartyHasItem("BHBHorn")
-~ THEN REPLY @11 GOTO 8
+  IF ~PartyHasItem("BHBHorn")~ THEN REPLY @11 GOTO 8
   IF ~~ THEN REPLY @12 GOTO 5
 END
 
@@ -39,8 +37,7 @@ IF ~~ THEN BEGIN 6
   IF ~~ THEN EXIT
 END
 
-IF ~PartyHasItem("BHBHORN")
-~ THEN BEGIN 7
+IF ~PartyHasItem("BHBHORN")~ THEN BEGIN 7
   SAY @16
   IF ~~ THEN REPLY @17 GOTO 8
   IF ~~ THEN REPLY @18 GOTO 5
@@ -60,54 +57,16 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @25
-  IF ~~ THEN DO ~CreateCreature("HOBCAP01",[-1.-1],0)
-CreateCreature("HOBELITE",[999.1101],13)
-CreateCreature("HOBELITE",[1188.993],14)
-CreateCreature("HOBELITE",[1426.941],2)
-CreateCreature("HOBELITE",[1639.1105],3)
-CreateCreature("HOBELITE",[1147.1453],9)
-CreateCreature("HOBELITE",[1276.1546],9)
-CreateCreature("HOBELITE",[1790.1051],3)
-CreateCreature("HOBELITE",[1879.1097],4)
-Shout(ALERT)
-Enemy()
-~ EXIT
+  IF ~~ THEN DO ~CreateCreature("HOBCAP01",[-1.-1],0) CreateCreature("%tutu_scripth%obelite",[999.1101],13) CreateCreature("%tutu_scripth%obelite",[1188.993],14) CreateCreature("%tutu_scripth%obelite",[1426.941],2) CreateCreature("%tutu_scripth%obelite",[1639.1105],3) CreateCreature("%tutu_scripth%obelite",[1147.1453],9) CreateCreature("%tutu_scripth%obelite",[1276.1546],9) CreateCreature("%tutu_scripth%obelite",[1790.1051],3) CreateCreature("%tutu_scripth%obelite",[1879.1097],4) Shout(ALERT) Enemy()~ EXIT
 END
 
 IF ~~ THEN BEGIN 11
   SAY @26
-  IF ~~ THEN DO ~TakePartyItem("BHBHORN")
-UseItem("BHBHORN",Player1)
-CreateCreature("HOBCAP01",[-1.-1],0)
-CreateCreature("HOBELITE",[999.1101],13)
-CreateCreature("HOBELITE",[1188.993],14)
-CreateCreature("HOBELITE",[1426.941],2)
-CreateCreature("HOBELITE",[1639.1105],3)
-CreateCreature("HOBELITE",[1147.1453],9)
-CreateCreature("HOBELITE",[1276.1546],9)
-CreateCreature("HOBELITE",[1790.1051],3)
-CreateCreature("HOBELITE",[1879.1097],4)
-Shout(ALERT)
-Enemy()
-~ EXIT
-  IF ~IfValidForPartyDialogue("Jaheira")
-~ THEN DO ~TakePartyItem("BHBHORN")
-UseItem("BHBHORN",Player1)
-CreateCreature("HOBCAP01",[-1.-1],0)
-CreateCreature("HOBELITE",[999.1101],13)
-CreateCreature("HOBELITE",[1188.993],14)
-CreateCreature("HOBELITE",[1426.941],2)
-CreateCreature("HOBELITE",[1639.1105],3)
-CreateCreature("HOBELITE",[1147.1453],9)
-CreateCreature("HOBELITE",[1276.1546],9)
-CreateCreature("HOBELITE",[1790.1051],3)
-CreateCreature("HOBELITE",[1879.1097],4)
-Shout(ALERT)
-Enemy()
-~ EXTERN ~JAHEIRAJ~ TELVJAHE
+  IF ~~ THEN DO ~TakePartyItem("BHBHORN") UseItem("BHBHORN",Player1) CreateCreature("HOBCAP01",[-1.-1],0) CreateCreature("%tutu_scripth%obelite",[999.1101],13) CreateCreature("%tutu_scripth%obelite",[1188.993],14) CreateCreature("%tutu_scripth%obelite",[1426.941],2) CreateCreature("%tutu_scripth%obelite",[1639.1105],3) CreateCreature("%tutu_scripth%obelite",[1147.1453],9) CreateCreature("%tutu_scripth%obelite",[1276.1546],9) CreateCreature("%tutu_scripth%obelite",[1790.1051],3) CreateCreature("%tutu_scripth%obelite",[1879.1097],4) Shout(ALERT) Enemy()~ EXIT
+  IF ~IfValidForPartyDialogue("Jaheira") ~ THEN DO ~TakePartyItem("BHBHORN") UseItem("BHBHORN",Player1) CreateCreature("HOBCAP01",[-1.-1],0) CreateCreature("%tutu_scripth%obelite",[999.1101],13) CreateCreature("%tutu_scripth%obelite",[1188.993],14) CreateCreature("%tutu_scripth%obelite",[1426.941],2) CreateCreature("%tutu_scripth%obelite",[1639.1105],3) CreateCreature("%tutu_scripth%obelite",[1147.1453],9) CreateCreature("%tutu_scripth%obelite",[1276.1546],9) CreateCreature("%tutu_scripth%obelite",[1790.1051],3) CreateCreature("%tutu_scripth%obelite",[1879.1097],4) Shout(ALERT) Enemy()~ EXTERN ~%JAHEIRA_JOINED%~ TELVJAHE
 END
 
-APPEND ~JAHEIRAJ~
+APPEND ~%JAHEIRA_JOINED%~
 
 IF ~~ THEN BEGIN TELVJAHE
   SAY @27 

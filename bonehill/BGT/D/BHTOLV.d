@@ -7,7 +7,7 @@ END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~IfValidForPartyDialogue("Xan")~ THEN EXTERN ~XANJ~ XANTOLV
+  IF ~IfValidForPartyDialogue("Xan")~ THEN EXTERN ~%XAN_JOINED%~ XANTOLV
   IF ~~ THEN EXIT
 END
 
@@ -53,16 +53,16 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @21
-  IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1) AddexperienceParty(2000) EscapeArea()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1) AddExperienceParty(2000) EscapeArea()~ EXIT
 END
 
 IF ~Global("BHWizTraining","GLOBAL",2) AreaCheck("BH0109")~ THEN BEGIN 10
   SAY @22
-  IF ~IfValidForPartyDialogue("Xan")~ THEN EXTERN ~XANJ~ XANTOLV2
+  IF ~IfValidForPartyDialogue("Xan")~ THEN EXTERN ~%XAN_JOINED%~ XANTOLV2
   IF ~~ THEN EXIT
 END
 
-APPEND ~XANJ~
+APPEND ~%XAN_JOINED%~
 
 IF ~~ THEN BEGIN XANTOLV 
   SAY @23 
@@ -71,7 +71,7 @@ END
 
 END
 
-APPEND ~XANJ~
+APPEND ~%XAN_JOINED%~
 
 IF ~~ THEN BEGIN XANTOLV2
   SAY @24

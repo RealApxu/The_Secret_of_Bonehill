@@ -86,12 +86,12 @@ IF ~~ THEN BEGIN 12
   IF ~!Dead("BHSirius")
 ~ THEN DO ~SetGlobal("BHHandGrave","GLOBAL",6)
 SetGlobal("BHHandLightHouseOpen","GLOBAL",1)
-AddexperienceParty(2000)
+AddExperienceParty(2000)
 EscapeArea()
 ~ JOURNAL @31 EXIT
   IF ~Dead("BHSirius")
 ~ THEN DO ~SetGlobal("BHHandGrave","GLOBAL",6)
-AddexperienceParty(2000)
+AddExperienceParty(2000)
 EscapeArea()
 ~ JOURNAL @32 EXIT
 END

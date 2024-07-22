@@ -7,10 +7,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("BP_MoreStooges","BH1001",1)
-    CreateCreature("GHOUL",[2380.280],2)  // ~Ghoul~
-    CreateCreature("GHOUL",[2720.500],2)  // ~Ghoul~
-    CreateCreature("GHOUL",[2660.540],2)  // ~Ghoul~
-    CreateCreature("GHOUL",[2320.300],2)  // ~Ghoul~
+    CreateCreature("%tutu_var%ghoul",[2380.280],2)  // ~Ghoul~
+    CreateCreature("%tutu_var%ghoul",[2720.500],2)  // ~Ghoul~
+    CreateCreature("%tutu_var%ghoul",[2660.540],2)  // ~Ghoul~
+    CreateCreature("%tutu_var%ghoul",[2320.300],2)  // ~Ghoul~
 END
 
 IF
@@ -22,9 +22,9 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("BP_MoreStooges","BH1001",2)
-    CreateCreature("GHOUL",[2540.490],2)  // ~Ghoul~
-    CreateCreature("GHAST",[2420.430],2)  // ~Ghast~
-    CreateCreature("GHOUL",[2470.530],2)  // ~Ghoul~
-    CreateCreature("GHAST",[2360.450],2)  // ~Ghast~
+    CreateCreature("%tutu_var%ghoul",[2540.490],2)  // ~Ghoul~
+    CreateCreature("%tutu_var%ghast",[2420.430],2)  // ~Ghast~
+    CreateCreature("%tutu_var%ghoul",[2470.530],2)  // ~Ghoul~
+    CreateCreature("%tutu_var%ghast",[2360.450],2)  // ~Ghast~
 END
 

@@ -5,8 +5,8 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("BP_MoreStooges","BH1004",1)
-    CreateCreature("SKELFIRE",[281.1124],6)  // ~Skeleton~
-    CreateCreature("SKELFIRE",[2213.1169],8)  // ~Skeleton~
+    CreateCreature("%tutu_scripts%kelfire",[281.1124],6)  // ~Skeleton~
+    CreateCreature("%tutu_scripts%kelfire",[2213.1169],8)  // ~Skeleton~
 END
 
 IF

@@ -224,11 +224,11 @@ END
 
 IF ~~ THEN BEGIN 35
   SAY @70
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN REPLY @71 DO ~SetGlobal("BHHiredAssassin","GLOBAL",3)
 EscapeArea()
 ~ EXTERN ~_IMOEN2~ BASMARIMOEN
-  IF ~!IfValidForPartyDialogue("Imoen2")
+  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN REPLY @71 DO ~SetGlobal("BHHiredAssassin","GLOBAL",3)
 EscapeArea()
 ~ EXIT

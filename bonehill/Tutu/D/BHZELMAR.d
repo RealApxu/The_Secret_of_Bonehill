@@ -76,7 +76,7 @@ END
 IF ~~ THEN BEGIN 9
   SAY @24
   IF ~~ THEN DO ~TakePartyGold(250)
-AddexperienceParty(1800)
+AddExperienceParty(1800)
 SetGlobal("BHHandZelmarGold","GLOBAL",2)
 ~ EXIT
 END

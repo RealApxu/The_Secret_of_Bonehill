@@ -2120,7 +2120,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #36
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2128,11 +2128,11 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2163,7 +2163,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #32
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2171,11 +2171,11 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2206,7 +2206,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #28
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2214,11 +2214,11 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2249,7 +2249,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #24
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #16
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2257,16 +2257,16 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2297,7 +2297,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2305,16 +2305,16 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2345,7 +2345,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2353,22 +2353,22 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2399,7 +2399,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2407,11 +2407,11 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2442,7 +2442,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #16
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #24
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2450,11 +2450,11 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2485,7 +2485,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #16
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #16
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2493,21 +2493,21 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2543,12 +2543,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2556,21 +2556,21 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2606,12 +2606,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #16
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2619,27 +2619,27 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2675,12 +2675,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2688,34 +2688,34 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2746,30 +2746,30 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #15
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2800,42 +2800,42 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #16
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2866,38 +2866,38 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #9
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -2938,65 +2938,65 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3037,68 +3037,68 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3151,84 +3151,84 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
-	RESPONSE #6
-		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
+	RESPONSE #6
+		SetGlobal("SpawnReset42161116","BH1100",1)
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
-		CreateCreature("_zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
+		CreateCreature("%tutuvar%zombie",[4216.1116],0) // Zombie
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3269,31 +3269,31 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3301,7 +3301,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3335,33 +3335,33 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #9
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #9
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3369,7 +3369,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3413,41 +3413,41 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3455,7 +3455,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3505,52 +3505,52 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3558,12 +3558,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3626,58 +3626,58 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3685,12 +3685,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #9
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #9
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3745,64 +3745,64 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
-	RESPONSE #3
-		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		CreateCreature("skelet02",[4216.1116],0) // Skeleton
+		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset42161116","BH1100",1)
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
@@ -3811,7 +3811,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #20
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #2
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3833,8 +3833,8 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -3865,28 +3865,28 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3894,7 +3894,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3902,8 +3902,8 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -3934,51 +3934,51 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3986,7 +3986,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -3994,8 +3994,8 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -4032,57 +4032,57 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4090,7 +4090,7 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4098,8 +4098,8 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -4137,80 +4137,80 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #1
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4223,12 +4223,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4236,14 +4236,14 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -4289,38 +4289,38 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #8
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelet03",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelet03",[4216.1116],0) // Skeleton
 		CreateCreature("skelet02",[4216.1116],0) // Skeleton
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4333,12 +4333,12 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4346,21 +4346,21 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -4417,53 +4417,53 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
-	RESPONSE #4
-		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
-	RESPONSE #4
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
+	RESPONSE #4
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset42161116","BH1100",1)
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4482,18 +4482,18 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4501,29 +4501,29 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END
 
@@ -4548,25 +4548,25 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #12
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #9
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4575,12 +4575,12 @@ THEN
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4613,52 +4613,52 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
-	RESPONSE #3
-		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		SetGlobal("SpawnReset42161116","BH1100",1)
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
+	RESPONSE #3
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4667,18 +4667,18 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4717,45 +4717,45 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #6
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4764,26 +4764,26 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4834,73 +4834,73 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4909,30 +4909,30 @@ THEN
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -4985,83 +4985,83 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #10
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -5070,34 +5070,34 @@ THEN
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -5164,87 +5164,87 @@ THEN
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_skelice",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelice",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_kelfire",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_scripts%kelfire",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #3
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelwa",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_kelwa03",[4216.1116],0) // Skeleton Warrior
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skelaci",[4216.1116],0) // Skeleton
-		CreateCreature("_skeldis",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_skeleton_warrior%",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_scripts%kelwa03",[4216.1116],0) // Skeleton Warrior
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skelaci",[4216.1116],0) // Skeleton
+		CreateCreature("%tutu_var%skeldis",[4216.1116],0) // Skeleton
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -5258,45 +5258,45 @@ THEN
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
-		CreateCreature("_ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
+		CreateCreature("%tutu_var%ghoul",[4216.1116],0) // Ghoul
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #4
 		SetGlobal("SpawnReset42161116","BH1100",1)
 		CreateCreature("gholor01",[4216.1116],0) // Ghoul Lord
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
-		CreateCreature("_ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
+		CreateCreature("%tutu_var%ghast",[4216.1116],0) // Ghast
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 	RESPONSE #5
 		SetGlobal("SpawnReset42161116","BH1100",1)
@@ -5339,6 +5339,6 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("SpawnReset42161116","BH1100",1)
-		CreateCreature("_obola_d",[4216.1116],0) // Kobold
+		CreateCreature("%tutu_scriptk%obola_d",[4216.1116],0) // Kobold
 		SetGlobalTimer("110042161116","BH1100",EIGHT_HOURS)
 END

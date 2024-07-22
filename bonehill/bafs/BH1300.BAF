@@ -251,7 +251,7 @@ IF
 THEN
   RESPONSE #100
     CreateCreature("GNOLL_E",[2926.1828],12)  // ~Gnoll Veteran~
-    CreateCreature("WORG",[4161.1076],4)  // ~Worg~
+    CreateCreature("%tutu_var%worg",[4161.1076],4)  // ~Worg~
     SetGlobal("BP_MoreStooges","BH1300",8)
 END
 

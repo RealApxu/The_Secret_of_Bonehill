@@ -33,7 +33,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN EXTERN ~_IMOEN2~ FABIOCANDLE
   IF ~~ THEN REPLY @12 GOTO 6
 END
@@ -87,7 +87,7 @@ END
 IF ~NumberOfTimesTalkedTo(1)
 AreaCheck("BH0107")
 OR(6)
-IfValidForPartyDialogue("Imoen2")
+IfValidForPartyDialogue("%IMOEN_DV%")
 IfValidForPartyDialogue("Jaheira")
 IfValidForPartyDialogue("Sharteel")
 IfValidForPartyDialogue("Dynaheir")
@@ -100,7 +100,7 @@ END
 
 IF ~NumberOfTimesTalkedTo(1)
 AreaCheck("BH0107")
-!IfValidForPartyDialogue("Imoen2")
+!IfValidForPartyDialogue("%IMOEN_DV%")
 !IfValidForPartyDialogue("Jaheira")
 !IfValidForPartyDialogue("Dynaheir")
 !IfValidForPartyDialogue("Sharteel")
@@ -141,7 +141,7 @@ IF ~~ THEN BEGIN 16
 ~ THEN EXTERN ~_DYNAHJ~ FLIRTDYNA
   IF ~IfValidForPartyDialogue("Safana")
 ~ THEN EXTERN ~_SAFANJ~ FLIRTSAFAN
-  IF ~IfValidForPartyDialogue("Imoen2")
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
 ~ THEN EXTERN ~_IMOEN2~ FLIRTIMOEN
 END
 

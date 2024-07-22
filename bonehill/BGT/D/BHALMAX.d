@@ -44,7 +44,7 @@ END
 IF ~~ THEN BEGIN 6
   SAY @23
   IF ~!IfValidForPartyDialogue("Jaheira")~ THEN GOTO 7
-  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ ALMAXJAHE
+  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~%JAHEIRA_JOINED%~ ALMAXJAHE
 END
 
 IF ~~ THEN BEGIN 7
@@ -131,7 +131,7 @@ IF ~~ THEN BEGIN 21
   IF ~~ THEN DO ~SetGlobal("BHAlmaxSpokeOfList","BH0200",1)~ EXIT
 END
 
-APPEND ~JAHEIRAJ~
+APPEND ~%JAHEIRA_JOINED%~
 
 IF ~~ THEN BEGIN ALMAXJAHE
   SAY @54 
@@ -139,4 +139,3 @@ IF ~~ THEN BEGIN ALMAXJAHE
 END
 
 END
-

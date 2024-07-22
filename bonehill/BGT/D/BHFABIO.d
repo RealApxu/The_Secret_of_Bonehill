@@ -9,7 +9,7 @@ IF ~~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN REPLY @4 DO ~SetGlobal("BHFabioWench","GLOBAL",1)~ EXTERN ~BHTWEN01~ 3
   IF ~~ THEN REPLY @5 GOTO 2
-  IF ~IfValidForPartyDialogue("GARRICK")~ THEN EXTERN ~GARRIJ~ FABGAR1
+  IF ~IfValidForPartyDialogue("Garrick")~ THEN EXTERN ~%GARRICK_JOINED%~ FABGAR1
 END
 
 IF ~~ THEN BEGIN 2
@@ -29,7 +29,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~IfValidForPartyDialogue("Imoen2")~ THEN EXTERN ~IMOEN2J~ FABIOCANDLE
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN EXTERN ~%IMOEN_JOINED%~ FABIOCANDLE
   IF ~~ THEN REPLY @12 GOTO 6
 END
 
@@ -66,22 +66,20 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @23
-  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~DYNAJ~ FABDYNA1
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~%DYNAHEIR_JOINED%~ FABDYNA1
   IF ~IfValidForPartyDialogue("MINSC") GlobalLT("BHWillard1","BH0107",1)~ THEN REPLY @24 GOTO 23
   IF ~OR(2) !IfValidForPartyDialogue("MINSC") Global("BHWillard1","BH0107",1)~ THEN REPLY @25 EXIT
 END
 
-IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") OR(6) IfValidForPartyDialogue("Imoen2") IfValidForPartyDialogue("Jaheira")
-IfValidForPartyDialogue("Sharteel") IfValidForPartyDialogue("Dynaheir") IfValidForPartyDialogue("Safana") IfValidForPartyDialogue("Branwen")~ THEN BEGIN 13
+IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") OR(6) IfValidForPartyDialogue("%IMOEN_DV%") IfValidForPartyDialogue("Jaheira") IfValidForPartyDialogue("Sharteel") IfValidForPartyDialogue("Dynaheir") IfValidForPartyDialogue("Safana") IfValidForPartyDialogue("Branwen")~ THEN BEGIN 13
   SAY @26
   IF ~~ THEN GOTO 16
 END
 
-IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") !IfValidForPartyDialogue("Imoen2") !IfValidForPartyDialogue("Jaheira")
-!IfValidForPartyDialogue("Dynaheir") !IfValidForPartyDialogue("Sharteel") !IfValidForPartyDialogue("Safana") !IfValidForPartyDialogue("Branwen")~ THEN BEGIN 14
+IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") !IfValidForPartyDialogue("%IMOEN_DV%") !IfValidForPartyDialogue("Jaheira") !IfValidForPartyDialogue("Dynaheir") !IfValidForPartyDialogue("Sharteel") !IfValidForPartyDialogue("Safana") !IfValidForPartyDialogue("Branwen")~ THEN BEGIN 14
   SAY @27
   IF ~~ THEN REPLY @28 GOTO 3
-  IF ~IfValidForPartyDialogue("GARRICK")~ THEN EXTERN ~GARRIJ~ FABGAR2
+  IF ~IfValidForPartyDialogue("GARRICK")~ THEN EXTERN ~%GARRICK_JOINED%~ FABGAR2
 END
 
 IF ~NumTimesTalkedToGT(1) AreaCheck("BH0107")~ THEN BEGIN 15
@@ -94,12 +92,12 @@ END
 
 IF ~~ THEN BEGIN 16
   SAY @34
-  IF ~IfValidForPartyDialogue("Sharteel")~ THEN EXTERN ~SHARTJ~ FLIRTSHART
-  IF ~IfValidForPartyDialogue("Branwen")~ THEN EXTERN ~BRANWJ~ FLIRTBRANW
-  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ FLIRTJAHE
-  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~DYNAJ~ FLIRTDYNA
-  IF ~IfValidForPartyDialogue("Safana")~ THEN EXTERN ~SAFANJ~ FLIRTSAFAN
-  IF ~IfValidForPartyDialogue("Imoen2")~ THEN EXTERN ~IMOEN2J~ FLIRTIMOEN
+  IF ~IfValidForPartyDialogue("Sharteel")~ THEN EXTERN ~%SHARTEEL_JOINED%~ FLIRTSHART
+  IF ~IfValidForPartyDialogue("Branwen")~ THEN EXTERN ~%BRANWEN_JOINED%~ FLIRTBRANW
+  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~%JAHEIRA_JOINED%~ FLIRTJAHE
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~%DYNAHEIR_JOINED%~ FLIRTDYNA
+  IF ~IfValidForPartyDialogue("Safana")~ THEN EXTERN ~%SAFANA_JOINED%~ FLIRTSAFAN
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN EXTERN ~%IMOEN_JOINED%~ FLIRTIMOEN
 END
 
 IF ~~ THEN BEGIN 17
@@ -166,12 +164,12 @@ END
 
 IF ~~ THEN BEGIN 22
   SAY @80
-  IF ~~ THEN EXTERN ~MINSCJ~ FABMINGAR
+  IF ~~ THEN EXTERN ~%MINSC_JOINED%~ FABMINGAR
 END
 
 IF ~IfValidForPartyDialogue("MINSC") AreaCheck("BH0107")~ THEN BEGIN 23
   SAY @81
-  IF ~~ THEN EXTERN ~MINSCJ~ FABIOMIN
+  IF ~~ THEN EXTERN ~%MINSC_JOINED%~ FABIOMIN
 END
 
 IF ~~ THEN BEGIN 24
@@ -301,7 +299,7 @@ IF ~~ THEN BEGIN 47
 END
 
 
-APPEND ~IMOEN2J~
+APPEND ~%IMOEN_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTIMOEN 
   SAY @121 
@@ -315,7 +313,7 @@ END
 
 END
 
-APPEND ~GARRIJ~
+APPEND ~%GARRICK_JOINED%~
 
 IF ~~ THEN BEGIN FABGAR1 
   SAY @123 
@@ -334,7 +332,7 @@ END
 
 END
 
-APPEND ~DYNAJ~
+APPEND ~%DYNAHEIR_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTDYNA 
   SAY @126 
@@ -348,7 +346,7 @@ END
 
 END
 
-APPEND ~SAFANJ~
+APPEND ~%SAFANA_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTSAFAN 
   SAY @128 
@@ -357,7 +355,7 @@ END
 
 END
 
-APPEND ~JAHEIRAJ~
+APPEND ~%JAHEIRA_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTJAHE 
   SAY @129 
@@ -366,7 +364,7 @@ END
 
 END
 
-APPEND ~SHARTJ~
+APPEND ~%SHARTEEL_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTSHART 
   SAY @130 
@@ -375,7 +373,7 @@ END
 
 END
 
-APPEND ~BRANWJ~
+APPEND ~%BRANWEN_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTBRANW 
   SAY @131 
@@ -384,7 +382,7 @@ END
 
 END
 
-APPEND ~MINSCJ~
+APPEND ~%MINSC_JOINED%~
 
 IF ~~ THEN BEGIN FABIOMIN 
   SAY @132 
@@ -393,8 +391,7 @@ END
 
 IF ~~ THEN BEGIN FABMINGAR 
   SAY @133 
-  IF ~~ THEN EXTERN ~GARRIJ~ FABMINGAR2
+  IF ~~ THEN EXTERN ~%GARRICK_JOINED%~ FABMINGAR2
 END
 
 END
-

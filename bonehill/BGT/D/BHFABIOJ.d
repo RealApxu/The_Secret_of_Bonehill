@@ -52,8 +52,7 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @11
-  IF ~Global("BHFabioWarning","GLOBAL",1)
-~ THEN REPLY @12 GOTO 11
+  IF ~Global("BHFabioWarning","GLOBAL",1)~ THEN REPLY @12 GOTO 11
   IF ~~ THEN REPLY @13 GOTO 11
 END
 
@@ -62,18 +61,15 @@ IF ~~ THEN BEGIN 11
   IF ~~ THEN EXTERN ~BHANDRE~ 3
 END
 
-IF ~Global("BHFabioAndrella","GLOBAL",1)
-~ THEN BEGIN 12
+IF ~Global("BHFabioAndrella","GLOBAL",1)~ THEN BEGIN 12
   SAY @15
   IF ~~ THEN REPLY @16 GOTO 13
 END
 
 IF ~~ THEN BEGIN 13
   SAY @17
-  IF ~!IfValidForPartyDialogue("Jaheira")
-~ THEN REPLY @18 GOTO 14
-  IF ~IfValidForPartyDialogue("Jaheira")
-~ THEN EXTERN ~JAHEIRAJ~ FABJAHE
+  IF ~!IfValidForPartyDialogue("Jaheira")~ THEN REPLY @18 GOTO 14
+  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~%JAHEIRA_JOINED%~ FABJAHE
 END
 
 IF ~~ THEN BEGIN 14
@@ -83,10 +79,8 @@ END
 
 IF ~~ THEN BEGIN 15
   SAY @21
-  IF ~IfValidForPartyDialogue("Imoen2")
-~ THEN EXTERN ~IMOEN2J~ FABIMOEN
-  IF ~!IfValidForPartyDialogue("Imoen2")
-~ THEN REPLY @22 GOTO 16
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN EXTERN ~%IMOEN_JOINED%~ FABIMOEN
+  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")~ THEN REPLY @22 GOTO 16
 END
 
 IF ~~ THEN BEGIN 16
@@ -94,7 +88,7 @@ IF ~~ THEN BEGIN 16
   IF ~~ THEN EXIT
 END
 
-APPEND ~IMOEN2J~
+APPEND ~%IMOEN_JOINED%~
 
 IF ~~ THEN BEGIN FABIMOEN
   SAY @24
@@ -103,7 +97,7 @@ END
 
 END
 
-APPEND ~JAHEIRAJ~
+APPEND ~%JAHEIRA_JOINED%~
 
 IF ~~ THEN BEGIN FABJAHE
   SAY @25
@@ -111,4 +105,3 @@ IF ~~ THEN BEGIN FABJAHE
 END
 
 END
-

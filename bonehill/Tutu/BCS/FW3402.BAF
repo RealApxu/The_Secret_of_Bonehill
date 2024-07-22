@@ -1,18 +1,18 @@
 IF
-	Global("FW3402BHPelltarSpawn","",0)
+	Global("BHPelltarSpawn","MYAREA",0)
 	InMyArea(Player1)
-	GlobalGT("Chapter","GLOBAL",2)
-	GlobalLT("Chapter","GLOBAL",6)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("Chapter","GLOBAL",%tutu_chapter_6%)
 THEN
 	RESPONSE #100
-		SetGlobal("FW3402BHPelltarSpawn","",1)
+		SetGlobal("BHPelltarSpawn","MYAREA",1)
 		CreateCreature("BHPell",[328.367],15)
 END
 
 IF
 	OR(2)
 		Global("BHQuestAccept","GLOBAL",8)
-		GlobalGT("Chapter","GLOBAL",5)
+		GlobalGT("Chapter","GLOBAL",%tutu_chapter_5%)
 	Exists("BHPell")
 THEN
 	RESPONSE #100

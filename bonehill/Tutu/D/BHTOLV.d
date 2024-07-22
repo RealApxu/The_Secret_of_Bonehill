@@ -59,7 +59,7 @@ END
 IF ~~ THEN BEGIN 9
   SAY @21
   IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1)
-AddexperienceParty(2000)
+AddExperienceParty(2000)
 EscapeArea()
 ~ EXIT
 END
