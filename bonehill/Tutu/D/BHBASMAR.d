@@ -1,11 +1,6 @@
 BEGIN ~BHBASMAR~
 
-IF ~NumberOfTimesTalkedTo(0)
-!Global("BHStupidTalk","GLOBAL",1)
-!Global("BHQuenBasmarBoat","GLOBAL",2)
-!Global("BHHiredAssassin","GLOBAL",1)
-AreaCheck("BH2020")
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0) !Global("BHStupidTalk","GLOBAL",1) !Global("BHQuenBasmarBoat","GLOBAL",2) !Global("BHHiredAssassin","GLOBAL",1) AreaCheck("BH2020")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
@@ -22,24 +17,15 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~~ THEN DO ~SetGlobal("BHMadeContact","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHMadeContact","GLOBAL",1)~ EXIT
 END
 
-IF ~NumberOfTimesTalkedTo(0)
-Global("BHStupidTalk","GLOBAL",1)
-!Global("BHQuenBasmarBoat","GLOBAL",2)
-!Global("BHHiredAssassin","GLOBAL",1)
-AreaCheck("BH2020")
-~ THEN BEGIN 4
+IF ~NumberOfTimesTalkedTo(0) Global("BHStupidTalk","GLOBAL",1) !Global("BHQuenBasmarBoat","GLOBAL",2) !Global("BHHiredAssassin","GLOBAL",1) AreaCheck("BH2020")~ THEN BEGIN 4
   SAY @8
   IF ~~ THEN REPLY @9 GOTO 0
 END
 
-IF ~Global("BHQuenBasmarBoat","GLOBAL",1)
-GlobalLT("BHHiredAssassin","GLOBAL",1)
-AreaCheck("BH2020")
-~ THEN BEGIN 5
+IF ~Global("BHQuenBasmarBoat","GLOBAL",1) GlobalLT("BHHiredAssassin","GLOBAL",1) AreaCheck("BH2020")~ THEN BEGIN 5
   SAY @10
   IF ~~ THEN REPLY @11 GOTO 6
 END
@@ -68,9 +54,7 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @22
-  IF ~~ THEN DO ~SetGlobal("BHQuenBasmarBoat","GLOBAL",2)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHQuenBasmarBoat","GLOBAL",2) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 11
@@ -90,25 +74,15 @@ END
 
 IF ~~ THEN BEGIN 14
   SAY @29
-  IF ~~ THEN REPLY @31 DO ~SetGlobal("BHQuenBasmarBoat","GLOBAL",2)
-EscapeArea()
-~ JOURNAL @30 EXIT
+  IF ~~ THEN REPLY @31 DO ~SetGlobal("BHQuenBasmarBoat","GLOBAL",2) EscapeArea()~ JOURNAL @30 EXIT
 END
 
-IF ~Global("BHQuenBasmarBoat","GLOBAL",3)
-AreaCheck("BH2000")
-~ THEN BEGIN 15
+IF ~Global("BHQuenBasmarBoat","GLOBAL",3) AreaCheck("BH2000")~ THEN BEGIN 15
   SAY @32
-  IF ~~ THEN DO ~ActionOverride("BHOscar",Enemy())
-ActionOverride("BHPhilma",Enemy())
-Shout(ALERT)
-Enemy()
-~ EXIT
+  IF ~~ THEN DO ~ActionOverride("BHOscar",Enemy()) ActionOverride("BHPhilma",Enemy()) Shout(ALERT) Enemy()~ EXIT
 END
 
-IF ~AreaCheck("BH2300")
-Global("BHMadeContact","GLOBAL",1)
-~ THEN BEGIN 16
+IF ~AreaCheck("BH2300") Global("BHMadeContact","GLOBAL",1)~ THEN BEGIN 16
   SAY @33
   IF ~~ THEN REPLY @34 GOTO 17
   IF ~~ THEN REPLY @35 GOTO 27
@@ -127,10 +101,8 @@ END
 
 IF ~~ THEN BEGIN 19
   SAY @41
-  IF ~GlobalLT("BHStupidTalk","GLOBAL",1)
-~ THEN REPLY @42 GOTO 21
-  IF ~GlobalGT("BHStupidTalk","GLOBAL",0)
-~ THEN REPLY @43 GOTO 30
+  IF ~GlobalLT("BHStupidTalk","GLOBAL",1)~ THEN REPLY @42 GOTO 21
+  IF ~GlobalGT("BHStupidTalk","GLOBAL",0)~ THEN REPLY @43 GOTO 30
 END
 
 IF ~~ THEN BEGIN 20
@@ -163,9 +135,7 @@ IF ~~ THEN BEGIN 25
   IF ~~ THEN REPLY @54 GOTO 31
 END
 
-IF ~!Global("BHMadeContact","GLOBAL",1)
-AreaCheck("BH2300")
-~ THEN BEGIN 26
+IF ~!Global("BHMadeContact","GLOBAL",1) AreaCheck("BH2300")~ THEN BEGIN 26
   SAY @55
   IF ~~ THEN REPLY @34 GOTO 17
   IF ~~ THEN REPLY @35 GOTO 27
@@ -193,25 +163,15 @@ END
 
 IF ~~ THEN BEGIN 31
   SAY @63
-  IF ~~ THEN DO ~SetGlobal("BHHiredAssassin","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHHiredAssassin","GLOBAL",1)~ EXIT
 END
 
-IF ~GlobalLT("BHQuenBasmarBoat","GLOBAL",2)
-Global("BHHiredAssassin","GLOBAL",1)
-AreaCheck("BH2020")
-~ THEN BEGIN 32
+IF ~GlobalLT("BHQuenBasmarBoat","GLOBAL",2) Global("BHHiredAssassin","GLOBAL",1) AreaCheck("BH2020")~ THEN BEGIN 32
   SAY @64
-  IF ~~ THEN DO ~SetGlobal("BHHiredAssassin","GLOBAL",2)
-SetGlobalTimer("BHAssassinPlot","Global",TEN_TURNS)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHHiredAssassin","GLOBAL",2) SetGlobalTimer("BHAssassinPlot","GLOBAL",TEN_TURNS)~ EXIT
 END
 
-IF ~Global("BHHiredAssassin","GLOBAL",2)
-GlobalLT("BHQuenBasmarBoat","GLOBAL",2)
-GlobalTimerExpired("BHAssassinPlot","Global")
-AreaCheck("BH2020")
-~ THEN BEGIN 33
+IF ~Global("BHHiredAssassin","GLOBAL",2) GlobalLT("BHQuenBasmarBoat","GLOBAL",2) GlobalTimerExpired("BHAssassinPlot","GLOBAL") AreaCheck("BH2020")~ THEN BEGIN 33
   SAY @65
   IF ~~ THEN REPLY @66 GOTO 34
   IF ~~ THEN REPLY @67 GOTO 35
@@ -224,17 +184,11 @@ END
 
 IF ~~ THEN BEGIN 35
   SAY @70
-  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
-~ THEN REPLY @71 DO ~SetGlobal("BHHiredAssassin","GLOBAL",3)
-EscapeArea()
-~ EXTERN ~_IMOEN2~ BASMARIMOEN
-  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")
-~ THEN REPLY @71 DO ~SetGlobal("BHHiredAssassin","GLOBAL",3)
-EscapeArea()
-~ EXIT
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN REPLY @71 DO ~SetGlobal("BHHiredAssassin","GLOBAL",3) EscapeArea()~ EXTERN ~%IMOEN_JOINED%~ BASMARIMOEN
+  IF ~!IfValidForPartyDialogue("%IMOEN_DV%")~ THEN REPLY @71 DO ~SetGlobal("BHHiredAssassin","GLOBAL",3) EscapeArea()~ EXIT
 END
 
-APPEND ~_IMOEN2~
+APPEND ~%IMOEN_JOINED%~
 
 IF ~~ THEN BEGIN BASMARIMOEN
   SAY @72
@@ -242,4 +196,3 @@ IF ~~ THEN BEGIN BASMARIMOEN
 END
 
 END
-

@@ -3,7 +3,7 @@ IF
 THEN
   RESPONSE #100
     CutSceneId("BHABRAHA")
-    SetGlobal("BHAbrahamTalks","Global",2)
+    SetGlobal("BHAbrahamTalks","GLOBAL",2)
     MoveViewPoint([590.222],VERY_FAST)
     MoveToPoint([590.222])
     Face(0)

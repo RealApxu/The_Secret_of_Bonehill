@@ -1,33 +1,23 @@
 BEGIN ~BHGELPAS~
 
-IF WEIGHT #0 ~GlobalLT("BHHandQuest","GLOBAL",1)
-NumberOfTimesTalkedTo(0)
-AreaCheck("BH0505")
-~ THEN BEGIN 0
+IF WEIGHT #0 ~GlobalLT("BHHandQuest","GLOBAL",1) NumberOfTimesTalkedTo(0) AreaCheck("BH0505")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 4
 END
 
-IF WEIGHT #2 ~AreaCheck("BH0505")
-!PartyHasItem("MISC86")
-~ THEN BEGIN 1
+IF WEIGHT #2 ~AreaCheck("BH0505") !PartyHasItem("MISC86")~ THEN BEGIN 1
   SAY @3
   IF ~~ THEN EXIT
 END
 
-IF WEIGHT #1 ~Global("BHQuestAccept","GLOBAL",5)
-OR(2)
-AreaCheck("BH0109")
-AreaCheck("BH0504")
-~ THEN BEGIN 2
+IF WEIGHT #1 ~Global("BHQuestAccept","GLOBAL",5) OR(2) AreaCheck("BH0109") AreaCheck("BH0504")~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 GOTO 5
 END
 
 IF ~~ THEN BEGIN 3
   SAY @6
-  IF ~IfValidForPartyDialogue("Dynaheir")
-~ THEN EXTERN ~_DYNAHJ~ GELPASDYNA
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~%DYNAHEIR_JOINED%~ GELPASDYNA
   IF ~~ THEN EXIT
 END
 
@@ -68,9 +58,7 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @23
-  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 11
@@ -80,9 +68,7 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @25
-  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 13
@@ -102,9 +88,7 @@ END
 
 IF ~~ THEN BEGIN 16
   SAY @30
-  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 17
@@ -112,15 +96,12 @@ IF ~~ THEN BEGIN 17
   IF ~~ THEN GOTO 8
 END
 
-IF WEIGHT #3 ~AreaCheck("BH0505")
-PartyHasItem("MISC86")
-~ THEN BEGIN 18
+IF WEIGHT #3 ~AreaCheck("BH0505") PartyHasItem("MISC86")~ THEN BEGIN 18
   SAY @32
-  IF ~~ THEN DO ~StartStore("stovai",LastTalkedToBy(Myself))
-~ EXIT
+  IF ~~ THEN DO ~StartStore("stovai",LastTalkedToBy(Myself))~ EXIT
 END
 
-APPEND ~_DYNAHJ~
+APPEND ~%DYNAHEIR_JOINED%~
 
 IF ~~ THEN BEGIN GELPASDYNA
   SAY @33

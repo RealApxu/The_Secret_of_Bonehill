@@ -55,7 +55,7 @@ END
 IF ~~ THEN BEGIN 10
   SAY @18
   IF ~~ THEN REPLY @20 DO ~SetGlobal("BHBanditQuestAccept","GLOBAL",2) SetGlobal("BHFoundWagon","GLOBAL",0)~ UNSOLVED_JOURNAL @19 EXIT
-  IF ~!GlobalGT("BHRestenfordEnemies","Global",0)~ THEN REPLY @21 GOTO 13
+  IF ~!GlobalGT("BHRestenfordEnemies","GLOBAL",0)~ THEN REPLY @21 GOTO 13
 END
 
 IF ~~ THEN BEGIN 11

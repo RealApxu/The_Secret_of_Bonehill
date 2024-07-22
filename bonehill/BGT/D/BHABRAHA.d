@@ -281,7 +281,7 @@ IF ~GlobalLT("BHAbrahamGone","BH2020",2) AreaCheck("BH2020")~ THEN BEGIN 53
   SAY @106
   IF ~Global("BHMetFalpir","GLOBAL",1)~ THEN REPLY @107 GOTO 54
   IF ~~ THEN REPLY @108 EXIT
-  IF ~Dead("BHBasmar") Dead("BHOscar") Dead("BHPhilma") GlobalLT("BHAbrahamSendToMartin","Global",1)~ THEN REPLY @109 GOTO 55
+  IF ~Dead("BHBasmar") Dead("BHOscar") Dead("BHPhilma") GlobalLT("BHAbrahamSendToMartin","GLOBAL",1)~ THEN REPLY @109 GOTO 55
 END
 
 IF ~~ THEN BEGIN 54

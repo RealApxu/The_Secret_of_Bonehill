@@ -19,11 +19,11 @@ THEN
 END
 
 IF
-  Global("BHAlmonCheckQual","Global",1)
+  Global("BHAlmonCheckQual","GLOBAL",1)
 THEN
   RESPONSE #100
     MoveToPoint([394.182])
-    SetGlobal("BHAlmonCheckQual","Global",2)
+    SetGlobal("BHAlmonCheckQual","GLOBAL",2)
     MoveBetweenAreas("BH0310",[597.308],6)
     SetMasterArea("BH0310")
     MoveToPoint([354.300])

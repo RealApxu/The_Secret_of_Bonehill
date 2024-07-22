@@ -22,5 +22,5 @@ END
 
 IF ~~ THEN BEGIN 4
   SAY @4
-  IF ~~ THEN DO ~SetGlobal("BHFabioWench","Global",1) RandomWalk()~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHFabioWench","GLOBAL",1) RandomWalk()~ EXIT
 END

@@ -250,7 +250,7 @@ END
 
 IF ~~ THEN BEGIN 42
   SAY @93
-  IF ~GlobalGT("BHHandQuest","Global",2) Global("BHHandGrave","Global",6) GlobalLT("BHQuestAccept","GLOBAL",7) PartyHasItem("BHGHAND")~ THEN REPLY @94 GOTO 43
+  IF ~GlobalGT("BHHandQuest","GLOBAL",2) Global("BHHandGrave","GLOBAL",6) GlobalLT("BHQuestAccept","GLOBAL",7) PartyHasItem("BHGHAND")~ THEN REPLY @94 GOTO 43
   IF ~GlobalLT("BHHandQuest","GLOBAL",3) GlobalLT("BHHandGrave","GLOBAL",6)~ THEN REPLY @95 DO ~SetGlobal("BHStayForMarauders","GLOBAL",1) SetGlobal("BHStayForBomarc","GLOBAL",1)~ EXIT
   IF ~Global("BHStayForMarauders","GLOBAL",1) GlobalLT("BHHandQuest","GLOBAL",3)~ THEN REPLY @96 EXIT
   IF ~Global("BHStayForBomarc","GLOBAL",1) GlobalLT("BHHandGrave","GLOBAL",6)~ THEN REPLY @97 EXIT

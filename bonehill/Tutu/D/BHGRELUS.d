@@ -1,7 +1,6 @@
 BEGIN ~BHGRELUS~
 
-IF ~NumberOfTimesTalkedTo(0)
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
   IF ~~ THEN REPLY @3 GOTO 2
@@ -20,10 +19,8 @@ END
 
 IF ~~ THEN BEGIN 3
   SAY @7
-  IF ~IfValidForPartyDialogue("Xzar")
-~ THEN GOTO 7
-  IF ~IfValidForPartyDialogue("Edwin")
-~ THEN GOTO 8
+  IF ~IfValidForPartyDialogue("Xzar")~ THEN GOTO 7
+  IF ~IfValidForPartyDialogue("Edwin")~ THEN GOTO 8
   IF ~~ THEN REPLY @8 GOTO 15
 END
 
@@ -34,8 +31,7 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @10
-  IF ~IfValidForPartyDialogue("Fabio")
-~ THEN GOTO 16
+  IF ~IfValidForPartyDialogue("Fabio")~ THEN GOTO 16
   IF ~~ THEN EXIT
 END
 
@@ -46,12 +42,12 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @12
-  IF ~~ THEN EXTERN ~_XZARJ~ BARONXZAR
+  IF ~~ THEN EXTERN ~%XZAR_JOINED%~ BARONXZAR
 END
 
 IF ~~ THEN BEGIN 8
   SAY @13
-  IF ~~ THEN EXTERN ~_EDWINJ~ BARONEDWIN
+  IF ~~ THEN EXTERN ~%EDWIN_JOINED%~ BARONEDWIN
 END
 
 IF ~~ THEN BEGIN 9
@@ -95,7 +91,7 @@ IF ~~ THEN BEGIN 16
   IF ~~ THEN EXTERN ~BHFABIOJ~ 0
 END
 
-APPEND ~_XZARJ~
+APPEND ~%XZAR_JOINED%~
 
 IF ~~ THEN BEGIN BARONXZAR 
   SAY @22
@@ -104,7 +100,7 @@ END
 
 END
 
-APPEND ~_EDWINJ~
+APPEND ~%EDWIN_JOINED%~
 
 IF ~~ THEN BEGIN BARONEDWIN
   SAY @23

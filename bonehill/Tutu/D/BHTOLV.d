@@ -1,21 +1,17 @@
 BEGIN ~BHTOLV~
 
-IF ~NumberOfTimesTalkedTo(0)
-AreaCheck("BH1400")
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0) AreaCheck("BH1400")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN GOTO 1
 END
 
 IF ~~ THEN BEGIN 1
   SAY @2
-  IF ~IfValidForPartyDialogue("Xan")
-~ THEN EXTERN ~_XANJ~ XANTOLV
+  IF ~IfValidForPartyDialogue("Xan")~ THEN EXTERN ~%XAN_JOINED%~ XANTOLV
   IF ~~ THEN EXIT
 END
 
-IF ~AreaCheck("BH1400")
-~ THEN BEGIN 2
+IF ~AreaCheck("BH1400")~ THEN BEGIN 2
   SAY @3
   IF ~~ THEN REPLY @4 GOTO 3
   IF ~~ THEN REPLY @5 EXIT
@@ -51,29 +47,22 @@ END
 
 IF ~~ THEN BEGIN 8
   SAY @18
-  IF ~GlobalGT("BHBanditQuestAccept","GLOBAL",1)
-~ THEN REPLY @19 GOTO 9
+  IF ~GlobalGT("BHBanditQuestAccept","GLOBAL",1)~ THEN REPLY @19 GOTO 9
   IF ~~ THEN REPLY @20 GOTO 9
 END
 
 IF ~~ THEN BEGIN 9
   SAY @21
-  IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1)
-AddExperienceParty(2000)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWizTraining","GLOBAL",1) AddExperienceParty(2000) EscapeArea()~ EXIT
 END
 
-IF ~Global("BHWizTraining","GLOBAL",2)
-AreaCheck("BH0109")
-~ THEN BEGIN 10
+IF ~Global("BHWizTraining","GLOBAL",2) AreaCheck("BH0109")~ THEN BEGIN 10
   SAY @22
-  IF ~IfValidForPartyDialogue("Xan")
-~ THEN EXTERN ~_XANJ~ XANTOLV2
+  IF ~IfValidForPartyDialogue("Xan")~ THEN EXTERN ~%XAN_JOINED%~ XANTOLV2
   IF ~~ THEN EXIT
 END
 
-APPEND ~_XANJ~
+APPEND ~%XAN_JOINED%~
 
 IF ~~ THEN BEGIN XANTOLV 
   SAY @23 
@@ -82,7 +71,7 @@ END
 
 END
 
-APPEND ~_XANJ~
+APPEND ~%XAN_JOINED%~
 
 IF ~~ THEN BEGIN XANTOLV2
   SAY @24

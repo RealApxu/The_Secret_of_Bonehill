@@ -7,7 +7,7 @@ END
 
 IF ~GlobalGT("BHHandQuest","GLOBAL",0)~ THEN BEGIN 1
   SAY @2
-  IF ~Global("BHHandTalkToWelcar","Global",0)~ THEN REPLY @3 GOTO 2
+  IF ~Global("BHHandTalkToWelcar","GLOBAL",0)~ THEN REPLY @3 GOTO 2
   IF ~PartyHasItem("BHMISC4F")~ THEN REPLY @4 DO ~TakePartyItem("BHMISC4F") SetGlobal("BHWelcarStuff","GLOBAL",1)~ GOTO 5
   IF ~Global("BHWelcarStuff","GLOBAL",1) PartyHasItem("BHBPEARL")~ THEN REPLY @5 GOTO 6
   IF ~Global("BHHandNoteDecipher","GLOBAL",1)~ THEN REPLY @6 GOTO 8

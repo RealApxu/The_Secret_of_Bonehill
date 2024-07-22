@@ -3,7 +3,7 @@ BEGIN ~BHALMAX~
 IF ~True()~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
-  IF ~Global("BHAlmaxSpeaks","Global",5)~ THEN REPLY @3 EXIT
+  IF ~Global("BHAlmaxSpeaks","GLOBAL",5)~ THEN REPLY @3 EXIT
   IF ~GlobalLT("BHAlmaxSpeaks","GLOBAL",5)~ THEN REPLY @4 GOTO 2
   IF ~Global("BHDruidQuest","GLOBAL",2) PartyHasItem("BHMessg")~ THEN REPLY @5 DO ~TakePartyItem("BHMESSG")~ GOTO 17
   IF ~Global("BHDruidQuest","GLOBAL",2)~ THEN REPLY @6 GOTO 19

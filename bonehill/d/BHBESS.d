@@ -2,7 +2,7 @@ BEGIN ~BHBESS~
 
 IF ~True()~ THEN BEGIN 0
   SAY @1
-  IF ~GlobalLT("BHTalkedToBess","Global",1)~ THEN REPLY @2 GOTO 1
+  IF ~GlobalLT("BHTalkedToBess","GLOBAL",1)~ THEN REPLY @2 GOTO 1
   IF ~Global("BHWaterMonsters","GLOBAL",1) Global("BHTalkedToBess","GLOBAL",1) Dead("BHLIZKNG")~ THEN REPLY @3 GOTO 7
   IF ~!NumberOfTimesTalkedTo(0)~ THEN REPLY @4 EXIT
 END

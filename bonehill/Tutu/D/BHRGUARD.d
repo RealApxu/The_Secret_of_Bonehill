@@ -1,31 +1,16 @@
 BEGIN ~BHRGUARD~
 
-IF ~!AreaCheck("BH0109")
-!AreaCheck("BH0504")
-!AreaCheck("BH2000")
-!AreaCheck("BH2100")
-!AreaCheck("BH2101")
-!AreaCheck("BH2102")
-!Global("BHHandSearch","GLOBAL",2)
-~ THEN BEGIN 0
+IF ~!AreaCheck("BH0109") !AreaCheck("BH0504") !AreaCheck("BH2000") !AreaCheck("BH2100") !AreaCheck("BH2101") !AreaCheck("BH2102") !Global("BHHandSearch","GLOBAL",2)~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN EXIT
 END
 
-IF ~Global("BHHandQuestAccept","GLOBAL",3)
-OR(2)
-AreaCheck("BH0109")
-AreaCheck("BH0504")
-~ THEN BEGIN 1
+IF ~Global("BHHandQuestAccept","GLOBAL",3) OR(2) AreaCheck("BH0109") AreaCheck("BH0504")~ THEN BEGIN 1
   SAY @2
-  IF ~~ THEN DO ~EscapeArea()
-~ EXTERN ~BHPELL~ 34
+  IF ~~ THEN DO ~EscapeArea()~ EXTERN ~BHPELL~ 34
 END
 
-IF ~Global("BHSpokeOfRavella","GLOBAL",0)
-AreaCheck("BH0300")
-Global("BHHandSearch","GLOBAL",2)
-~ THEN BEGIN 2
+IF ~Global("BHSpokeOfRavella","GLOBAL",0) AreaCheck("BH0300") Global("BHHandSearch","GLOBAL",2)~ THEN BEGIN 2
   SAY @3
   IF ~~ THEN REPLY @4 GOTO 3
   IF ~~ THEN REPLY @5 GOTO 3
@@ -56,10 +41,8 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @17
-  IF ~IfValidForPartyDialogue("Kivan")
-~ THEN EXTERN ~_KIVANJ~ GUARDKIVAN
-  IF ~IfValidForPartyDialogue("Minsc")
-~ THEN EXTERN ~_MINSCJ~ GUARDMINSC
+  IF ~IfValidForPartyDialogue("Kivan")~ THEN EXTERN ~%KIVAN_JOINED%~ GUARDKIVAN
+  IF ~IfValidForPartyDialogue("Minsc")~ THEN EXTERN ~%MINSC_JOINED%~ GUARDMINSC
   IF ~~ THEN REPLY @18 GOTO 8
 END
 
@@ -82,44 +65,25 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @27
-  IF ~~ THEN REPLY @28 DO ~SetGlobalTimer("RavellaAppears","GLOBAL",ONE_DAY)
-SetGlobal("BHSpokeOfRavella","GLOBAL",1)
-SetGlobal("BHHandRavella","GLOBAL",1)
-~ EXIT
+  IF ~~ THEN REPLY @28 DO ~SetGlobalTimer("RavellaAppears","GLOBAL",ONE_DAY) SetGlobal("BHSpokeOfRavella","GLOBAL",1) SetGlobal("BHHandRavella","GLOBAL",1)~ EXIT
 END
 
-IF ~OR(5)
-AreaCheck("BH0504")
-AreaCheck("BH2000")
-AreaCheck("BH2100")
-AreaCheck("BH2101")
-AreaCheck("BH2102")
-!Global("BHHandSearch","GLOBAL",2)
-~ THEN BEGIN 12
+IF ~OR(5) AreaCheck("BH0504") AreaCheck("BH2000") AreaCheck("BH2100") AreaCheck("BH2101") AreaCheck("BH2102") !Global("BHHandSearch","GLOBAL",2)~ THEN BEGIN 12
   SAY @29
   IF ~~ THEN EXIT
 END
 
-IF ~!GlobalTimerExpired("RavellaAppears","GLOBAL")
-Global("BHSpokeOfRavella","GLOBAL",1)
-~ THEN BEGIN 13
+IF ~!GlobalTimerExpired("RavellaAppears","GLOBAL") Global("BHSpokeOfRavella","GLOBAL",1)~ THEN BEGIN 13
   SAY @30
   IF ~~ THEN EXIT
 END
 
-IF ~!AreaCheck("BH0109")
-!AreaCheck("BH0504")
-!AreaCheck("BH2000")
-!AreaCheck("BH2100")
-!AreaCheck("BH2101")
-!AreaCheck("BH2102")
-GlobalTimerExpired("RavellaAppears","GLOBAL")
-~ THEN BEGIN 14
+IF ~!AreaCheck("BH0109") !AreaCheck("BH0504") !AreaCheck("BH2000") !AreaCheck("BH2100") !AreaCheck("BH2101") !AreaCheck("BH2102") GlobalTimerExpired("RavellaAppears","GLOBAL")~ THEN BEGIN 14
   SAY @1
   IF ~~ THEN EXIT
 END
 
-APPEND ~_KIVANJ~
+APPEND ~%KIVAN_JOINED%~
 
 IF ~~ THEN BEGIN GUARDKIVAN 
   SAY @31 
@@ -128,7 +92,7 @@ END
 
 END
 
-APPEND ~_MINSCJ~
+APPEND ~%MINSC_JOINED%~
 
 IF ~~ THEN BEGIN GUARDMINSC 
   SAY @32 

@@ -29,11 +29,11 @@ END
 
 IF
   Global("BHHiredAssassin","GLOBAL",1)
-  GlobalLT("BHBasmarReturns","Global",1)
+  GlobalLT("BHBasmarReturns","GLOBAL",1)
 THEN
   RESPONSE #100
     CreateCreature("BHBasmar",[385.515],0)
-    SetGlobal("BHBasmarReturns","Global",1)
+    SetGlobal("BHBasmarReturns","GLOBAL",1)
 END
 
 IF

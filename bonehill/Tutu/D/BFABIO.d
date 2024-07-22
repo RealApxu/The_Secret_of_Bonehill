@@ -20,21 +20,15 @@ IF ~~ THEN BEGIN 3
   IF ~~ THEN EXIT
 END
 
-IF ~GlobalLT("BHQuestAccept","GLOBAL",6)
-PartyHasItem("BHGHANDN")
-Global("FabioHandSong","LOCALS",0)
-~ THEN BEGIN 4
+IF ~GlobalLT("BHQuestAccept","GLOBAL",6) PartyHasItem("BHGHANDN") Global("FabioHandSong","LOCALS",0)~ THEN BEGIN 4
   SAY @5
-  IF ~InParty("Garrick")
-See("Garrick")
-!StateCheck("Garrick",STATE_SLEEPING)
-~ THEN REPLY @6 GOTO 5
+  IF ~InParty("Garrick") See("Garrick") !StateCheck("Garrick",STATE_SLEEPING)~ THEN REPLY @6 GOTO 5
   IF ~~ THEN REPLY @6 GOTO 6
 END
 
 IF ~~ THEN BEGIN 5
   SAY @7
-  IF ~~ THEN EXTERN ~_BGARRI~ FABIOGARRI
+  IF ~~ THEN EXTERN ~%GARRICK_JOINED%~ FABIOGARRI
 END
 
 IF ~~ THEN BEGIN 6
@@ -44,46 +38,30 @@ END
 
 IF ~~ THEN BEGIN 7
   SAY @9
-  IF ~~ THEN DO ~SetGlobal("FabioHandSong","LOCALS",1)
-~ JOURNAL @10 EXIT
+  IF ~~ THEN DO ~SetGlobal("FabioHandSong","LOCALS",1)~ JOURNAL @10 EXIT
 END
 
-IF ~Global("BHHandNoteDecipher","GLOBAL",1)
-~ THEN BEGIN 8
+IF ~Global("BHHandNoteDecipher","GLOBAL",1)~ THEN BEGIN 8
   SAY @11
-  IF ~~ THEN REPLY @12 DO ~SetGlobal("BHHandNoteDecipher","GLOBAL",2)
-~ GOTO 9
+  IF ~~ THEN REPLY @12 DO ~SetGlobal("BHHandNoteDecipher","GLOBAL",2)~ GOTO 9
 END
 
 IF ~~ THEN BEGIN 9
   SAY @13
-  IF ~IfValidForPartyDialogue("Safana")
-~ THEN EXTERN ~_SAFANJ~ FABHAND1
-  IF ~IfValidForPartyDialogue("Montaron")
-~ THEN EXTERN ~_MONTAJ~ FABHAND2
-  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
-~ THEN EXTERN ~_IMOEN2~ FABHAND3
-  IF ~~ THEN REPLY @14 DO ~SetGlobal("BHFabioExplainedNote","GLOBAL",2)
-~ EXIT
+  IF ~IfValidForPartyDialogue("Safana")~ THEN EXTERN ~%SAFANA_JOINED%~ FABHAND1
+  IF ~IfValidForPartyDialogue("Montaron")~ THEN EXTERN ~%MONTARON_JOINED%~ FABHAND2
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN EXTERN ~%IMOEN_JOINED%~ FABHAND3
+  IF ~~ THEN REPLY @14 DO ~SetGlobal("BHFabioExplainedNote","GLOBAL",2)~ EXIT
 END
 
-IF ~Global("BHQuestAccept","GLOBAL",6)
-~ THEN BEGIN 10
+IF ~Global("BHQuestAccept","GLOBAL",6)~ THEN BEGIN 10
   SAY @15
-  IF ~~ THEN DO ~SetGlobal("BHQuestAccept","GLOBAL",7)
-SetGlobal("IWasKickedOut","LOCALS",0)
-LeaveParty()
-SetDialogue("BHFABIO")
-MoveGlobal("BH0500","FABIO",[2550.1447])
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHQuestAccept","GLOBAL",7) SetGlobal("IWasKickedOut","LOCALS",0) LeaveParty() SetDialogue("BHFABIO") MoveGlobal("BH0500","FABIO",[2550.1447])~ EXIT
 END
 
-IF ~Global("BHAllDone","GLOBAL",1)
-~ THEN BEGIN 11
+IF ~Global("BHAllDone","GLOBAL",1)~ THEN BEGIN 11
   SAY @16
-  IF ~~ THEN DO ~SetGlobal("BHAllDone","GLOBAL",2)
-LeaveParty()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHAllDone","GLOBAL",2) LeaveParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN 12
@@ -118,29 +96,18 @@ IF ~~ THEN BEGIN 17
 END
 
 CHAIN
-IF ~Global("BHGuardRatTrigger","GLOBAL",1)
-InParty("Minsc")
-See("Minsc")
-!StateCheck("Minsc",STATE_SLEEPING)
-Global("BFabio1","LOCALS",0)~ THEN ~BFABIO~ FMBANT
+IF ~Global("BHGuardRatTrigger","GLOBAL",1) InParty("Minsc") See("Minsc") !StateCheck("Minsc",STATE_SLEEPING) Global("BFabio1","LOCALS",0)~ THEN ~BFABIO~ FMBANT
 @25  
- DO ~SetGlobal("BFabio1","LOCALS",1)
-     SetGlobal("BHGuardRatTrigger","GLOBAL",2)~ 
-== _%MINSC_BANTER%
- @26
-== BFABIO
- @27
-== _%MINSC_BANTER%
- @28
-== BFABIO
- @29
-== _%MINSC_BANTER%
- @30
-== BFABIO
- @31
+DO ~SetGlobal("BFabio1","LOCALS",1) SetGlobal("BHGuardRatTrigger","GLOBAL",2)~
+== %MINSC_BANTER% @26
+== BFABIO @27
+== %MINSC_BANTER% @28
+== BFABIO @29
+== %MINSC_BANTER% @30
+== BFABIO @31
 EXIT
 
-APPEND ~_BGARRI~
+APPEND ~%GARRICK_JOINED%~
 
 IF ~~ THEN BEGIN FABIOGARRI 
   SAY @32
@@ -149,7 +116,7 @@ END
 
 END
 
-APPEND ~_IMOEN2~
+APPEND ~%IMOEN_JOINED%~
 
 IF ~~ THEN BEGIN FABHAND3 
   SAY @33 
@@ -158,7 +125,7 @@ END
 
 END
 
-APPEND ~_MONTAJ~
+APPEND ~%MONTARON_JOINED%~
 
 IF ~~ THEN BEGIN FABHAND2 
   SAY @34 
@@ -167,7 +134,7 @@ END
 
 END
 
-APPEND ~_SAFANJ~
+APPEND ~%SAFANA_JOINED%~
 
 IF ~~ THEN BEGIN FABHAND1 
   SAY @33 
@@ -175,4 +142,3 @@ IF ~~ THEN BEGIN FABHAND1
 END
 
 END
-

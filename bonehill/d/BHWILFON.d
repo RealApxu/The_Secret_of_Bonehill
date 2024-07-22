@@ -4,15 +4,15 @@ IF ~True()~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 EXIT
   IF ~NumberOfTimesTalkedTo(0)~ THEN REPLY @3 GOTO 1
-  IF ~!NumberOfTimesTalkedTo(0) OR(3) GlobalLT("BHTalkedToWilfong","Global",1) GlobalLT("BHWilfongTellsAssassins","Global",1) GlobalLT("BHWilfongTellsCastle","Global",1)~ THEN REPLY @4 GOTO 1
+  IF ~!NumberOfTimesTalkedTo(0) OR(3) GlobalLT("BHTalkedToWilfong","GLOBAL",1) GlobalLT("BHWilfongTellsAssassins","GLOBAL",1) GlobalLT("BHWilfongTellsCastle","GLOBAL",1)~ THEN REPLY @4 GOTO 1
   IF ~OR(2) Dead("BHARRNES") Dead("BHTELLIS")~ THEN REPLY @3 GOTO 1
 END
 
 IF ~~ THEN BEGIN 1
   SAY @5
-  IF ~GlobalLT("BHTalkedToWilfong","Global",1)~ THEN REPLY @6 DO ~SetGlobal("BHTalkedToWilfong","GLOBAL",1)~ GOTO 2
-  IF ~GlobalLT("BHWilfongTellsAssassins","GLOBAL",1)~ THEN REPLY @7 DO ~SetGlobal("BHWilfongTellsAssassins","Global",1)~ GOTO 5
-  IF ~GlobalLT("BHWilfongTellsCastle","GLOBAL",1)~ THEN REPLY @8 DO ~SetGlobal("BHWilfongTellsCastle","Global",1)~ GOTO 17
+  IF ~GlobalLT("BHTalkedToWilfong","GLOBAL",1)~ THEN REPLY @6 DO ~SetGlobal("BHTalkedToWilfong","GLOBAL",1)~ GOTO 2
+  IF ~GlobalLT("BHWilfongTellsAssassins","GLOBAL",1)~ THEN REPLY @7 DO ~SetGlobal("BHWilfongTellsAssassins","GLOBAL",1)~ GOTO 5
+  IF ~GlobalLT("BHWilfongTellsCastle","GLOBAL",1)~ THEN REPLY @8 DO ~SetGlobal("BHWilfongTellsCastle","GLOBAL",1)~ GOTO 17
   IF ~OR(2) Dead("BHARRNES") Dead("BHTELLIS")~ THEN REPLY @9 GOTO 20
 END
 

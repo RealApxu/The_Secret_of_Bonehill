@@ -14,7 +14,7 @@ THEN
 END
 
 IF
-  GlobalLT("BHHiredAssassin","Global",1)
+  GlobalLT("BHHiredAssassin","GLOBAL",1)
   OR(3)
     Global("BHAssassinSpawn","BH2000",1)
     Global("BHQuenBasmarBoat","GLOBAL",2)

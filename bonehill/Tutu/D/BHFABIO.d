@@ -1,19 +1,15 @@
 BEGIN ~BHFABIO~
 
-IF ~NumberOfTimesTalkedTo(0)
-AreaCheck("BH0107")
-~ THEN BEGIN 0
+IF ~NumberOfTimesTalkedTo(0) AreaCheck("BH0107")~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 1
 END
 
 IF ~~ THEN BEGIN 1
   SAY @3
-  IF ~~ THEN REPLY @4 DO ~SetGlobal("BHFabioWench","GLOBAL",1)
-~ EXTERN ~BHTWEN01~ 3
+  IF ~~ THEN REPLY @4 DO ~SetGlobal("BHFabioWench","GLOBAL",1)~ EXTERN ~BHTWEN01~ 3
   IF ~~ THEN REPLY @5 GOTO 2
-  IF ~IfValidForPartyDialogue("GARRICK")
-~ THEN EXTERN ~_GARRIJ~ FABGAR1
+  IF ~IfValidForPartyDialogue("GARRICK")~ THEN EXTERN ~%GARRICK_JOINED%~ FABGAR1
 END
 
 IF ~~ THEN BEGIN 2
@@ -33,16 +29,13 @@ END
 
 IF ~~ THEN BEGIN 5
   SAY @11
-  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
-~ THEN EXTERN ~_IMOEN2~ FABIOCANDLE
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN EXTERN ~%IMOEN_JOINED%~ FABIOCANDLE
   IF ~~ THEN REPLY @12 GOTO 6
 END
 
 IF ~~ THEN BEGIN 6
   SAY @13
-  IF ~~ THEN REPLY @14 DO ~SetGlobal("BHFabJoinedOnce","GLOBAL",1)
-JoinParty()
-~ EXIT
+  IF ~~ THEN REPLY @14 DO ~SetGlobal("BHFabJoinedOnce","GLOBAL",1) JoinParty()~ EXIT
   IF ~~ THEN REPLY @15 GOTO 7
 END
 
@@ -73,76 +66,38 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @23
-  IF ~IfValidForPartyDialogue("Dynaheir")
-~ THEN EXTERN ~_DYNAHJ~ FABDYNA1
-  IF ~IfValidForPartyDialogue("MINSC")
-GlobalLT("BHWillard1","BH0107",1)
-~ THEN REPLY @24 GOTO 23
-  IF ~OR(2)
-!IfValidForPartyDialogue("MINSC")
-Global("BHWillard1","BH0107",1)
-~ THEN REPLY @25 EXIT
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~%DYNAHEIR_JOINED%~ FABDYNA1
+  IF ~IfValidForPartyDialogue("MINSC") GlobalLT("BHWillard1","BH0107",1)~ THEN REPLY @24 GOTO 23
+  IF ~OR(2) !IfValidForPartyDialogue("MINSC") Global("BHWillard1","BH0107",1)~ THEN REPLY @25 EXIT
 END
 
-IF ~NumberOfTimesTalkedTo(1)
-AreaCheck("BH0107")
-OR(6)
-IfValidForPartyDialogue("%IMOEN_DV%")
-IfValidForPartyDialogue("Jaheira")
-IfValidForPartyDialogue("Sharteel")
-IfValidForPartyDialogue("Dynaheir")
-IfValidForPartyDialogue("Safana")
-IfValidForPartyDialogue("Branwen")
-~ THEN BEGIN 13
+IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") OR(6) IfValidForPartyDialogue("%IMOEN_DV%") IfValidForPartyDialogue("Jaheira") IfValidForPartyDialogue("Sharteel") IfValidForPartyDialogue("Dynaheir") IfValidForPartyDialogue("Safana") IfValidForPartyDialogue("Branwen")~ THEN BEGIN 13
   SAY @26
   IF ~~ THEN GOTO 16
 END
 
-IF ~NumberOfTimesTalkedTo(1)
-AreaCheck("BH0107")
-!IfValidForPartyDialogue("%IMOEN_DV%")
-!IfValidForPartyDialogue("Jaheira")
-!IfValidForPartyDialogue("Dynaheir")
-!IfValidForPartyDialogue("Sharteel")
-!IfValidForPartyDialogue("Safana")
-!IfValidForPartyDialogue("Branwen")
-~ THEN BEGIN 14
+IF ~NumberOfTimesTalkedTo(1) AreaCheck("BH0107") !IfValidForPartyDialogue("%IMOEN_DV%") !IfValidForPartyDialogue("Jaheira") !IfValidForPartyDialogue("Dynaheir") !IfValidForPartyDialogue("Sharteel") !IfValidForPartyDialogue("Safana") !IfValidForPartyDialogue("Branwen")~ THEN BEGIN 14
   SAY @27
   IF ~~ THEN REPLY @28 GOTO 3
-  IF ~IfValidForPartyDialogue("GARRICK")
-~ THEN EXTERN ~_GARRIJ~ FABGAR2
+  IF ~IfValidForPartyDialogue("GARRICK")~ THEN EXTERN ~%GARRICK_JOINED%~ FABGAR2
 END
 
-IF ~NumTimesTalkedToGT(1)
-AreaCheck("BH0107")
-~ THEN BEGIN 15
+IF ~NumTimesTalkedToGT(1) AreaCheck("BH0107")~ THEN BEGIN 15
   SAY @29
-  IF ~~ THEN REPLY @30 DO ~SetGlobal("BHFabJoinedOnce","GLOBAL",1)
-JoinParty()
-~ EXIT
+  IF ~~ THEN REPLY @30 DO ~SetGlobal("BHFabJoinedOnce","GLOBAL",1) JoinParty()~ EXIT
   IF ~~ THEN REPLY @31 GOTO 7
-  IF ~PartyHasItem("BHGHANDN")
-~ THEN REPLY @32 GOTO 25
-  IF ~OR(2)
-PartyHasItem("BHGHANDN")
-GlobalGT("BHHandQuest","GLOBAL",2)
-~ THEN REPLY @33 GOTO 28
+  IF ~PartyHasItem("BHGHANDN")~ THEN REPLY @32 GOTO 25
+  IF ~OR(2) PartyHasItem("BHGHANDN") GlobalGT("BHHandQuest","GLOBAL",2)~ THEN REPLY @33 GOTO 28
 END
 
 IF ~~ THEN BEGIN 16
   SAY @34
-  IF ~IfValidForPartyDialogue("Sharteel")
-~ THEN EXTERN ~_SHARTJ~ FLIRTSHART
-  IF ~IfValidForPartyDialogue("Branwen")
-~ THEN EXTERN ~_BRANWJ~ FLIRTBRANW
-  IF ~IfValidForPartyDialogue("Jaheira")
-~ THEN EXTERN ~_JAHEIJ~ FLIRTJAHE
-  IF ~IfValidForPartyDialogue("Dynaheir")
-~ THEN EXTERN ~_DYNAHJ~ FLIRTDYNA
-  IF ~IfValidForPartyDialogue("Safana")
-~ THEN EXTERN ~_SAFANJ~ FLIRTSAFAN
-  IF ~IfValidForPartyDialogue("%IMOEN_DV%")
-~ THEN EXTERN ~_IMOEN2~ FLIRTIMOEN
+  IF ~IfValidForPartyDialogue("Sharteel")~ THEN EXTERN ~%SHARTEEL_JOINED%~ FLIRTSHART
+  IF ~IfValidForPartyDialogue("Branwen")~ THEN EXTERN ~%BRANWEN_JOINED%~ FLIRTBRANW
+  IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~%JAHEIRA_BANTER%~ FLIRTJAHE
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~%DYNAHEIR_JOINED%~ FLIRTDYNA
+  IF ~IfValidForPartyDialogue("Safana")~ THEN EXTERN ~%SAFANA_JOINED%~ FLIRTSAFAN
+  IF ~IfValidForPartyDialogue("%IMOEN_DV%")~ THEN EXTERN ~%IMOEN_JOINED%~ FLIRTIMOEN
 END
 
 IF ~~ THEN BEGIN 17
@@ -209,20 +164,17 @@ END
 
 IF ~~ THEN BEGIN 22
   SAY @80
-  IF ~~ THEN EXTERN ~_MINSCJ~ FABMINGAR
+  IF ~~ THEN EXTERN ~%MINSC_JOINED%~ FABMINGAR
 END
 
-IF ~IfValidForPartyDialogue("MINSC")
-AreaCheck("BH0107")
-~ THEN BEGIN 23
+IF ~IfValidForPartyDialogue("MINSC") AreaCheck("BH0107")~ THEN BEGIN 23
   SAY @81
-  IF ~~ THEN EXTERN ~_MINSCJ~ FABIOMIN
+  IF ~~ THEN EXTERN ~%MINSC_JOINED%~ FABIOMIN
 END
 
 IF ~~ THEN BEGIN 24
   SAY @82
-  IF ~~ THEN DO ~SetGlobal("BHWillard1","BH0107",1)
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHWillard1","BH0107",1)~ EXIT
 END
 
 IF ~~ THEN BEGIN 25
@@ -268,11 +220,7 @@ END
 
 IF ~~ THEN BEGIN 33
   SAY @96
-  IF ~~ THEN REPLY @97 DO ~SetGlobal("BHToldOfDeath","GLOBAL",2)
-ClearAllActions()
-StartCutSceneMode()
-StartCutScene("BHCUTBAR")
-~ EXIT
+  IF ~~ THEN REPLY @97 DO ~SetGlobal("BHToldOfDeath","GLOBAL",2) ClearAllActions() StartCutSceneMode() StartCutScene("BHCUTBAR")~ EXIT
   IF ~~ THEN REPLY @98 GOTO 35
 END
 
@@ -295,11 +243,7 @@ END
 
 IF ~~ THEN BEGIN 37
   SAY @104
-  IF ~~ THEN REPLY @105 DO ~SetGlobal("BHToldOfDeath","GLOBAL",2)
-ClearAllActions()
-StartCutSceneMode()
-StartCutScene("BHCUTBAR")
-~ EXIT
+  IF ~~ THEN REPLY @105 DO ~SetGlobal("BHToldOfDeath","GLOBAL",2) ClearAllActions() StartCutSceneMode() StartCutScene("BHCUTBAR")~ EXIT
 END
 
 IF ~Global("BHToldOfDeath","GLOBAL",3) AreaCheck("FW2626")~ THEN BEGIN 38
@@ -309,31 +253,24 @@ END
 
 IF ~~ THEN BEGIN 39
   SAY @107
-  IF ~~ THEN REPLY @28 DO ~SetGlobal("BHToldOfDeath","GLOBAL",4)
-~ EXIT
+  IF ~~ THEN REPLY @28 DO ~SetGlobal("BHToldOfDeath","GLOBAL",4)~ EXIT
   IF ~~ THEN REPLY @108 GOTO 36
 END
 
-IF ~Global("BHToldOfDeath","GLOBAL",6)
-~ THEN BEGIN 40
+IF ~Global("BHToldOfDeath","GLOBAL",6)~ THEN BEGIN 40
   SAY @109
   IF ~~ THEN GOTO 41
 END
 
 IF ~~ THEN BEGIN 41
   SAY @110
-  IF ~~ THEN DO ~SetGlobal("BHFabToldBar","GLOBAL",1)
-~ GOTO 42
+  IF ~~ THEN DO ~SetGlobal("BHFabToldBar","GLOBAL",1)~ GOTO 42
 END
 
 IF ~~ THEN BEGIN 42
   SAY @111
   IF ~~ THEN REPLY @112 GOTO 47
-  IF ~~ THEN REPLY @113 DO ~SetGlobal("BHToldOfDeath","GLOBAL",7)
-SetGlobal("IWasKickedOut","LOCALS",0)
-SetGlobal("BHFabJoinedOnce","GLOBAL",1)
-JoinParty()
-~ EXIT
+  IF ~~ THEN REPLY @113 DO ~SetGlobal("BHToldOfDeath","GLOBAL",7) SetGlobal("IWasKickedOut","LOCALS",0) SetGlobal("BHFabJoinedOnce","GLOBAL",1) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN 43
@@ -346,33 +283,24 @@ IF ~~ THEN BEGIN 44
   IF ~~ THEN EXTERN ~BHPELL~ 60
 END
 
-IF ~AreaCheck("BH0500")
-Global("BHToldOfDeath","GLOBAL",6)
-~ THEN BEGIN 45
+IF ~AreaCheck("BH0500") Global("BHToldOfDeath","GLOBAL",6)~ THEN BEGIN 45
   SAY @116
   IF ~~ THEN REPLY @117 GOTO 46
-  IF ~~ THEN REPLY @118 DO ~SetGlobal("BHToldOfDeath","GLOBAL",7)
-SetGlobal("IWasKickedOut","LOCALS",0)
-SetGlobal("BHFabJoinedOnce","GLOBAL",1)
-JoinParty()
-~ EXIT
+  IF ~~ THEN REPLY @118 DO ~SetGlobal("BHToldOfDeath","GLOBAL",7) SetGlobal("IWasKickedOut","LOCALS",0) SetGlobal("BHFabJoinedOnce","GLOBAL",1) JoinParty()~ EXIT
 END
 
 IF ~~ THEN BEGIN 46
   SAY @119
-  IF ~~ THEN DO ~EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 47
   SAY @120
-  IF ~~ THEN DO ~SetGlobal("BHToldOfDeath","GLOBAL",7)
-EscapeArea()
-~ EXIT
+  IF ~~ THEN DO ~SetGlobal("BHToldOfDeath","GLOBAL",7) EscapeArea()~ EXIT
 END
 
 
-APPEND ~_IMOEN2~
+APPEND ~%IMOEN_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTIMOEN 
   SAY @121 
@@ -386,7 +314,7 @@ END
 
 END
 
-APPEND ~_GARRIJ~
+APPEND ~%GARRICK_JOINED%~
 
 IF ~~ THEN BEGIN FABGAR1 
   SAY @123 
@@ -405,7 +333,7 @@ END
 
 END
 
-APPEND ~_DYNAHJ~
+APPEND ~%DYNAHEIR_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTDYNA 
   SAY @126 
@@ -419,7 +347,7 @@ END
 
 END
 
-APPEND ~_SAFANJ~
+APPEND ~%SAFANA_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTSAFAN 
   SAY @128 
@@ -428,7 +356,7 @@ END
 
 END
 
-APPEND ~_JAHEIJ~
+APPEND ~%JAHEIRA_BANTER%~
 
 IF ~~ THEN BEGIN FLIRTJAHE 
   SAY @129 
@@ -437,7 +365,7 @@ END
 
 END
 
-APPEND ~_SHARTJ~
+APPEND ~%SHARTEEL_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTSHART 
   SAY @130 
@@ -446,7 +374,7 @@ END
 
 END
 
-APPEND ~_BRANWJ~
+APPEND ~%BRANWEN_JOINED%~
 
 IF ~~ THEN BEGIN FLIRTBRANW 
   SAY @131 
@@ -455,7 +383,7 @@ END
 
 END
 
-APPEND ~_MINSCJ~
+APPEND ~%MINSC_JOINED%~
 
 IF ~~ THEN BEGIN FABIOMIN 
   SAY @132 
@@ -464,8 +392,7 @@ END
 
 IF ~~ THEN BEGIN FABMINGAR 
   SAY @133 
-  IF ~~ THEN EXTERN ~_GARRIJ~ FABMINGAR2
+  IF ~~ THEN EXTERN ~%GARRICK_JOINED%~ FABMINGAR2
 END
 
 END
-
