@@ -1,0 +1,5 @@
+//cpmvars
+ACTION_IF GAME_IS ~tutu tutu_totsc~ BEGIN INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~ END
+ACTION_IF GAME_IS ~bgt~ BEGIN INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~ END
+ACTION_IF GAME_IS ~bgee~ BEGIN INCLUDE ~%MOD_FOLDER%/lib/liam_bgee_vars.tpa~ END
+ACTION_IF GAME_IS ~eet~ BEGIN INCLUDE ~%MOD_FOLDER%/lib/eet_cpmvars.tpa~ END

@@ -36,6 +36,10 @@ LANGUAGE ~Francais - Traduit par Lothringen (des d'Oghmatiques)~
          ~french~
          ~bonehill/Language/french/setup.tra~
 
+ALWAYS
+    INCLUDE ~%MOD_FOLDER%/lib/bonehill_always.tpa~
+END
+
 BEGIN @0
 DESIGNATED 0 LABEL bonehill_main
 REQUIRE_PREDICATE (GAME_IS ~tutu tutu_totsc bgt~) ~This version of the game is not supported~
